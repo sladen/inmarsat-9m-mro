@@ -1,0 +1,18 @@
+Paul Sladen 2E0PHS <9m-mro@paul.sladen.org> - 27 May 2014
+
+Tool to recover a usable CSV logfile from the redacted AES records
+published by Inmarsat and the Malaysian Department of Civil Aviation
+on 27 May 2014 relating to the disappearance of 9M-MRO.
+
+This programme is hereby placed in the public domain, and may be
+distributed and modified without limit, for any purpose.
+
+  ./pdf-to-csv.py > inmarsat-su-log-redacted.csv
+
+This is written as a script so that it can be repeatedly run
+in a deterministic manner, and so the results can be peer-reviewed
+by the wider academic community.
+
+The enclosed .csv file has a sample of the output for reference
+purposes.  There appears to be no clear licence on the original
+dataset.
