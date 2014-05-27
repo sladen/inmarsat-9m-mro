@@ -11,7 +11,10 @@
 published_url = 'http://www.dca.gov.my/mainpage/MH370%20Data%20Communication%20Logs.pdf'
 sha1_checksum = '7b49c5fdec65055ba0a866ccbe468fd38df0d67d'
 file_datetime = '2014-03-27T03:04:37Z'
-total_records = 1114
+
+# Sanity check (from `pdftotext *.pdf - | grep -c '/03/2014'`)
+# The minus one is the duplicated example on the front page
+total_records = 1116 - 1 
 
 local_filename = 'MH370 Data Communication Logs.pdf'
 
@@ -172,7 +175,7 @@ def main():
     # Resort the logfile time order, to cope
     # with the circuit-switch calls being split out
     # into an appendix on the last pages.
-    sorted_full_records = sorted(full_records[1:], key=timestamp)
+    sorted_full_records = sorted(full_records, key=timestamp)
 
     # Output a sorted, usable .csv logfile
     # in approximately the original logfile format

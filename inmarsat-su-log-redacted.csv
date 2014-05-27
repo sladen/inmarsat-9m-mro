@@ -1,4 +1,5 @@
 Time,AES ID,DP AES Owner,Channel Name,Ocean Region,GES ID (octal),Channel Bearer,Channel Unit ID,Channel Type,Superframe Number,Frame Number,Slot Number,SU Number,SU Type,SU Type Code,SU Contents,Q Number,Reference Number,Ack Control,SDM Figure,CRC Correct,Missed T-Channel Burst,Broadcast,Rx Power (dBm),C/No,Frequency Offset (Hz),Estimated BER,Burst Timing Offset (microseconds)
+7/03/2014 16:00:13.406,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x15 - Log-on/Log-off Acknowledge,,,,,,,,,,,,103,,14820
 7/03/2014 16:00:13.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x15 - Log-on/Log-off Acknowledge,,,,,,,,,,,,,,
 7/03/2014 16:00:17.430,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,103,,14740
 7/03/2014 16:00:17.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,103,,14780
