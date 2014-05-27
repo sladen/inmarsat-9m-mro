@@ -1,0 +1,1115 @@
+Time,AES ID,DP AES Owner,Channel Name,Ocean Region,GES ID (octal),Channel Bearer,Channel Unit ID,Channel Type,Superframe Number,Frame Number,Slot Number,SU Number,SU Type,SU Type Code,SU Contents,Q Number,Reference Number,Ack Control,SDM Figure,CRC Correct,Missed T-Channel Burst,Broadcast,Rx Power (dBm),C/No,Frequency Offset (Hz),Estimated BER,Burst Timing Offset (microseconds)
+7/03/2014 16:00:13.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x15 - Log-on/Log-off Acknowledge,,,,,,,,,,,,,,
+7/03/2014 16:00:17.430,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,103,,14740
+7/03/2014 16:00:17.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,103,,14780
+7/03/2014 16:00:18.406,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eight Octet User Data,,,,,,,,,,,,103,,14820
+7/03/2014 16:00:18.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:00:20.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:00:20.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:00:20.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:00:20.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:00:22.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,104,,14740
+7/03/2014 16:00:23.407,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,103,,14820
+7/03/2014 16:00:23.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:00:27.741,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,86,,9820
+7/03/2014 16:00:27.901,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,86,,9820
+7/03/2014 16:00:28.061,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9820
+7/03/2014 16:00:28.221,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9820
+7/03/2014 16:00:28.405,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9820
+7/03/2014 16:00:28.541,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9820
+7/03/2014 16:00:29.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:00:30.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:00:30.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:00:30.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:00:30.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:00:32.406,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,85,,14820
+7/03/2014 16:01:16.406,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,86,,14820
+7/03/2014 16:01:16.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Four Octet User Data,,,,,,,,,,,,86,,14820
+7/03/2014 16:01:17.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:01:18.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:01:18.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:01:19.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,87,,14780
+7/03/2014 16:01:20.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:01:20.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,87,,14800
+7/03/2014 16:01:24.241,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,88,,9800
+7/03/2014 16:01:24.401,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9800
+7/03/2014 16:01:24.561,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9800
+7/03/2014 16:01:24.721,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9800
+7/03/2014 16:01:24.881,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,86,,9800
+7/03/2014 16:01:25.041,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,86,,9800
+7/03/2014 16:01:25.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:01:26.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:01:26.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:01:28.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,86,,14800
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:32.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:34.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,88,,14780
+7/03/2014 16:06:35.406,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,88,,14860
+7/03/2014 16:06:35.907,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,88,,14800
+7/03/2014 16:06:36.407,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eight Octet User Data,,,,,,,,,,,,88,,14820
+7/03/2014 16:06:36.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:38.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:40.907,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,87,,14820
+7/03/2014 16:06:41.409,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,87,,14820
+7/03/2014 16:06:41.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,87,,14800
+7/03/2014 16:06:42.406,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eight Octet User Data,,,,,,,,,,,,87,,14880
+7/03/2014 16:06:42.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:46.416,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,90,,14840
+7/03/2014 16:06:46.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,86,,14780
+7/03/2014 16:06:47.406,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,88,,14840
+7/03/2014 16:06:47.907,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eight Octet User Data,,,,,,,,,,,,87,,14800
+7/03/2014 16:06:48.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:52.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,87,,14800
+7/03/2014 16:06:53.406,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,87,,14860
+7/03/2014 16:06:53.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,88,,14780
+7/03/2014 16:06:54.407,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eight Octet User Data,,,,,,,,,,,,88,,14860
+7/03/2014 16:06:54.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:56.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:06:58.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,89,,14780
+7/03/2014 16:06:59.406,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,89,,14900
+7/03/2014 16:06:59.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,89,,14780
+7/03/2014 16:07:00.407,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eight Octet User Data,,,,,,,,,,,,89,,14860
+7/03/2014 16:07:00.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:02.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:04.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,88,,14820
+7/03/2014 16:07:05.407,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,88,,14820
+7/03/2014 16:07:05.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,89,,14860
+7/03/2014 16:07:06.407,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eight Octet User Data,,,,,,,,,,,,88,,14820
+7/03/2014 16:07:06.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:08.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:10.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,87,,14800
+7/03/2014 16:07:11.406,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,88,,14860
+7/03/2014 16:07:11.906,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,87,,14840
+7/03/2014 16:07:13.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:07:15.907,35200217,SITADP (3047),IOR-R1200-0-36E3,IOR,305,,11,R-Channel RX,,,,,Eight Octet User Data,,,,,,,,,,,,84,,14820
+7/03/2014 16:07:16.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:07:18.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:07:18.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:18.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:18.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:18.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:18.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:18.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:18.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:18.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:18.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:18.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:18.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:07:20.407,35200217,SITADP (3047),IOR-R1200-0-36E3,IOR,305,,11,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,84,,14840
+7/03/2014 16:07:20.907,35200217,SITADP (3047),IOR-R1200-0-36E3,IOR,305,,11,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,84,,14800
+7/03/2014 16:07:21.408,35200217,SITADP (3047),IOR-R1200-0-36E3,IOR,305,,11,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,84,,14840
+7/03/2014 16:07:21.908,35200217,SITADP (3047),IOR-R1200-0-36E3,IOR,305,,11,R-Channel RX,,,,,Eight Octet User Data,,,,,,,,,,,,84,,14840
+7/03/2014 16:07:22.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:09:37.407,35200217,SITADP (3047),IOR-R1200-0-36E3,IOR,305,,11,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,84,,14840
+7/03/2014 16:09:37.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:09:41.749,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,88,,9900
+7/03/2014 16:09:41.948,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9900
+7/03/2014 16:09:42.068,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,89,,9900
+7/03/2014 16:09:42.260,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,89,,9900
+7/03/2014 16:09:42.405,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,90,,9900
+7/03/2014 16:09:42.548,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,90,,9900
+7/03/2014 16:09:42.709,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,90,,9900
+7/03/2014 16:09:42.869,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,90,,9900
+7/03/2014 16:09:43.028,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,89,,9900
+7/03/2014 16:09:43.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:09:44.907,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:09:44.907,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:09:44.907,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:09:44.907,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:09:46.907,35200217,SITADP (3047),IOR-R1200-0-36E3,IOR,305,,11,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,85,,14840
+7/03/2014 16:11:03.907,35200217,SITADP (3047),IOR-R1200-0-36E3,IOR,305,,11,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,84,,14840
+7/03/2014 16:11:04.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:11:08.306,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,89,,9820
+7/03/2014 16:11:08.409,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,89,,9820
+7/03/2014 16:11:08.568,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,89,,9820
+7/03/2014 16:11:08.746,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,89,,9820
+7/03/2014 16:11:08.888,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,89,,9820
+7/03/2014 16:11:09.068,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,89,,9820
+7/03/2014 16:11:09.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:11:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:11:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:11:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:11:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:11:13.408,35200217,SITADP (3047),IOR-R1200-0-36E3,IOR,305,,11,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,84,,14860
+7/03/2014 16:27:59.407,35200217,SITADP (3047),IOR-R1200-0-36E3,IOR,305,,11,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,88,,14920
+7/03/2014 16:27:59.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x53 - Reservation Forthcoming (RFC),,,,,,,,,,,,,,
+7/03/2014 16:28:01.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:28:10.641,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,87,,9920
+7/03/2014 16:28:10.801,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,87,,9920
+7/03/2014 16:28:10.961,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9920
+7/03/2014 16:28:11.142,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9920
+7/03/2014 16:28:11.281,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9920
+7/03/2014 16:28:11.479,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9920
+7/03/2014 16:28:11.601,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9920
+7/03/2014 16:28:11.761,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9920
+7/03/2014 16:28:11.952,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9920
+7/03/2014 16:28:12.081,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9920
+7/03/2014 16:28:12.258,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,88,,9920
+7/03/2014 16:28:12.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:28:13.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:28:13.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:28:13.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:28:13.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:28:15.909,35200217,SITADP (3047),IOR-R1200-0-36E3,IOR,305,,11,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,85,,14860
+7/03/2014 16:29:17.407,35200217,SITADP (3047),IOR-R1200-0-36E3,IOR,305,,11,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,95,,14860
+7/03/2014 16:29:17.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:29:21.748,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,99,,9940
+7/03/2014 16:29:21.908,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,99,,9940
+7/03/2014 16:29:22.068,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,98,,9940
+7/03/2014 16:29:22.228,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,98,,9940
+7/03/2014 16:29:22.388,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,99,,9940
+7/03/2014 16:29:22.570,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,99,,9940
+7/03/2014 16:29:22.708,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,100,,9940
+7/03/2014 16:29:22.895,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,100,,9940
+7/03/2014 16:29:23.028,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,99,,9940
+7/03/2014 16:29:23.197,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,99,,9940
+7/03/2014 16:29:23.348,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,99,,9940
+7/03/2014 16:29:23.508,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,99,,9940
+7/03/2014 16:29:23.668,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,99,,9940
+7/03/2014 16:29:23.829,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,99,,9940
+7/03/2014 16:29:23.988,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,98,,9940
+7/03/2014 16:29:24.029,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,98,,9940
+7/03/2014 16:29:25.760,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,100,,9940
+7/03/2014 16:29:25.909,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,100,,9940
+7/03/2014 16:29:26.081,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,98,,9940
+7/03/2014 16:29:26.251,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,98,,9940
+7/03/2014 16:29:26.388,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,98,,9940
+7/03/2014 16:29:26.548,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,98,,9940
+7/03/2014 16:29:26.745,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,98,,9940
+7/03/2014 16:29:26.868,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,98,,9940
+7/03/2014 16:29:27.028,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,98,,9940
+7/03/2014 16:29:27.188,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,98,,9940
+7/03/2014 16:29:27.349,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,100,,9940
+7/03/2014 16:29:27.508,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,100,,9940
+7/03/2014 16:29:27.668,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,99,,9940
+7/03/2014 16:29:27.828,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,99,,9940
+7/03/2014 16:29:27.988,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,99,,9940
+7/03/2014 16:29:28.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:29:30.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:29:30.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:29:30.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:29:30.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:29:38.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x61 - Request for Acknowledge (RQA) User Data,,,,,,,,,,,,,,
+7/03/2014 16:29:41.907,35200217,SITADP (3047),IOR-R1200-0-36D3,IOR,305,,8,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,96,,14920
+7/03/2014 16:29:42.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:29:46.242,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,93,,9900
+7/03/2014 16:29:46.402,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,93,,9900
+7/03/2014 16:29:46.562,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,93,,9900
+7/03/2014 16:29:46.744,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,93,,9900
+7/03/2014 16:29:46.882,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,91,,9900
+7/03/2014 16:29:47.042,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,91,,9900
+7/03/2014 16:29:47.202,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,93,,9900
+7/03/2014 16:29:47.362,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,93,,9900
+7/03/2014 16:29:47.522,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,92,,9900
+7/03/2014 16:29:47.682,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,92,,9900
+7/03/2014 16:29:47.856,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,91,,9900
+7/03/2014 16:29:47.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x61 - Request for Acknowledge (RQA) User Data,,,,,,,,,,,,,,
+7/03/2014 16:29:48.039,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,91,,9900
+7/03/2014 16:29:48.162,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,93,,9900
+7/03/2014 16:29:48.322,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,93,,9900
+7/03/2014 16:29:48.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:29:49.907,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,87,,14940
+7/03/2014 16:29:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:29:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:29:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:29:50.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:29:52.406,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,89,,14920
+7/03/2014 16:41:52.907,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,141,,14940
+7/03/2014 16:41:53.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:41:57.248,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,142,,9920
+7/03/2014 16:41:57.409,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,142,,9920
+7/03/2014 16:41:57.569,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,140,,9920
+7/03/2014 16:41:57.728,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,140,,9920
+7/03/2014 16:41:57.905,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,140,,9920
+7/03/2014 16:41:58.048,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,140,,9920
+7/03/2014 16:41:58.208,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,140,,9920
+7/03/2014 16:41:58.399,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,140,,9920
+7/03/2014 16:41:58.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:41:58.528,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,141,,9920
+7/03/2014 16:41:58.697,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,141,,9920
+7/03/2014 16:41:58.729,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,141,,9920
+7/03/2014 16:41:59.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:42:00.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:42:00.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:42:00.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:42:00.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:42:02.068,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,147,,9980
+7/03/2014 16:42:02.229,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,147,,9980
+7/03/2014 16:42:02.388,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,147,,9980
+7/03/2014 16:42:02.553,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,147,,9980
+7/03/2014 16:42:02.708,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,148,,9980
+7/03/2014 16:42:02.868,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,148,,9980
+7/03/2014 16:42:03.028,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,149,,9980
+7/03/2014 16:42:03.188,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,149,,9980
+7/03/2014 16:42:03.348,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,148,,9980
+7/03/2014 16:42:03.508,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,148,,9980
+7/03/2014 16:42:04.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:42:04.408,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,Rx Primary,4,R-Channel RX,12184,,5,,0x62 - Acknowledge User Data (R-channel),62,1F D0 62 75 00 8F C5 7A 4E 00 00 00 00 00 00 00 00 7F 89 ,D,0,E,S31,Yes,No,No,-57.29,40.09,146,0,14920
+7/03/2014 16:42:17.406,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,160,,14960
+7/03/2014 16:42:17.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:42:21.748,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,157,,9940
+7/03/2014 16:42:21.909,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,157,,9940
+7/03/2014 16:42:22.069,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,154,,9940
+7/03/2014 16:42:22.239,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,154,,9940
+7/03/2014 16:42:22.388,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,156,,9940
+7/03/2014 16:42:22.550,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,156,,9940
+7/03/2014 16:42:22.708,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,157,,9940
+7/03/2014 16:42:22.891,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,157,,9940
+7/03/2014 16:42:23.039,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,154,,9940
+7/03/2014 16:42:23.188,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,154,,9940
+7/03/2014 16:42:23.348,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,153,,9940
+7/03/2014 16:42:23.508,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,153,,9940
+7/03/2014 16:42:23.697,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,152,,9940
+7/03/2014 16:42:23.828,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,152,,9940
+7/03/2014 16:42:23.988,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,150,,9940
+7/03/2014 16:42:24.028,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,150,,9940
+7/03/2014 16:42:25.748,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,148,,9940
+7/03/2014 16:42:25.909,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,148,,9940
+7/03/2014 16:42:26.068,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,148,,9940
+7/03/2014 16:42:26.229,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,148,,9940
+7/03/2014 16:42:26.388,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,146,,9940
+7/03/2014 16:42:26.548,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,146,,9940
+7/03/2014 16:42:26.709,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,148,,9940
+7/03/2014 16:42:26.868,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,148,,9940
+7/03/2014 16:42:27.028,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,146,,9940
+7/03/2014 16:42:27.189,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,146,,9940
+7/03/2014 16:42:27.348,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,145,,9940
+7/03/2014 16:42:27.509,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,145,,9940
+7/03/2014 16:42:27.668,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,144,,9940
+7/03/2014 16:42:27.828,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,144,,9940
+7/03/2014 16:42:27.988,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,145,,9940
+7/03/2014 16:42:28.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:42:29.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:42:29.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:42:29.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:42:29.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:42:31.906,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,125,,14900
+7/03/2014 16:42:32.906,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,127,,14900
+7/03/2014 16:42:33.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:42:37.248,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,121,,9940
+7/03/2014 16:42:37.408,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,121,,9940
+7/03/2014 16:42:37.568,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,121,,9940
+7/03/2014 16:42:37.765,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,121,,9940
+7/03/2014 16:42:37.888,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,120,,9940
+7/03/2014 16:42:38.048,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,120,,9940
+7/03/2014 16:42:38.208,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,122,,9940
+7/03/2014 16:42:38.368,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,122,,9940
+7/03/2014 16:42:38.546,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,122,,9940
+7/03/2014 16:42:38.689,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,122,,9940
+7/03/2014 16:42:38.848,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,122,,9940
+7/03/2014 16:42:39.041,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,122,,9940
+7/03/2014 16:42:39.168,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,121,,9940
+7/03/2014 16:42:39.328,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,121,,9940
+7/03/2014 16:42:39.489,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,124,,9940
+7/03/2014 16:42:39.528,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,124,,9940
+7/03/2014 16:42:41.248,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,122,,9900
+7/03/2014 16:42:41.409,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,122,,9900
+7/03/2014 16:42:41.568,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,124,,9900
+7/03/2014 16:42:41.747,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,124,,9900
+7/03/2014 16:42:41.888,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,124,,9900
+7/03/2014 16:42:42.082,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,124,,9900
+7/03/2014 16:42:42.208,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,124,,9900
+7/03/2014 16:42:42.368,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,124,,9900
+7/03/2014 16:42:42.529,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,124,,9900
+7/03/2014 16:42:42.688,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,124,,9900
+7/03/2014 16:42:42.848,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,122,,9900
+7/03/2014 16:42:43.008,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,122,,9900
+7/03/2014 16:42:43.168,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,123,,9900
+7/03/2014 16:42:43.328,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,123,,9900
+7/03/2014 16:42:43.488,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,124,,9900
+7/03/2014 16:42:44.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:42:45.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:42:45.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:42:45.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:42:45.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:42:47.907,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,123,,14920
+7/03/2014 16:42:48.406,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,123,,14900
+7/03/2014 16:42:48.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:42:52.748,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,131,,9960
+7/03/2014 16:42:52.909,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,131,,9960
+7/03/2014 16:42:53.068,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,132,,9960
+7/03/2014 16:42:53.247,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,132,,9960
+7/03/2014 16:42:53.388,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:53.548,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:53.708,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:53.868,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:54.028,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:54.188,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:54.348,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:54.509,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:54.668,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,9960
+7/03/2014 16:42:54.828,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,9960
+7/03/2014 16:42:54.988,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:55.029,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:56.787,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:56.909,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:57.068,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:57.228,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:57.388,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:57.548,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:57.708,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,132,,9960
+7/03/2014 16:42:57.868,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,132,,9960
+7/03/2014 16:42:58.028,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,9960
+7/03/2014 16:42:58.188,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,9960
+7/03/2014 16:42:58.359,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,9960
+7/03/2014 16:42:58.508,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,9960
+7/03/2014 16:42:58.669,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:58.828,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,9960
+7/03/2014 16:42:59.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:43:00.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:43:00.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:43:00.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:43:00.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:43:10.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x61 - Request for Acknowledge (RQA) User Data,,,,,,,,,,,,,,
+7/03/2014 16:43:12.407,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,126,,14920
+7/03/2014 16:55:23.907,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,156,,15200
+7/03/2014 16:55:24.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:55:28.290,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,157,,10220
+7/03/2014 16:55:28.409,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,157,,10220
+7/03/2014 16:55:28.569,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,157,,10220
+7/03/2014 16:55:28.747,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,157,,10220
+7/03/2014 16:55:28.889,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:29.049,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:29.247,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:29.369,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:29.529,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10220
+7/03/2014 16:55:29.689,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10220
+7/03/2014 16:55:29.849,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10220
+7/03/2014 16:55:30.009,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10220
+7/03/2014 16:55:30.169,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:30.362,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:30.502,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10220
+7/03/2014 16:55:30.538,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10220
+7/03/2014 16:55:32.249,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:32.409,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:32.569,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:32.729,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:32.905,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10220
+7/03/2014 16:55:33.049,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10220
+7/03/2014 16:55:33.237,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:33.369,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:33.529,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10220
+7/03/2014 16:55:33.689,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10220
+7/03/2014 16:55:33.849,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,158,,10220
+7/03/2014 16:55:34.009,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,158,,10220
+7/03/2014 16:55:34.169,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:34.329,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10220
+7/03/2014 16:55:34.489,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,158,,10220
+7/03/2014 16:55:35.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:55:35.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:55:35.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:55:35.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:55:35.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:55:37.907,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,156,,15200
+7/03/2014 16:55:38.407,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,155,,15220
+7/03/2014 16:55:38.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:55:42.748,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,161,,10240
+7/03/2014 16:55:42.909,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,161,,10240
+7/03/2014 16:55:43.068,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10240
+7/03/2014 16:55:43.260,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10240
+7/03/2014 16:55:43.405,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10240
+7/03/2014 16:55:43.548,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10240
+7/03/2014 16:55:43.740,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,161,,10240
+7/03/2014 16:55:43.868,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,161,,10240
+7/03/2014 16:55:44.029,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10240
+7/03/2014 16:55:44.188,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10240
+7/03/2014 16:55:44.348,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10240
+7/03/2014 16:55:44.508,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10240
+7/03/2014 16:55:44.669,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10240
+7/03/2014 16:55:44.828,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10240
+7/03/2014 16:55:44.988,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10240
+7/03/2014 16:55:45.028,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10240
+7/03/2014 16:55:46.748,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10200
+7/03/2014 16:55:46.909,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10200
+7/03/2014 16:55:47.068,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10200
+7/03/2014 16:55:47.229,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,160,,10200
+7/03/2014 16:55:47.390,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10200
+7/03/2014 16:55:47.549,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,159,,10200
+7/03/2014 16:55:47.709,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,161,,10200
+7/03/2014 16:55:47.899,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,161,,10200
+7/03/2014 16:55:48.028,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10200
+7/03/2014 16:55:48.188,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10200
+7/03/2014 16:55:48.355,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10200
+7/03/2014 16:55:48.509,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10200
+7/03/2014 16:55:48.669,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,164,,10200
+7/03/2014 16:55:48.828,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,164,,10200
+7/03/2014 16:55:48.988,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10200
+7/03/2014 16:55:49.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:55:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:55:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:55:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:55:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:55:52.907,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,159,,15200
+7/03/2014 16:55:53.407,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,159,,15240
+7/03/2014 16:55:53.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:55:57.748,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,163,,10240
+7/03/2014 16:55:57.910,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:55:58.087,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10240
+7/03/2014 16:55:58.228,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10240
+7/03/2014 16:55:58.388,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,164,,10240
+7/03/2014 16:55:58.548,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,164,,10240
+7/03/2014 16:55:58.708,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,164,,10240
+7/03/2014 16:55:58.869,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,164,,10240
+7/03/2014 16:55:59.028,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:55:59.188,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:55:59.348,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10240
+7/03/2014 16:55:59.508,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10240
+7/03/2014 16:55:59.669,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10240
+7/03/2014 16:55:59.828,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10240
+7/03/2014 16:55:59.988,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:56:00.060,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:56:01.749,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,164,,10240
+7/03/2014 16:56:01.909,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,164,,10240
+7/03/2014 16:56:02.068,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:56:02.229,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:56:02.388,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:56:02.548,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:56:02.747,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:56:02.868,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:56:03.028,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:56:03.188,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:56:03.348,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:56:03.508,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:56:03.668,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10240
+7/03/2014 16:56:03.828,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,162,,10240
+7/03/2014 16:56:03.988,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,163,,10240
+7/03/2014 16:56:04.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:56:05.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:56:05.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:56:05.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:56:05.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:56:07.906,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,158,,15220
+7/03/2014 16:56:08.407,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,158,,15200
+7/03/2014 16:56:08.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 16:56:12.748,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,156,,10260
+7/03/2014 16:56:12.949,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,156,,10260
+7/03/2014 16:56:13.068,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,156,,10260
+7/03/2014 16:56:13.228,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,156,,10260
+7/03/2014 16:56:13.403,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,156,,10260
+7/03/2014 16:56:13.548,35200217,SITADP (3047),IOR-T1200-0-36FA,IOR,305,,10,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,156,,10260
+7/03/2014 16:56:14.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 16:56:15.410,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 16:56:15.410,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:56:15.410,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:56:15.410,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 16:56:17.407,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,156,,15240
+7/03/2014 17:06:49.406,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,129,,15600
+7/03/2014 17:06:49.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 17:06:53.749,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:53.909,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:54.069,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:54.229,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:54.389,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:54.550,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:54.736,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:54.869,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:55.045,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10600
+7/03/2014 17:06:55.189,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10600
+7/03/2014 17:06:55.349,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10600
+7/03/2014 17:06:55.509,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10600
+7/03/2014 17:06:55.669,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:55.829,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:55.989,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10600
+7/03/2014 17:06:56.029,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10600
+7/03/2014 17:06:57.749,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10600
+7/03/2014 17:06:57.909,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10600
+7/03/2014 17:06:58.069,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10600
+7/03/2014 17:06:58.236,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10600
+7/03/2014 17:06:58.389,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:58.569,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:58.709,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10600
+7/03/2014 17:06:58.869,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10600
+7/03/2014 17:06:59.052,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:59.197,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10600
+7/03/2014 17:06:59.349,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10600
+7/03/2014 17:06:59.509,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10600
+7/03/2014 17:06:59.682,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10600
+7/03/2014 17:06:59.829,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10600
+7/03/2014 17:06:59.989,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10600
+7/03/2014 17:07:00.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 17:07:01.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 17:07:01.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 17:07:01.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 17:07:01.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 17:07:03.907,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,130,,15600
+7/03/2014 17:07:04.406,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,131,,15620
+7/03/2014 17:07:04.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 17:07:08.749,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,133,,10600
+7/03/2014 17:07:08.948,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10600
+7/03/2014 17:07:09.069,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10600
+7/03/2014 17:07:09.229,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10600
+7/03/2014 17:07:09.389,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10600
+7/03/2014 17:07:09.548,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10600
+7/03/2014 17:07:09.747,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10600
+7/03/2014 17:07:09.869,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10600
+7/03/2014 17:07:10.029,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,132,,10600
+7/03/2014 17:07:10.197,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,132,,10600
+7/03/2014 17:07:10.349,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10600
+7/03/2014 17:07:10.509,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10600
+7/03/2014 17:07:10.669,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,132,,10600
+7/03/2014 17:07:10.829,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,132,,10600
+7/03/2014 17:07:10.989,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,132,,10600
+7/03/2014 17:07:11.028,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,132,,10600
+7/03/2014 17:07:12.748,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10600
+7/03/2014 17:07:12.909,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10600
+7/03/2014 17:07:13.068,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,138,,10600
+7/03/2014 17:07:13.229,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,138,,10600
+7/03/2014 17:07:13.388,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10600
+7/03/2014 17:07:13.548,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10600
+7/03/2014 17:07:13.709,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10600
+7/03/2014 17:07:13.868,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10600
+7/03/2014 17:07:14.029,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10600
+7/03/2014 17:07:14.188,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10600
+7/03/2014 17:07:14.348,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10600
+7/03/2014 17:07:14.510,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10600
+7/03/2014 17:07:14.669,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10600
+7/03/2014 17:07:14.829,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10600
+7/03/2014 17:07:15.028,35200217,SITADP (3047),IOR-T1200-0-36D8,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,138,,10600
+7/03/2014 17:07:15.906,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 17:07:16.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 17:07:16.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 17:07:16.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 17:07:16.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 17:07:18.906,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,132,,15600
+7/03/2014 17:07:19.407,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,132,,15660
+7/03/2014 17:07:19.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 17:07:23.766,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,137,,10640
+7/03/2014 17:07:23.908,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10640
+7/03/2014 17:07:24.069,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10640
+7/03/2014 17:07:24.258,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,137,,10640
+7/03/2014 17:07:24.389,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10640
+7/03/2014 17:07:24.559,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10640
+7/03/2014 17:07:24.709,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10640
+7/03/2014 17:07:24.869,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10640
+7/03/2014 17:07:25.029,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10640
+7/03/2014 17:07:25.189,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,133,,10640
+7/03/2014 17:07:25.352,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:25.509,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:25.669,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:25.829,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:26.003,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:26.028,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:27.749,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:27.909,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:28.069,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:28.228,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:28.388,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10640
+7/03/2014 17:07:28.548,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10640
+7/03/2014 17:07:28.709,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:28.894,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:29.029,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:29.188,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10640
+7/03/2014 17:07:29.349,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10640
+7/03/2014 17:07:29.509,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10640
+7/03/2014 17:07:29.675,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10640
+7/03/2014 17:07:29.829,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10640
+7/03/2014 17:07:29.988,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10640
+7/03/2014 17:07:30.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 17:07:31.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 17:07:31.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 17:07:31.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 17:07:31.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 17:07:33.907,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,130,,15620
+7/03/2014 17:07:34.427,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,132,,15620
+7/03/2014 17:07:34.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 17:07:38.749,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,136,,10620
+7/03/2014 17:07:38.910,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,136,,10620
+7/03/2014 17:07:39.076,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,136,,10620
+7/03/2014 17:07:39.229,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,136,,10620
+7/03/2014 17:07:39.389,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:39.549,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:39.709,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,136,,10620
+7/03/2014 17:07:39.869,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,136,,10620
+7/03/2014 17:07:40.030,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:40.189,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:40.349,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:40.509,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:40.673,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:40.829,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:40.989,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:41.029,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:42.762,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:42.909,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:43.093,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:43.258,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:43.405,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:43.549,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:43.743,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,136,,10620
+7/03/2014 17:07:43.869,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,136,,10620
+7/03/2014 17:07:44.029,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10620
+7/03/2014 17:07:44.197,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,134,,10620
+7/03/2014 17:07:44.389,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:44.517,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:44.669,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:44.829,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:44.989,35200217,SITADP (3047),IOR-T1200-0-3718,IOR,305,,12,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,135,,10620
+7/03/2014 17:07:45.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 17:07:46.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 17:07:46.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 17:07:46.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 17:07:46.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 17:07:48.907,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,131,,15620
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:41.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:03:50.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x61 - Request for Acknowledge (RQA) User Data,,,,,,,,,,,,,,
+7/03/2014 18:04:00.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x61 - Request for Acknowledge (RQA) User Data,,,,,,,,,,,,,,
+7/03/2014 18:04:08.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x61 - Request for Acknowledge (RQA) User Data,,,,,,,,,,,,,,
+7/03/2014 18:04:19.420,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x61 - Request for Acknowledge (RQA) User Data,,,,,,,,,,,,,,
+7/03/2014 18:04:29.413,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x61 - Request for Acknowledge (RQA) User Data,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:11.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:05:21.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x61 - Request for Acknowledge (RQA) User Data,,,,,,,,,,,,,,
+7/03/2014 18:05:32.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x61 - Request for Acknowledge (RQA) User Data,,,,,,,,,,,,,,
+7/03/2014 18:05:42.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x61 - Request for Acknowledge (RQA) User Data,,,,,,,,,,,,,,
+7/03/2014 18:05:51.405,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x61 - Request for Acknowledge (RQA) User Data,,,,,,,,,,,,,,
+7/03/2014 18:05:59.905,35200217,SITADP (3047),IOR-P10500-0-3859,IOR,305,,10,P-Channel TX,,,,,0x61 - Request for Acknowledge (RQA) User Data,,,,,,,,,,,,,,
+7/03/2014 18:25:27.421,35200217,SITADP (3047),IOR-R600-0-36E1,IOR,305,,8,R-Channel RX,,,,,0x10 - Log-on Request (ISU)/Log-on Flight Information (SSU),,,,,,,,,,,,142,,17120
+7/03/2014 18:25:28.852,35200217,SITADP (3047),IOR-P600-0-36FC,IOR,305,,10,P-Channel TX,,,,,0x11 - Log-on Confirm,,,,,,,,,,,,,,
+7/03/2014 18:25:29.572,35200217,SITADP (3047),IOR-P600-0-36FC,IOR,305,,10,P-Channel TX,,,,,0x40 - P-/R-Channel Control (ISU),,,,,,,,,,,,,,
+7/03/2014 18:25:29.572,35200217,SITADP (3047),IOR-P600-0-36FC,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:25:30.213,35200217,SITADP (3047),IOR-P600-0-36FC,IOR,305,,10,P-Channel TX,,,,,0x41 - T-Channel Control (ISU),,,,,,,,,,,,,,
+7/03/2014 18:25:30.213,35200217,SITADP (3047),IOR-P600-0-36FC,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:25:34.461,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x15 - Log-on/Log-off Acknowledge,,,,,,,,,,,,273,,51700
+7/03/2014 18:25:35.408,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x15 - Log-on/Log-off Acknowledge,,,,,,,,,,,,,,
+7/03/2014 18:27:03.905,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,Eleven Octet User Data,,,,,,,,,,,,176,,12560
+7/03/2014 18:27:04.405,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,Four Octet User Data,,,,,,,,,,,,175,,12520
+7/03/2014 18:27:04.907,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 18:27:06.407,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 18:27:06.407,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:27:08.404,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,172,,12520
+7/03/2014 18:28:05.904,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x22 - Access Request (R/T-Channel),,,,,,,,,,,,144,,12500
+7/03/2014 18:28:06.407,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x51 - T-Channel Assignment,,,,,,,,,,,,,,
+7/03/2014 18:28:10.260,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,148,,7540
+7/03/2014 18:28:10.398,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,148,,7540
+7/03/2014 18:28:10.559,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,147,,7540
+7/03/2014 18:28:10.718,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,147,,7540
+7/03/2014 18:28:10.879,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,147,,7540
+7/03/2014 18:28:11.054,35200217,SITADP (3047),IOR-T1200-0-36D7,IOR,305,,8,T-Channel RX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,147,,7540
+7/03/2014 18:28:11.907,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x62 - Acknowledge User Data,,,,,,,,,,,,,,
+7/03/2014 18:28:12.907,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x71 - User Data (ISU) - RLS,,,,,,,,,,,,,,
+7/03/2014 18:28:12.907,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+7/03/2014 18:28:14.904,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x62 - Acknowledge User Data (R-channel),,,,,,,,,,,,143,,12480
+7/03/2014 18:39:52.907,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,301,,10,P-Channel TX,,,,,0x20 - Access Request/Call Announcement Telephone/Circuit-Mode Data,,,,,,,,,,,,,,
+7/03/2014 18:39:52.907,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,301,,10,P-Channel TX,,,,,0x33 - C-Channel Assignment (Regularity),,,,,,,,,,,,,,
+7/03/2014 18:39:52.907,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,301,,10,P-Channel TX,,,,,0x20 - Access Request/Call Announcement Telephone/Circuit-Mode Data,,,,,,,,,,,,,,
+7/03/2014 18:39:52.907,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,301,,10,P-Channel TX,,,,,0x33 - C-Channel Assignment (Regularity),,,,,,,,,,,,,,
+7/03/2014 18:39:55.354,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,88,,
+7/03/2014 18:39:55.664,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,87,,
+7/03/2014 18:39:55.673,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:55.837,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:55.862,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,87,,
+7/03/2014 18:39:55.988,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:55.999,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,87,,
+7/03/2014 18:39:56.165,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,87,,
+7/03/2014 18:39:56.173,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:56.215,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,86,,
+7/03/2014 18:39:56.344,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:56.491,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:56.499,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,87,,
+7/03/2014 18:39:56.524,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:56.524,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,86,,
+7/03/2014 18:39:56.665,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,86,,
+7/03/2014 18:39:56.673,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:56.703,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:56.741,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,86,,
+7/03/2014 18:39:56.835,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:56.854,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,90,,
+7/03/2014 18:39:56.859,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,90,,
+7/03/2014 18:39:56.860,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:56.982,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:56.999,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,89,,
+7/03/2014 18:39:57.008,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:57.024,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,89,,
+7/03/2014 18:39:57.167,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,89,,
+7/03/2014 18:39:57.199,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:57.247,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,89,,
+7/03/2014 18:39:57.360,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,89,,
+7/03/2014 18:39:57.360,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,88,,
+7/03/2014 18:39:57.360,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:57.499,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,88,,
+7/03/2014 18:39:57.508,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:57.548,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,88,,
+7/03/2014 18:39:57.697,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,89,,
+7/03/2014 18:39:57.702,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 18:39:57.747,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,88,,
+7/03/2014 18:39:57.854,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,88,,
+7/03/2014 18:39:57.859,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,89,,
+7/03/2014 18:39:57.860,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:39:58.013,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,89,,
+7/03/2014 18:39:58.013,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:39:58.057,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,88,,
+7/03/2014 18:39:58.191,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,89,,
+7/03/2014 18:39:58.198,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:39:58.214,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,88,,
+7/03/2014 18:39:58.354,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,88,,
+7/03/2014 18:39:58.359,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,88,,
+7/03/2014 18:39:58.360,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:39:58.407,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,301,,10,P-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:39:58.508,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:39:58.552,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,87,,
+7/03/2014 18:39:58.702,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:39:58.748,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,87,,
+7/03/2014 18:39:58.859,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,88,,
+7/03/2014 18:39:59.024,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,87,,
+7/03/2014 18:39:59.245,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,87,,
+7/03/2014 18:39:59.359,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,87,,
+7/03/2014 18:39:59.557,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,87,,
+7/03/2014 18:39:59.747,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,86,,
+7/03/2014 18:39:59.861,35200217,SITADP (3047),IOR-373E-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,86,,
+7/03/2014 18:40:02.335,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,,,
+7/03/2014 18:40:03.164,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,90,,
+7/03/2014 18:40:12.335,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,,,
+7/03/2014 18:40:13.164,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,86,,
+7/03/2014 18:40:22.335,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,,,
+7/03/2014 18:40:23.164,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,86,,
+7/03/2014 18:40:32.335,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,,,
+7/03/2014 18:40:33.167,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,87,,
+7/03/2014 18:40:42.335,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,,,
+7/03/2014 18:40:43.197,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,86,,
+7/03/2014 18:40:52.356,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,,,
+7/03/2014 18:40:53.170,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,89,,
+7/03/2014 18:40:54.697,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:40:54.835,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:40:54.982,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:40:55.172,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:40:55.335,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:40:55.407,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,301,,10,P-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:40:55.483,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 18:40:55.499,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,88,,
+7/03/2014 18:40:55.664,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,90,,
+7/03/2014 18:40:55.854,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,89,,
+7/03/2014 18:40:55.999,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,87,,
+7/03/2014 18:40:56.354,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,90,,
+7/03/2014 18:40:56.164,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,89,,
+7/03/2014 19:41:00.910,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x14 - Log Control - Log-on Interrogation,,,,,,,,,,,,,,
+7/03/2014 19:41:02.906,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x15 - Log-on/Log-off Acknowledge,,,,,,,,,,,,111,,11500
+7/03/2014 20:41:02.907,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x14 - Log Control - Log-on Interrogation,,,,,,,,,,,,,,
+7/03/2014 20:41:04.904,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x15 - Log-on/Log-off Acknowledge,,,,,,,,,,,,141,,11740
+7/03/2014 21:41:24.907,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x14 - Log Control - Log-on Interrogation,,,,,,,,,,,,,,
+7/03/2014 21:41:26.905,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x15 - Log-on/Log-off Acknowledge,,,,,,,,,,,,168,,12780
+7/03/2014 22:41:19.907,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x14 - Log Control - Log-on Interrogation,,,,,,,,,,,,,,
+7/03/2014 22:41:21.906,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x15 - Log-on/Log-off Acknowledge,,,,,,,,,,,,204,,14540
+7/03/2014 23:13:58.407,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x20 - Access Request/Call Announcement Telephone/Circuit-Mode Data,,,,,,,,,,,,,,
+7/03/2014 23:13:58.407,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x33 - C-Channel Assignment (Regularity),,,,,,,,,,,,,,
+7/03/2014 23:14:00.904,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,216,,
+7/03/2014 23:14:01.196,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,217,,
+7/03/2014 23:14:01.215,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 23:14:01.378,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 23:14:01.386,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,216,,
+7/03/2014 23:14:01.554,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 23:14:01.554,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,216,,
+7/03/2014 23:14:01.697,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,216,,
+7/03/2014 23:14:01.745,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 23:14:01.878,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 23:14:01.903,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,216,,
+7/03/2014 23:14:02.025,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 23:14:02.049,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,216,,
+7/03/2014 23:14:02.196,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,216,,
+7/03/2014 23:14:02.215,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 23:14:02.378,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 23:14:02.386,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,216,,
+7/03/2014 23:14:02.527,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Test,,,,,,,,,,,,,,
+7/03/2014 23:14:02.532,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,216,,
+7/03/2014 23:14:02.697,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,216,,
+7/03/2014 23:14:02.888,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,216,,
+7/03/2014 23:14:03.071,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,217,,
+7/03/2014 23:14:03.196,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,216,,
+7/03/2014 23:14:03.386,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,216,,
+7/03/2014 23:14:03.531,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,216,,
+7/03/2014 23:14:03.696,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x60 - Telephony Acknowledge,,,,,,,,,,,,216,,
+7/03/2014 23:14:07.905,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,,,
+7/03/2014 23:14:08.696,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,220,,
+7/03/2014 23:14:17.878,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,,,
+7/03/2014 23:14:18.697,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,218,,
+7/03/2014 23:14:27.878,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,,,
+7/03/2014 23:14:28.696,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,222,,
+7/03/2014 23:14:37.905,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,,,
+7/03/2014 23:14:38.696,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,220,,
+7/03/2014 23:14:47.878,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,,,
+7/03/2014 23:14:48.696,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,220,,
+7/03/2014 23:14:57.878,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,,,
+7/03/2014 23:14:58.696,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Status Report,,,,,,,,,,,,218,,
+7/03/2014 23:15:00.378,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 23:15:00.532,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 23:15:00.750,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 23:15:00.878,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 23:15:00.907,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 23:15:01.025,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 23:15:01.197,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,218,,
+7/03/2014 23:15:01.224,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel TX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,,,
+7/03/2014 23:15:01.386,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,217,,
+7/03/2014 23:15:01.532,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,219,,
+7/03/2014 23:15:01.697,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,219,,
+7/03/2014 23:15:01.886,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,217,,
+7/03/2014 23:15:02.032,35200217,SITADP (3047),IOR-3737-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,219,,
+8/03/2014 00:10:58.000,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x14 - Log Control - Log-on Interrogation,,,,,,,,,,,,,,
+8/03/2014 00:10:59.928,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x15 - Log-on/Log-off Acknowledge,,,,,,,,,,,,252,,18040
+8/03/2014 00:19:29.416,35200217,SITADP (3047),IOR-R600-0-36F8,IOR,305,,10,R-Channel RX,,,,,0x10 - Log-on Request (ISU)/Log-on Flight Information (SSU),,,,,,,,,,,,182,,23000
+8/03/2014 00:19:31.572,35200217,SITADP (3047),IOR-P600-0-36FC,IOR,305,,10,P-Channel TX,,,,,0x11 - Log-on Confirm,,,,,,,,,,,,,,
+8/03/2014 00:19:32.212,35200217,SITADP (3047),IOR-P600-0-36FC,IOR,305,,10,P-Channel TX,,,,,0x40 - P-/R-Channel Control (ISU),,,,,,,,,,,,,,
+8/03/2014 00:19:32.212,35200217,SITADP (3047),IOR-P600-0-36FC,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+8/03/2014 00:19:32.852,35200217,SITADP (3047),IOR-P600-0-36FC,IOR,305,,10,P-Channel TX,,,,,0x41 - T-Channel Control (ISU),,,,,,,,,,,,,,
+8/03/2014 00:19:32.852,35200217,SITADP (3047),IOR-P600-0-36FC,IOR,305,,10,P-Channel TX,,,,,Subsequent Signalling Unit,,,,,,,,,,,,,,
+8/03/2014 00:19:37.443,35200217,SITADP (3047),IOR-R1200-0-36F6,IOR,305,,10,R-Channel RX,,,,,0x15 - Log-on/Log-off Acknowledge,,,,,,,,,,,,-2,,49660
+8/03/2014 00:19:38.407,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x15 - Log-on/Log-off Acknowledge,,,,,,,,,,,,,,
+8/03/2014 01:15:56.000,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x14 - Log Control - Log-on Interrogation,,,,,,,,,,,,,,
+8/03/2014 01:16:06.000,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x14 - Log Control - Log-on Interrogation,,,,,,,,,,,,,,
+8/03/2014 01:16:15.000,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x14 - Log Control - Log-on Interrogation,,,,,,,,,,,,,,
