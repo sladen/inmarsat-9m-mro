@@ -9,9 +9,12 @@ distributed and modified without limit, for any purpose.
 
   ./pdf-to-csv.py > inmarsat-su-log-redacted.csv
 
-This is written as a script so that it can be repeatedly run
-in a deterministic manner, and so the results can be peer-reviewed
-by the wider academic community.
+It calls out to 'pdftotext' which is in the 'poppler-utils' package
+in Debian/Ubuntu.  The program was developed under Ubuntu 12.04 LTS.
+
+This is written as a script (instead of manual conversion) so that it
+can be repeatedly run in a deterministic manner: meaning that the
+results can be peer-reviewed by the wider academic community.
 
 The enclosed .csv file has a sample of the output for reference
 purposes.  There appears to be no clear licence on the original
