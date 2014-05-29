@@ -1038,8 +1038,8 @@ Time,AES ID,DP AES Owner,Channel Name,Ocean Region,GES ID (octal),Channel Bearer
 7/03/2014 18:40:55.664,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,90,,
 7/03/2014 18:40:55.854,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,89,,
 7/03/2014 18:40:55.999,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,87,,
-7/03/2014 18:40:56.354,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,90,,
 7/03/2014 18:40:56.164,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,89,,
+7/03/2014 18:40:56.354,35200217,SITADP (3047),IOR-3730-21000,IOR,305,,6,C-Channel RX,,,,,0x30 - Call Progress - Channel Release,,,,,,,,,,,,90,,
 7/03/2014 19:41:00.910,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x14 - Log Control - Log-on Interrogation,,,,,,,,,,,,,,
 7/03/2014 19:41:02.906,35200217,SITADP (3047),IOR-R1200-0-36ED,IOR,305,,4,R-Channel RX,,,,,0x15 - Log-on/Log-off Acknowledge,,,,,,,,,,,,111,,11500
 7/03/2014 20:41:02.907,35200217,SITADP (3047),IOR-P10500-0-386B,IOR,305,,10,P-Channel TX,,,,,0x14 - Log Control - Log-on Interrogation,,,,,,,,,,,,,,

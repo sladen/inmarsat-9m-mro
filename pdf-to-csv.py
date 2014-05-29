@@ -37,6 +37,7 @@ import time
 import urllib2
 import os
 import sys
+import datetime
 
 def sanity_check(pdf_contents, pdf_checksum, pdftotext):
     # Check the PDF input file you have matches the one used originally
@@ -52,7 +53,7 @@ def sanity_check(pdf_contents, pdf_checksum, pdftotext):
 
 def timestamp(record):
     # Parse the logfile's timestamp format, for when we need it
-    return time.strptime(record.split(',', 1)[0], timestamp_format)
+    return datetime.datetime.strptime(record.split(',', 1)[0], timestamp_format)
 
 def main():
     global local_filename
