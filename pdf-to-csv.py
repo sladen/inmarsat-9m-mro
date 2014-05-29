@@ -151,6 +151,13 @@ def main():
 
                 redacted_records.append(commas)
 
+    # For debugging: dump redacted-data only
+    # This was used for diffing the output against 'davetaz's extraction with:
+    # diff --strip-trailing-cr -du
+    if False:
+        print '\n'.join(sorted(redacted_records, key=timestamp))
+        sys.exit()
+
     # Space out the redacted data to match the full logfile field layout
     # There are several columns where we don't have the data
     # The only one we can fill out is the ICAO 24-bit AES ID.
