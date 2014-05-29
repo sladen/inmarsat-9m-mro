@@ -30,12 +30,6 @@ timestamp_format = "%d/%m/%Y %H:%M:%S.%f"
 # Has a number of brief shorts of the original textual .csv (~5 pages A4 word-wrapped)
 # Some numbers can probably be cross-referenced and filled from this
 
-# (Transcribed from CNN report [which?] by "Bernd"; refined by "Bill")
-# Extra full-form record (or two half-records) from 16:42:42.mmm
-# http://www.duncansteel.com/archives/772#comment-5425
-# http://www.duncansteel.com/archives/806#comment-5651
-full_164242_208 = """7/03/2014 16:42:42.208,35200217,SITADP (3047),IOR-T1200-0-3608,IOR,305,Rx Primary,B,T-Channel Rx,12188,14,24,7,Subsequent Signalling Unit,,C7 70 37 31 80 84 80 31 31 83 2C 1A ,7,0,,,Yes,No,No,-58.33,39.36,124,0,4900"""
-
 import subprocess
 import hashlib
 import re
@@ -180,9 +174,6 @@ def main():
         # Patch in the full-form log entry from the page at the correct place
         if field[0] == full_164204_408.split(',')[0]:
             reordered_record = full_164204_408
-        # Patch in full-form log entry from CNN report
-        if field[0] == full_164242_208.split(',')[0]:
-            reordered_record = full_164242_208
 
         full_records.append(reordered_record)
 
