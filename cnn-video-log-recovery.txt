@@ -4,20 +4,38 @@ to cover missing parts of redacted log
 The logfile shown in the CNN video is called:
 '35200217 su logs 0703141641 to 080310119.csv'
 
-1. Get the 1280x720_350kB/s video:
-wget http://cnn-f.akamaihd.net/cnn/big/world/2014/05/27/pkg-quest-inmarsat-data.cnn_27020448_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4 -o pkg-quest-inmarsat-data.cnn_27020448_1280x720_350.mp4
+1. Get the 1280x720_3500kB/s videos:
+wget http://cnn-f.akamaihd.net/cnn/big/world/2014/05/27/pkg-quest-inmarsat-data.cnn_27020448_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4 -o pkg-quest-inmarsat-data.cnn_27020448_1280x720_3500k.mp4
+wget http://cnn-f.akamaihd.net/cnn/big/world/2014/05/27/intv-quest-inmarsat-data-dickinson.cnn_27014108_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4 -o intv-quest-inmarsat-data-dickinson.cnn_27014108_1280x720_3500k.mp4
+
+(nb. first video had been posted three days earlier at:
+
+  http://ht.cdn.turner.com/cnn/big/international/2014/05/24/quest-inmarsat-data.cnn_24034342_1280x720_3500k.mp4
+
+but subsequently removed).
 
 2. Checksum
 sha1sum < *.mp4
 d27c18c16058dda4d7b733a6564355e96d861575
+966e3d8ae2233cab1677fcb00c588855fd1b1c2c
 Length 105290297 (101MB)
+Length 76773900 (74MB)
 
 3. Extract the frames
 00:51--00:56
 03:16--03:20
 03:52--03:58
-vlc *.mp4 
-Current manually; Video->Snapshot
+and:
+00:41--00:46
+
+VLC option:
+$ vlc *.mp4 
+Pause
+Frame-step using 'e'
+Video->Snapshot menu
+
+FFMPEG option:
+ffmpeg -i [input.mp4] -ss 00:00:51 -t 00:00:05 -r 1 img_%4d.png
 
 4. Determine Perspective grid (unbend paper)
 Not done - Put to one side after a couple of hours experimentation
