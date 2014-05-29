@@ -1,0 +1,36 @@
+Extract and patch in additional unredacted data
+to cover missing parts of redacted log
+
+The logfile shown in the CNN video is called:
+'35200217 su logs 0703141641 to 080310119.csv'
+
+1. Get the 1280x720_350kB/s video:
+wget http://cnn-f.akamaihd.net/cnn/big/world/2014/05/27/pkg-quest-inmarsat-data.cnn_27020448_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4 -o pkg-quest-inmarsat-data.cnn_27020448_1280x720_350.mp4
+
+2. Checksum
+sha1sum < *.mp4
+d27c18c16058dda4d7b733a6564355e96d861575
+Length 105290297 (101MB)
+
+3. Extract the frames
+00:51--00:56
+03:16--03:20
+03:52--03:58
+vlc *.mp4 
+Current manually; Video->Snapshot
+
+4. Determine Perspective grid (unbend paper)
+Not done - Put to one side after a couple of hours experimentation
+
+5. Invert Perspective Map
+Not done - used an affine (rotate+skew) transformation in Inkscape
+
+6. Select focus mask based on separate frames
+Not done, would require successful 'flattening' first
+
+8. OCR
+Eyeballed for the moment, instead of OCR
+
+9. Iterate based on constraints
+To do: Decoding the payload to inorder to refine the hex candidates
+
