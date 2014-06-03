@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# http://mcleodsean.wordpress.com/2014/04/25/mh-370-forward-tracking/
 import math
 
 earthRadius = 6371.0

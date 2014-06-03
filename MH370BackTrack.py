@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# http://mcleodsean.wordpress.com/2014/04/15/mh-370-back-tracking/
 import math
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
@@ -12,7 +14,7 @@ satelliteInfos = [satelliteInfo0011,  satelliteInfo2240, satelliteInfo2140, sate
 
 LOSSpeeds = [ (250.43, 125.35), (175.49, 100.64), (118.34, 79.85), (57.02, 65.80), (4.97, 39.14) ]
 
-aircraftGS = 500
+aircraftGS = 470
 
 # Setup LOS Speeds
 LOSSpeedsSelection = 1
@@ -28,8 +30,9 @@ fig = plt.figure(1, figsize=(8.5, 11))
 ax = plt.subplot(111, aspect='equal')
 #ax.set_xlim(-3000,3000)
 #ax.set_ylim(3000,-3000)
-ax.set_xlim(-200,3000)
-ax.set_ylim(3000,-1500)
+graph_limits = ((-4000,5000), (-3000,3000))
+ax.set_xlim(*graph_limits[0])
+ax.set_ylim(*reversed(graph_limits[1]))
 
 for satelliteInfo in satelliteInfos:
     pingCircle = Circle((0,satelliteInfo['Y']), radius=satelliteInfo['PingRadius'], fill=False)
@@ -55,8 +58,8 @@ latitudes = [(35, ' '), (333, 'S5'), (632, 'S10'), (931, 'S15'), (1223, 'S20'), 
 
 for latitude in latitudes:
     yCart, latText = latitude
-    ax.plot((-3000,3000), (yCart,yCart), color='grey', alpha=0.5)
-    ax.text(2750, yCart, latText)
+    ax.plot((graph_limits[0][0],graph_limits[0][1]-350), (yCart,yCart), color='grey', alpha=0.5)
+    ax.text(graph_limits[0][1]-300, yCart, latText)
 
 def distance(x1, y1, x2, y2):
     dx = x1 - x2
@@ -120,7 +123,7 @@ def calc(aircraftX, aircraftY, satelliteIndex):
 
     return
 
-for bearing in range(1, 89, 1):
+for bearing in range(1, 360, 1):
     pingRadius = satelliteInfos[0]['PingRadius']
     aircraftX = pingRadius * math.sin(math.radians(bearing))
     aircraftY = pingRadius * math.cos(math.radians(bearing))

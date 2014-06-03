@@ -1,7 +1,10 @@
+#!/usr/bin/env python
+# http://mcleodsean.wordpress.com/2014/04/25/mh-370-forward-tracking/
 import math
 import Geo
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
+import matplotlib.mlab
 
 ''' Comparison with Victor's spreadsheet
 aircraftPos = Geo.sphericalToECEF((-38.3313,87.424086))
@@ -9,13 +12,14 @@ aircraftVel = Geo.ecefVelocities((-38.3313,87.424086), 0.247293464, 187.812)
 los = Geo.LOSSpeed((18173.906276,38051.980584,433.193954), (0.001476,-0.001458,-0.082097), aircraftPos, aircraftVel)
 '''
 
-aircraftGroundSpeed = 400
+aircraftGroundSpeed = 460
 maxAircraftGSAfterLastRadarContact = 520
 filterUsingDoppler = True
 pingRingDiffError = 0.04
-dopplerDiffError = 0.7
+dopplerDiffError = 0.9
 bearingIncrement = 1
 startingIncrement = 1
+speed_accelerator = 0.99
 
 # Last radar position at 18:22UTC lat - 6.5381 lon - 96.408
 lastAircraftRadarPos = (6.5381, 96.408)
@@ -32,7 +36,7 @@ satelliteInfos = [satelliteInfo1940, satelliteInfo2040, satelliteInfo2140, satel
 
 # Calculate starting points on 19:40UTC arc
 startingPoints = []
-for bearing in range(0, 180, startingIncrement):
+for bearing in matplotlib.mlab.frange(0, 180, startingIncrement):
     pingRingPos = Geo.greatCircleDestination(satelliteInfo1940['LatLon'], bearing, satelliteInfo1940['PingRadius'])
     if Geo.greatCircleDistance(pingRingPos, lastAircraftRadarPos) < Geo.nmToKm(maxRangeFromLastRadarContactTo1940Ping):
         startingPoints.append(pingRingPos)
@@ -65,18 +69,19 @@ for pos in startingPoints:
 
 # Iterate over the starting points 
 for pos in startingPoints:
-    for bearing in range(0, 359, bearingIncrement):
+    for bearing in matplotlib.mlab.frange(0, 359, bearingIncrement):
     #for bearing in range(90, 270, 1):
         segments = [pos]
         lastPos = pos
+        sog = float(aircraftGroundSpeed)
         for index in range(0, len(satelliteInfos)-1):
             pingInterval = satelliteInfos[index]['NextPingTimeOffset']
-            newPos = Geo.greatCircleDestination(lastPos, bearing, Geo.nmToKm((pingInterval/60.0)*aircraftGroundSpeed))
+            newPos = Geo.greatCircleDestination(lastPos, bearing, Geo.nmToKm((pingInterval/60.0)*sog))
             satelliteRange = Geo.greatCircleDistance(newPos, satelliteInfos[index+1]['LatLon'])
             if math.fabs(satelliteRange - satelliteInfos[index+1]['PingRadius']) < pingRingDiffError * satelliteInfos[index+1]['PingRadius']:
                 if filterUsingDoppler:
                     aircraftECEF = Geo.sphericalToECEF(newPos)
-                    aircraftECEFVel = Geo.ecefVelocities(newPos, Geo.knotsToKms(aircraftGroundSpeed), bearing)
+                    aircraftECEFVel = Geo.ecefVelocities(newPos, Geo.knotsToKms(sog), bearing)
                     LOSSpeed = Geo.LOSSpeed(satelliteInfos[index+1]['XYZ'], satelliteInfos[index+1]['Velocity'], aircraftECEF, aircraftECEFVel) * -1.0
                     if math.fabs(LOSSpeed - satelliteInfos[index+1]['LOSSpeed']) < math.fabs(dopplerDiffError * satelliteInfos[index+1]['LOSSpeed']):
                         segments.append(newPos)
@@ -88,6 +93,7 @@ for pos in startingPoints:
                     lastPos = newPos
             else:
                 break
+            sog *= speed_accelerator
         if len(segments) == 5:
             for index in range(1, len(satelliteInfos)):
                 segmentPos = segments[index]
