@@ -19,3 +19,11 @@ results can be peer-reviewed by the wider academic community.
 The enclosed .csv file has a sample of the output for reference
 purposes.  There appears to be no clear licence on the original
 dataset.
+
+In addition, a patchset restores additional data transcribed from the
+CNN videos showing the unredacted SU logs.
+
+MH370*Track.py are tools originally written by Sean McLeod for
+integrating possible direct solution (without mid-sector turns).
+
+Historical element sets for 1996-020A are in 'sat23839.txt'.
