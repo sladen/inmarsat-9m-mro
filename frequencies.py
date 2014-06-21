@@ -47,7 +47,7 @@ def main():
     #for t in sort_uniq(transmissions):
     #    print "%s, %s, %d, %9.4f, %5d, %2d" % t
 
-    print 'Count,Direction,Encoding,Channel Hex,Channel Decimal,L-Band Frequency,C-Band Frequency,Rate,Unit ID'
+    print 'Count,Direction,Encoding,Channel Hex,Channel Number,L-Band Frequency,C-Band Frequency,Rate,Unit ID'
     for t,g in itertools.groupby(sorted(transmissions, key=operator.itemgetter(4))):
         print "%3d, %s, %s, %4X, %d, %9.4f, %9.4f, %5d, %2d" % ((len(list(g)),) + t)
 

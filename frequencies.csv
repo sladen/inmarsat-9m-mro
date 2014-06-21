@@ -1,4 +1,4 @@
-Count,Direction,Encoding,Channel Hex,Channel Decimal,L-Band Frequency,C-Band Frequency,Rate,Unit ID
+Count,Direction,Encoding,Channel Hex,Channel Number,L-Band Frequency,C-Band Frequency,Rate,Unit ID
  10, TX, P, 36FC, 14076, 1545.1900, 6440.1900,   600, 10
  21, TX, C, 3730, 14128, 1545.3200, 6440.3200, 21000,  6
  21, TX, C, 3737, 14135, 1545.3375, 6440.3375, 21000,  6
