@@ -30,16 +30,26 @@ def main():
         # http://www.icao.int/safety/acp/Inactive%20working%20groups%20library/ACP-WG-M-Iridium-8/IRD-SWG08-WP07%20-%20Old_AMSS_material_Ch.4_plus_Attachment.doc
         # Paired spectrum 101.5MHz apart
         # base offsets are 1510Mhz and 1611.5MHz
-        frequency = channel_number * 0.0025 + 1510
-        if direction == 'RX': frequency += 101.5
-        transmissions.append((direction, encoding, channel_number, frequency, rate, unit))
+        l_frequency = channel_number * 0.0025 + 1510
+        if direction == 'RX':
+            l_frequency += 101.5
+            # https://miteq.com/docs/D-115D.PDF
+            # https://www.itu.int/en/ITU-R/software/Documents/spaceqry/sns_v7_schema.pdf
+            # wget https://www.itu.int/sns/ific61/ific2736.zip && \
+            # mdb-export ific2736.mdb freq | grep '96500418.*,10000,'
+            # I3 L->C frequency translator Local Oscillator shift +1968.5MHz
+            c_frequency = l_frequency + 1968.5
+        else:
+            # I3 C->L frequency translator Local Oscillator shift -4895.0MHz
+            c_frequency = l_frequency + 4895.0
+        transmissions.append((direction, encoding, channel_number, channel_number, l_frequency, c_frequency, rate, unit))
 
     #for t in sort_uniq(transmissions):
     #    print "%s, %s, %d, %9.4f, %5d, %2d" % t
 
-    print 'Count,Direction,Encoding,Channel Number,Frequency,Rate,Unit ID'
-    for t,g in itertools.groupby(sorted(transmissions, key=operator.itemgetter(3))):
-        print "%3d, %s, %s, %d, %9.4f, %5d, %2d" % ((len(list(g)),) + t)
+    print 'Count,Direction,Encoding,Channel Hex,Channel Decimal,L-Band Frequency,C-Band Frequency,Rate,Unit ID'
+    for t,g in itertools.groupby(sorted(transmissions, key=operator.itemgetter(4))):
+        print "%3d, %s, %s, %4X, %d, %9.4f, %9.4f, %5d, %2d" % ((len(list(g)),) + t)
 
 if __name__=='__main__':
     main()
