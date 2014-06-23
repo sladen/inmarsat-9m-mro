@@ -1,0 +1,79 @@
+The airbourne ADB-S reports are crucial as they are the only
+computer-readable calibration data available for deducing
+oscillator bias, drift and the Perth AFC error contributions.
+Inmarsat obviously had access to a much larger training database.
+
+Two public ADB-S datasets were identified and steps were taken to
+obtain each in the highest quality possible, and to sanity-check the
+data.
+
+
+Flightradar24
+=============
+
+  http://www.flightradar24.com/data/pinned/mh370-2d81a27/#2d81a27
+  16:42:30--17:21:03
+  62 records: F-WMSA2 (35), F-WMKC1 (20), T-WMKP2 (5), T-WMKN1 (2)
+
+Flightradar24 has more incoming ADB-S feeders, but appears to be
+consolidation, meaning that the entries shown possibly aren't
+perfectly the original messages received, but what they do have is
+obtainable in a single unauthenicated compact call to:
+
+  curl -X POST 'http://api.fr24.com/api/common/v1/json-rpc/' -X POST -d '{"jsonrpc":"2.0","method":"Aircraft.doGetPlaybackSingle","params":[47716903],"id":1}' -o fr24-pinned-47716903.json
+
+I asked Flightradar by email in tracking number ID [#41330] about the
+unconsolidated messages.  The reply I received appeared to be
+uninformed and somewhat miss the point I was enquiring after.
+Another follow-up does not appear to have illicited a reply.
+
+
+Flightaware
+===========
+
+  http://uk.flightaware.com/live/flight/MAS370/history/20140307/1635Z/WMKK/ZBAA/tracklog
+  16:43:26--17:02:40
+  31 records: WMSA (17), WMKF (7), WMKK (4), WMKP (2), [null] (1)
+  
+  [long gap] then 17:50:50 (exactly at IGARI), with no feeder ID...
+
+Flightaware seems to have less feeders.  There does not appear to be
+single location to obtain everything in the FA database; eg. the
+proper API call (which needs a paid account + authenication) is to:
+
+  https://username:flightxml.flightaware.com/json/FlightXML2/GetHistoricalTrack?faFlightID=MAS370-1394087710-airline-0005
+
+The JSON response does not return feeder ID, which can only be
+screen-scraped from the inline HTML (not in JSON).  Notably,
+Flightaware's coverage is less, and starts later than Flightradar24
+tet there Other than the single entry at 17:50:50 (precisely at
+IGARI)---possibly inserted by hand in order to cope with FA's coverage
+overwise ending much sooner than FR24's.
+
+In regard of the accuracy of the date, 'GetHistoricalTrack' claims to
+only true data is returned:
+
+  http://discussions.flightaware.com/post135440.html?sid=4fb56f9afcf10ef5d3916827896ce081#p135440
+
+  "FlightXML’s GetHistoricalTrack intentionally returns only actual
+  data points, which means that approximated positions that have been
+  synthesized based on extrapolations of movement are not
+  included. This design choice was originally made in order to ensure
+  that people making use of our FlightXML data for research or
+  analysis purposes are not mislead by our synthetically generated
+  data"
+
+If indeed 'GetHistoricalTrack' only returns what's in the database,
+then a conscious human decision was likely taken to add the (faux)
+17:50:50 entry into the database itself; which brings into question
+the reliability of the rest of the Flightaware data.
+
+Summary
+=======
+
+Based on the false FA entry at 17:50:50, and fewer number of records,
+and the dropping of direction (course), it would appear that the FR24
+Data is of better quality.
+
+It may be possible to salvage some of the imcomplete records from the
+Flightaware database.
