@@ -1,0 +1,14 @@
+BEGIN IMS2.0
+MSG_TYPE REQUEST
+MSG_ID nnn
+E-MAIL xyz
+TIME 2014-03-08 00:00:00 TO 2014-03-08 02:00:00
+STA_LIST H08S
+CHAN_LIST *
+WAVEFORM IMS
+STOP
+
+This dataset is unfortunately dominated by a survey vessel airgun
+going off every 10 seconds somewhere off Australia; with reverb and
+delay this means that a 50% duty cycle of the data is swamped.
+However the azimuth of the survey vessel is reasonably constant.
