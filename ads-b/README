@@ -1,9 +1,9 @@
-The airbourne ADB-S reports are crucial as they are the only
+The airbourne ADS-B reports are crucial as they are the only
 computer-readable calibration data available for deducing
 oscillator bias, drift and the Perth AFC error contributions.
 Inmarsat obviously had access to a much larger training database.
 
-Two public ADB-S datasets were identified and steps were taken to
+Two public ADS-B datasets were identified and steps were taken to
 obtain each in the highest quality possible, and to sanity-check the
 data.
 
@@ -15,7 +15,7 @@ Flightradar24
   16:42:30--17:21:03
   62 records: F-WMSA2 (35), F-WMKC1 (20), T-WMKP2 (5), T-WMKN1 (2)
 
-Flightradar24 has more incoming ADB-S messages, but appears to have
+Flightradar24 has more incoming ADS-B messages, but appears to have
 consolidation, meaning that the entries shown possibly aren't quite
 perfectly the original messages received, but what FR24 do have is
 obtainable in a single unauthenicated compact call to:
