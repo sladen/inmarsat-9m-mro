@@ -45,13 +45,16 @@ proper API call (which needs a paid account + authenication) is to:
 
 The JSON response does not return feeder ID, which can only be
 screen-scraped from the inline HTML (not in JSON).  Notably,
-Flightaware's coverage is less, and starts later than Flightradar24
-tet there Other than the single entry at 17:50:50 (precisely at
-IGARI)---possibly inserted by hand in order to cope with FA's coverage
-overwise ending much sooner than FR24's.
+Flightaware's coverage is less, and starts later than Flightradar24's.
+
+There is obscure single entry at 17:50:50 (precisely at
+IGARI!)---possibly inserted by hand in order to cope with FA's
+coverage overwise ending much sooner than FR24's; the insertion
+of this record brings into question the reliability of the rest of
+the data.
 
 In regard of the accuracy of the date, 'GetHistoricalTrack' claims to
-only true data is returned:
+only return true data:
 
   http://discussions.flightaware.com/post135440.html?sid=4fb56f9afcf10ef5d3916827896ce081#p135440
 
@@ -65,15 +68,15 @@ only true data is returned:
 
 If indeed 'GetHistoricalTrack' only returns what's in the database,
 then a conscious human decision was likely taken to add the (faux)
-17:50:50 entry into the database itself; which brings into question
-the reliability of the rest of the Flightaware data.
+17:50:50 entry into the database _itself_; which brings into question
+the overall reliability of the rest of the Flightaware data.
 
 Summary
 =======
 
 Based on the false FA entry at 17:50:50, and fewer number of records,
 and the dropping of direction (course), it would appear that the FR24
-Data is of better quality.
+data is of better quality than FA's.
 
 It may be possible to salvage some of the imcomplete records from the
-Flightaware database.
+Flightaware database and combine the two.
