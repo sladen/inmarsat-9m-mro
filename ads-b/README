@@ -38,8 +38,8 @@ Flightaware
   [long gap] then 17:50:50 (exactly at IGARI), with no feeder ID...
 
 Flightaware seems to have less feeders.  There does not appear to be
-single location to obtain everything in the FA database; eg. the
-proper API call (which needs a paid account + authenication) is to:
+a single location to obtain everything in the FA database; eg. the
+proper API call (which needs a paid account + authentication) is to:
 
   https://username:flightxml.flightaware.com/json/FlightXML2/GetHistoricalTrack?faFlightID=MAS370-1394087710-airline-0005
 
@@ -47,7 +47,7 @@ The JSON response does not return feeder ID, which can only be
 screen-scraped from the inline HTML (not in JSON).  Notably,
 Flightaware's coverage is less, and starts later than Flightradar24's.
 
-There is obscure single entry at 17:50:50 (precisely at
+There is an obscure single entry at 17:50:50 (precisely at
 IGARI!)---possibly inserted by hand in order to cope with FA's
 coverage overwise ending much sooner than FR24's; the insertion
 of this record brings into question the reliability of the rest of
@@ -70,6 +70,9 @@ If indeed 'GetHistoricalTrack' only returns what's in the database,
 then a conscious human decision was likely taken to add the (faux)
 17:50:50 entry into the database _itself_; which brings into question
 the overall reliability of the rest of the Flightaware data.
+
+The basis of the 17:50:50 record has been queried in ID [#26771].
+
 
 Summary
 =======
