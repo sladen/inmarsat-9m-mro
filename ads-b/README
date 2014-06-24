@@ -71,15 +71,13 @@ then a conscious human decision was likely taken to add the (faux)
 17:50:50 entry into the database _itself_; which brings into question
 the overall reliability of the rest of the Flightaware data.
 
-The basis of the 17:50:50 record has been queried in ID [#26771].
+The basis of the 17:50:50 record was queried in ID [#26771] which
+produced no satisfactory answers.  I'm grateful to Jeff Lawson who
+was able to confirm the suspected manual adding of the 17:50:50 point:
 
 
 Summary
 =======
 
-Based on the false FA entry at 17:50:50, and fewer number of records,
-and the dropping of direction (course), it would appear that the FR24
-data is of better quality than FA's.
-
-It may be possible to salvage some of the imcomplete records from the
-Flightaware database and combine the two.
+Aside from the fake FA entry at 17:50:50, the datasets have reasonably
+separate sourcing and can be correlated.
