@@ -2,8 +2,8 @@ The airbourne ADS-B reports are crucial as they are the only
 computer-readable calibration data available for deducing
 oscillator bias, drift and the Perth AFC error contributions.
 Inmarsat obviously had access to a much larger training database.
-
-Two public ADS-B datasets were identified and steps were taken to
+ 
+Three public ADS-B datasets were identified and steps were taken to
 obtain each in the highest quality possible, and to sanity-check the
 data.
 
@@ -79,6 +79,32 @@ was able to confirm the suspected manual adding of the 17:50:50 point:
   inserted later based upon other established data sources in order to
   make the map seem more consistent with user expectations, however
   the rest of the positions in that flight are unaltered."
+
+
+Planefinder
+===========
+
+  http://planefinder.net/flight/MAS370/time/2014-03-07T16:50:00%20UTC
+  16:46:59--17:00:41
+  14 records: [null] (14)
+
+Planefinder proactively put out a blog post and CSV file, containing
+nineteen records rounded to the nearest minute, the last five of which
+are extrapolated predictions.
+
+  http://planefinder.net/about/news/malaysian-boeing-777-missing-presumed-crashed/
+  http://cdn-misc.pinkfroot.com/MH370.csv
+
+Querying the following URL at timestamps corresponding to sixty-second periods allows
+the extraction of up to one true record per minute:
+
+  http://planefinder.net/endpoints/playback/update.php?utc=1394210760&loc=1394210760
+
+These records also contains the +5 minutes predictions which
+correspond to the extraneous extrapolated lines in the published CSV
+file.  The altitude granularity is finer and has not suffered from
+rounding.
+
 
 Summary
 =======
