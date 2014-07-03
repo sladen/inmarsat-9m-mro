@@ -1,0 +1,1275 @@
+\documentclass[tikz,a4paper,12pt]{article}
+%\usepackage{showframe}
+\usepackage[utf8x]{inputenc}
+\usepackage[margin=2.5cm, bottom=2cm]{geometry}
+\setlength{\footskip}{0em}
+\usepackage[T1]{fontenc}
+\usepackage{ucs}
+\usepackage[encapsulated]{CJK}
+\usepackage[overlap, CJK]{ruby}
+%\usepackage{CJKulem}
+\newenvironment{SChinese}{%
+  \CJKfamily{gbsn}}{}
+\newenvironment{TChinese}{%
+  \CJKfamily{bsmi}}{}
+%\usepackage{fontspec}
+\usepackage{lmodern}
+\usepackage{libertine}
+\makeatletter
+\newcommand\libertineTabular{\def\libertine@figurealign{T}\libertineLF}
+\makeatother
+\usepackage[british]{babel}
+\usepackage[babel=true]{microtype}
+\usepackage{natbib}
+\setlength{\bibsep}{0.0pt}
+\makeatletter
+\def\@biblabel#1{#1.}
+\makeatother
+\usepackage[
+  pdfauthor={Paul Sladen, Nineteen Inch Networks},
+  pdftitle={Briefing Note on the Inmarsat Publication of 23/24 May 2014 in Relation to the Occurrence of $9$M--MRO},
+  pdfsubject={Occurence of 9M-MRO on 7--8 March 2014},
+  pdfkeywords={9M-MRO; MH370; MAS370; Flight safety; Inmarsat; ACARS; OOOI; SATCOM; Satellite},
+  pdfencoding=unicode,
+  backref=section
+]{hyperref}
+%\usepackage[figure, figure*, table]{hypcap}
+%\usepackage[acronym,hyperfirst=false]{glossaries}
+\usepackage[figure, figure*]{hypcap}
+\usepackage[acronym,hyperfirst=true]{glossaries}
+%\usepackage{glossaries-accsupp}
+\usepackage[parfill]{parskip}
+\usepackage{enumerate}
+\usepackage{extdash}
+\usepackage{float}
+\restylefloat{table}
+\usepackage{dcolumn}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{calc}
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{accsupp}
+\newcommand{\nosearch}[1]{\BeginAccSupp{method=hex,unicode,ActualText={}}{#1}\EndAccSupp{}}
+\usepackage{textcomp}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\setlength{\fboxsep}{0.25mm}%
+\setlength{\fboxrule}{0.2mm}%
+\usepackage{xcolor}
+\usepackage{soul,color}
+\usepackage{transparent}
+\def\greypercent{0.5}
+\definecolor{headergrey}{rgb}{\greypercent,\greypercent,\greypercent}
+\definecolor{lightyellow}{rgb}{1.0,1.0,0.9}
+%\definecolor{lightskyblue}{rgb}{0.53,0.80,0.98}
+% [ord(i)/255.0 for i in list(binascii.unhexlify('87cefa'))]
+\definecolor{lightskyblue}{rgb}{0.8,0.90,1.0}
+
+\usepackage{fancyhdr}
+\fancyfoot{}
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+  \fancyhead[R]{\nosearch{\textcolor{headergrey}{\textbf{SLA\,{\Large\thepage}}}\hspace*{-2em}}}
+  \fancyhead[C]{\textcolor{headergrey}{Briefing note}}
+  \fancyhead[L]{\vspace*{-3cm}\makebox[1em]{\nosearch{\transparent{0.5}\includegraphics[keepaspectratio,scale=0.9]{../tex/19inch-logo-grey100.pdf}}}}
+  \setlength{\headheight}{1em}
+}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyhead[R]{\nosearch{\textcolor{headergrey}{\textbf{SLA\,{\Large{\thepage}}}}\hspace*{-2em}}}
+\fancyhead[L]{\hspace*{-2em}\nosearch{\textcolor{headergrey}{Sladen (2014)}}}
+%\fancyhead[C]{\hspace*{-2em}\nosearch{\textcolor{headergrey}{Briefing note for AAIB on Inmarsat publication}}}
+\fancyhead[C]{\hspace*{-2em}\nosearch{\textcolor{headergrey}{Briefing note for AAIB: Inmarsat publication}}}
+%\fancyhead[L]{\vspace*{-3cm}\makebox[1em]{\nosearch{\transparent{0.5}{\includegraphics[keepaspectratio,scale=0.9]{19inch-logo-grey100.pdf}}}}}
+\pagestyle{fancy}
+
+% http://www.archivum.info/comp.text.tex/2005-07/00045/Re-Redacted-text-environment-macro-for-LaTeX.html
+\sethlcolor{background}
+\makeatletter
+\def\phantom@SOUL@ulunderline#1{{%
+    \setbox\z@\hbox{#1}%
+    \dimen@=\wd\z@
+    \dimen@i=\SOUL@uloverlap
+    \advance\dimen@2\dimen@i
+    \rlap{%
+        \null
+        \kern-\dimen@i
+        \SOUL@ulcolor{\SOUL@ulleaders\hskip\dimen@}%
+    }%
+    \phantom{\unhcopy\z@}% \phantom added here
+}}
+\DeclareRobustCommand\redact[1]{\begingroup
+  \let\SOUL@ulunderline\phantom@SOUL@ulunderline
+  \hl{#1}%
+\endgroup}
+\makeatother
+% http://tex.stackexchange.com/questions/83085/how-to-improve-listings-display-of-json-files#answer-83100
+\colorlet{punct}{red!60!black}
+\definecolor{background}{HTML}{EEEEEE}
+\definecolor{delim}{RGB}{20,105,176}
+\definecolor{light-gray}{gray}{0.95}
+\definecolor{dark-red}{rgb}{0.4,0,0}
+\colorlet{numb}{magenta!60!black}
+\lstdefinelanguage{json}{
+    basicstyle=\tiny\ttfamily,
+    numbers=none,
+    numberstyle=\tiny,
+    stepnumber=1,
+    columns=flexible,
+    showstringspaces=false,
+    numbersep=8pt,
+    breaklines=false,
+    frame=single,
+    backgroundcolor=\color{white},
+    morestring=[b]",
+    keywords={{=},null},
+    resetmargins=true,
+    upquote=true,
+    literate=
+     *{0}{{{\color{numb}0}}}{1}
+% Hack to get copy-and-pasteable text
+      {\ }{\BeginAccSupp{method=hex,unicode,ActualText=0020}{\color{white}\textvisiblespace}\EndAccSupp{}}{1}
+      {\ \ }{\BeginAccSupp{method=hex,unicode,ActualText=00200020}{\color{white}\textvisiblespace\textvisiblespace}\EndAccSupp{}}{1}
+      {1}{{{\color{numb}1}}}{1}
+      {2}{{{\color{numb}2}}}{1}
+      {3}{{{\color{numb}3}}}{1}
+      {4}{{{\color{numb}4}}}{1}
+      {5}{{{\color{numb}5}}}{1}
+      {6}{{{\color{numb}6}}}{1}
+      {7}{{{\color{numb}7}}}{1}
+      {8}{{{\color{numb}8}}}{1}
+      {9}{{{\color{numb}9}}}{1}
+      {:}{{{\color{punct}{:}}}}{1}
+      {,}{{{\color{punct}{,}}}}{1}
+      {\{}{{{\color{delim}{\{}}}}{1}
+      {\}}{{{\color{delim}{\}}}}}{1}
+      {[}{{{\color{delim}{[}}}}{1}
+      {]}{{{\color{delim}{]}}}}{1}
+}
+\lstdefinelanguage{ACARS}{
+    basicstyle=\ttfamily,
+    escapechar=§,
+    numbers=none,
+    numberstyle=,
+    stepnumber=1,
+    columns=flexible,
+    showstringspaces=true,
+    numbersep=8pt,
+    breaklines=false,
+    frame=lines,
+    backgroundcolor=\color{lightyellow},
+    morestring=[b]",
+    keywords={{=},null},
+    framexleftmargin=0.5em,framexrightmargin=0.5em,
+    resetmargins=true,
+    upquote=true,
+    literate=
+     *{0}{{{\color{dark-red}0}}}{1}
+% Hack to get copy-and-pasteable text
+      {\ }{\BeginAccSupp{method=hex,unicode,ActualText=0020}{\color{white}\textvisiblespace}\EndAccSupp{}}{1}
+      {\ \ }{\BeginAccSupp{method=hex,unicode,ActualText=00200020}{\color{white}\textvisiblespace\textvisiblespace}\EndAccSupp{}}{1}
+      {1}{{{\color{dark-red}1}}}{1}
+      {2}{{{\color{dark-red}2}}}{1}
+      {3}{{{\color{dark-red}3}}}{1}
+      {4}{{{\color{dark-red}4}}}{1}
+      {5}{{{\color{dark-red}5}}}{1}
+      {6}{{{\color{dark-red}6}}}{1}
+      {7}{{{\color{dark-red}7}}}{1}
+      {8}{{{\color{dark-red}8}}}{1}
+      {9}{{{\color{dark-red}9}}}{1}
+      {:}{{{\color{punct}{:}}}}{1}
+      {,}{{{\color{punct}{,}}}}{1}
+      {\{}{{{\color{delim}{\{}}}}{1}
+      {\}}{{{\color{delim}{\}}}}}{1}
+      {[}{{{\color{delim}{[}}}}{1}
+      {]}{{{\color{delim}{]}}}}{1}
+}
+\lstdefinelanguage{SATCOM}{
+    basicstyle=\ttfamily,
+    escapechar=§,
+    numbers=none,
+    numberstyle=,
+    stepnumber=1,
+    columns=flexible,
+    showstringspaces=true,
+    numbersep=1.75em,
+    breaklines=false,
+    frame=lines,
+    backgroundcolor=\color{lightyellow},
+    morestring=[b]",
+    keywords={{=},null},
+    framexleftmargin=0.5em,framexrightmargin=0.5em,
+    resetmargins=true,
+%,xleftmargin=10.75em + 19em width
+%,xleftmargin=8.25em + 19em width
+%    xleftmargin=8.25em,
+%    linewidth=27.25em,
+    xleftmargin=8.5em,
+    linewidth=27.5em,
+    upquote=true,
+    literate=
+     *{0}{{{\color{dark-red}0}}}{1}
+% Hack to get copy-and-pasteable text
+      {\ }{\BeginAccSupp{method=hex,unicode,ActualText=0020}{\color{white}\textvisiblespace}\EndAccSupp{}}{1}
+      {\ \ }{\BeginAccSupp{method=hex,unicode,ActualText=00200020}{\color{white}\textvisiblespace\textvisiblespace}\EndAccSupp{}}{1}
+      {1}{{{\color{dark-red}1}}}{1}
+      {2}{{{\color{dark-red}2}}}{1}
+      {3}{{{\color{dark-red}3}}}{1}
+      {4}{{{\color{dark-red}4}}}{1}
+      {5}{{{\color{dark-red}5}}}{1}
+      {6}{{{\color{dark-red}6}}}{1}
+      {7}{{{\color{dark-red}7}}}{1}
+      {8}{{{\color{dark-red}8}}}{1}
+      {9}{{{\color{dark-red}9}}}{1}
+      {:}{{{\color{punct}{:}}}}{1}
+      {,}{{{\color{punct}{,}}}}{1}
+      {\{}{{{\color{delim}{\{}}}}{1}
+      {\}}{{{\color{delim}{\}}}}}{1}
+      {[}{{{\color{delim}{[}}}}{1}
+      {]}{{{\color{delim}{]}}}}{1}
+}
+\DeclareUnicodeCharacter{0100}{\a={A}}
+\DeclareUnicodeCharacter{0101}{\a={a}} 
+\DeclareUnicodeCharacter{2401}{SOH} 
+\setcitestyle{super,open={[},close={]},color=[rgb]{0.46, 0.13, 0.20}}
+\hypersetup{colorlinks, urlcolor=[rgb]{0.023, 0.27, 0.68}, linkcolor=[rgb]{0.46, 0.13, 0.20}, citecolor=[rgb]{0.023, 0.27, 0.68}}
+% http://tex.stackexchange.com/questions/120644/combined-list-of-figures-and-tables
+\makeatletter
+\renewcommand*{\ext@figure}{lot}
+\let\c@figure\c@table
+\let\ftype@figure\ftype@table
+\let\listoftableandfigures\listoftables
+\renewcommand*\listtablename{List of Tables and figures}
+\makeatother
+
+%\raggedright
+\mathchardef\mhyphen="2D
+\newacronym{MRO}{$9$M--MRO}{Malaysian Boeing~777-2H6/ER aircraft cn.\,28420}
+\newacronym{RTT}{RTT}{Round Trip Time}
+\newacronym{RoC}{RoC}{Rate of Climb}
+\newacronym{ULB}{ULB}{\href{https://en.wikipedia.org/wiki/Underwater_locator_beacon}{Underwater Locator Beacon}}
+\newacronym{AAIB}{AAIB}{Air Accident Investigation Branch}
+\newacronym{GES}{GES}{Ground Earth Station}
+\newacronym{GES301}{GES~301}{\acrlong{GES}~$301_8$ at Eik}
+\newacronym{GES305}{GES~305}{\acrlong{GES}~$305_8$ at Perth}
+\newacronym{AES}{AES}{Aeronautical Earth Station}
+\newacronym{CSV}{CSV}{\href{https://en.wikipedia.org/wiki/Comma-separated_values}{Comma\Hyphdash Separated Value}}
+\newacronym{IQ}{I/Q}{\href{https://en.wikipedia.org/wiki/In-phase_and_quadrature_components}{In-phase/Quadrature}}
+\newacronym{SDR}{SDR}{\href{https://en.wikipedia.org/wiki/Software-defined_radio}{Software-Defined Radio}}
+\newacronym{GEO}{GEO}{\href{https://en.wikipedia.org/wiki/Geostationary_orbit}{Geostationary Orbit}}
+\newacronym{c}{$c$}{\href{https://en.wikipedia.org/wiki/Speed_of_light}{speed of light}}
+\newacronym{ADS-B}{ADS--B}{\href{https://en.wikipedia.org/wiki/Automatic_dependent_surveillance-broadcast}{Automatic Dependent Surveillance--Broadcast}}
+\newacronym{JSON}{JSON}{\href{https://en.wikipedia.org/wiki/JSON}{JavaScript Object Notation}}
+%\newacronym{3F1}{1996-020A}{\href{https://en.wikipedia.org/wiki/International_Designator}{internationally designated} 1996-020A/Inmarsat 3-F1/NORAD 23839}
+\newacronym{3F1}{$\mathtt{1996\mhyphen 020A}$}{Inmarsat 3-F1 spacecraft}
+\newacronym{LNAV}{LNAV}{\href{https://en.wikipedia.org/wiki/LNAV}{Lateral Navigation}}
+\newacronym{BFO}{BFO}{Burst Frequency-Offset}
+\newacronym{BTO}{BTO}{Burst Timing-Offset}
+\newacronym{C-Channel}{C--Channel}{\href{https://en.wikipedia.org/wiki/Circuit_switching}{Circuit-switched} Channel}
+\newacronym{R-Channel}{R--Channel}{Random-access \href{https://en.wikipedia.org/wiki/Slotted_ALOHA}{slotted ALOHA} Channel}
+\newacronym{T-Channel}{T--Channel}{[Reservation] \href{https://en.wikipedia.org/wiki/Time_division_multiple_access}{Time Division Multiple Access} Channel}
+\newacronym{P-Channel}{P--Channel}{Packet-mode \href{https://en.wikipedia.org/wiki/Time-division_multiplexing}{Time Division Multiplex} Channel}
+\newacronym{AFC}{AFC}{Automatic Frequency Control}
+\newacronym{L-Band}{L--Band}{IEEE L--Band}
+\newacronym{C-Band}{C--Band}{IEEE C--Band}
+\newacronym{AMSS}{AMS(R)S}{Aeronautical Mobile Satellite (on-Route) Service}
+\newacronym{HA01}{HA$01$}{Hydro-Acoustic station~01 (Cape Leeuwin, Australia)}
+\newacronym{HA08S}{HA$08$S}{Hydro-Acoustic station~08 South (British Indian Ocean Territory)}
+\newacronym{RCS}{RCS}{Hydrophone bouy off Rottnest Island, Perth}
+\newacronym{IMOS}{IMOS}{Integrated Marine Observing System}
+\newacronym{CTBTO}{CTBTO}{\href{https://en.wikipedia.org/wiki/Comprehensive_Nuclear-Test-Ban_Treaty_Organization}{Comprehensive Nuclear-Test-Ban Treaty Organization}}
+\newacronym{GSM}{GSM}{GSM}
+\newacronym{CDMA}{CDMA}{Code Division Multiple Access}
+\newacronym{ICAO}{ICAO}{International Civil Aviation Organization}
+\newacronym{FDR}{FDR}{Flight Data Recorder}
+\newacronym{CVR}{CVR}{Cockpit Voice Recorder}
+\newacronym{75008F}{$\mathtt{75008F}_{16}$}{\acrlong{ICAO} 24-bit address $\mathtt{75008F}_{16}$}
+\newacronym{35200217}{$\mathtt{35200217}_{8}$}{\acrlong{ICAO} 24-bit address $\mathtt{35200217}_{8}$}
+\newacronym[sort=GES C5]{C5}{$\mathtt{C5}_{16}$}{GES $\mathtt{C5}_{16}$ in Perth}
+\newacronym{GESC5}{GES~$\mathtt{C5}_{16}$}{GES~$\mathtt{C5}_{16}$ in Perth}
+\newacronym[sort=Radar]{RADAR}{\textsc{Radar}}{R\textsc{a}dio Detection And Ranging}
+\newacronym{ACARS}{ACARS}{Aircraft Communications Addressing and Reporting System}
+\newacronym{MCDU}{MCDU}{Multifunction Control Display Unit}
+\newacronym{OOOI}{OOOI}{Out~Off~On~In}
+\newacronym{FMC}{FMC}{Flight Management Computer}
+\newacronym{SAT}{SAT}{Satellite}
+\newacronym{CRC16}{CRC16}{16-bit Cyclic Redundancy Check}
+\newacronym{SDU}{SDU}{Satellite Data Unit}
+\newacronym{RLS}{RLS}{Reliable Link Service}
+\newacronym{SU}{SU}{Signalling Unit}
+\newacronym{MDCA}{MDCA}{Malayasian Department of Civil Aviation}
+\newacronym{GCHQ}{GCHQ}{Government Communications Headquarters}
+\newacronym{IATA}{IATA}{International Air Transport Association}
+\newacronym{ISU}{ISU}{Initial Signalling Unit}
+\glossarystyle{long}
+\renewcommand{\glsgroupskip}{}%
+\setlength\glsdescwidth{\linewidth}%
+\makeglossaries
+\usepackage{microtype}
+\makeatletter
+%non-file image placeholders
+%\def\Ginclude@graphics#1{%
+%  \begingroup\fboxsep=-\fboxrule
+%  \framebox[\@ifundefined{Gin@@ewidth}{150pt}{\Gin@@ewidth}]%
+%      {\rule{0pt}{\@ifundefined{Gin@@eheight}{100pt}{\Gin@@eheight}}
+%      \raisebox{3pt}{\texttt{#1}}}%
+%  \endgroup}
+%\makeatother 
+
+\newcommand{\numold}[1]{#1}
+% Allow ``No Starch Press''-like custom line numbers (essentially, bulleted line numbers for only those lines the author will address)
+\newcounter{lstNoteCounter}
+\newcommand{\lnnum}[1]{#1}
+\newcommand*{\lnote}{\stepcounter{lstNoteCounter}\vbox{\llap{{\lnnum{\thelstNoteCounter}}\hskip 1em}}}
+\lstnewenvironment{csource2}[1][]
+{
+    \setcounter{lstNoteCounter}{0}
+    \lstset{basicstyle=\ttfamily,numberstyle=\numold,numbers=right,frame=lines,framexleftmargin=0.5em,framexrightmargin=0.5em,backgroundcolor=\color{lightyellow},showstringspaces=true,escapeinside={(*@}{@*)},#1}
+}
+{}
+%\usepackage[abs]{overpic}
+%\setlength\unitlength{0.1mm}
+%\usepackage[pdf]{pstricks}
+%\usepackage[on]{auto-pst-pdf} 
+\usepackage{tikz}
+\usepackage{picture}
+\usepackage{adjustbox}
+\usepackage{footmisc}
+\begin{document}
+\author{\href{http://www.paul.sladen.org/}{Paul Sladen%
+},\, \href{http://www.19inch.net/}{Nineteen Inch Networks},\, Nottingham GBR
+}
+\title{%
+Briefing note on the Inmarsat publication of 23--24~May~2014
+pursuant to the occurrence of
+$9$M\BeginAccSupp{method=hex,unicode,ActualText=002D}--\EndAccSupp{}MRO~on~7--8~March~2014%
+}
+\date{
+%Unc%
+C%
+irculated to the \acrlong{AAIB}
+%as of
+on
+3~July~2014\\\textsc{in re} \href{https://www.whatdotheyknow.com/request/9m_mro75008f_aes_exchange_iq_sni}{\BeginAccSupp{method=hex,unicode,ActualText=0050}\textsc{p\hspace{0.09em}}\EndAccSupp{}0011293}}
+\maketitle
+\vspace{-0.7em}
+%\bigskip
+%\section*{Abstract}
+
+{This briefing note offers a non-technical overview of Inmarsat logs
+published on 23/24~May~2014 and how these relate to a later
+redacted publication by the Malayasian DCA\footnote{\acrlong{MDCA}.\,\href{http://www.dca.gov.my/mainpage/MH370\%20Data\%20Communication\%20Logs.pdf}{www.dca.gov.my/mainpage/MH370~Data~Communication~Logs.pdf}} on 27~May~2014.\unskip\parfillskip-0.103em \par}
+\vspace{-1.5em}
+\section{Introduction}
+\vspace{-0.70em}
+{On 20/23~May 2014 CNN recorded television footage at Inmarsat HQ in
+London.  This was broadcast on 24~May 2014 and subsequently screened
+as three cuts of varying length.%
+\footnote{CNN broadcast lengths (and 1280$\times$720 archive filesizes):\hspace{0.4em}
+\href{http://cnn-f.akamaihd.net/cnn/big/world/2014/05/27/intv-quest-inmarsat-data-dickinson.cnn_27014108_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4}
+{3m\,34s} (74\,\textsc{MB}),\hspace{0.4em}
+\href{http://cnn-f.akamaihd.net/cnn/big/world/2014/05/27/pkg-quest-inmarsat-data.cnn_27020448_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4}
+{4m\,54s} (101\,\textsc{MB}),\hspace{0.4em}
+\href{http://cnn-f.akamaihd.net/cnn/big/world/2014/05/27/intv-quest-uk-inmarsat-dickinson-long.cnn_27080346_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4}
+{9m\,46s} (201\,MB)}
+The bulk of material came from a one-to-one interview between CNN
+reporter Richard Quest and Inmarsat Director of Satellite Operations
+Mark Dickinson during the morning of
+23~May~2014.\unskip\parfillskip-0.103em \par}
+
+{During this interview Dickinson openly displayed several pages of printed log
+files.  These sections form the unredacted records of communication between
+Inmarsat's ground infrastructure and the \gls{MRO} for 7~March~2014.\unskip\parfillskip-0.103em \par}
+
+\newcommand\measurepage{\dimexpr\pagegoal-\pagetotal-\baselineskip\relax}
+
+%\vfill
+%\vspace{-0.25em}
+\vspace{0.25em}
+\begin{figure}[ht!]
+\label{cnn-dickinson-caption}
+\setlength{\abovecaptionskip}{-0.2em plus 0.5em minus 0.5em}
+%\renewcommand{\textfraction}{10}
+%\setlength{\floatsep}{5pt plus 2pt minus 2pt}
+%\setlength{\textfloatsep}{5pt plus 2pt minus 2pt}
+%\setlength{\intextsep}{5pt plus 2pt minus 2pt}
+\centering
+%\includegraphics[width=0.84\textwidth]{cnn-dickinson-quest-caption-1280x696.jpg}
+%\includegraphics[height\textheight]{cnn-dickinson-quest-caption-1280x696.jpg}
+%\includegraphics[height=\measurepage-1.80em,keepaspectratio]{cnn-dickinson-quest-caption-1280x696.jpg}
+%\includegraphics[width=0.94\textwidth,height=\measurepage-3em,keepaspectratio,trim=0 10mm 0 0,clip]{cnn-dickinson-quest-holding-caption-1280x720.jpg}
+\resizebox{0.94\textwidth}{!}{%
+% left bottom right top
+\clipbox{0 2.55mm 0 0}{%
+\begin{picture}(128.0mm, 72.0mm)(0,0)%
+\put(0,0){\includegraphics[width=128.0mm,keepaspectratio]{cnn-dickinson-quest-holding-caption-1280x720.jpg}}%
+\put(0,0){\includegraphics[width=128.0mm,keepaspectratio]{{dickinson-quest-overlay}.pdf}}%
+\end{picture}%
+}}%
+\caption[Mark Dickinson and Richard Quest with logs at Inmarsat HQ---23 May 2014]{Reviewing a page of the unredacted signalling unit log files in London at Inmarsat~HQ on 23~May~2014.
+\textsc{Left:} Mark Dickinson, Inmarsat. \textsc{Right:} Richard Quest, CNN\hfill(CNN)}
+\end{figure}
+\vspace{-0.25em}
+
+
+\newpage
+
+\subsection{Radio frequencies}
+
+Boeing 777 aircraft are equiped with several radio-frequency
+communication systems.  Amongst these are Airband VHF radio,
+long-distance HF radio and L-Band satellite.  VHF Airband works
+immediately above the frequencies used for FM~broadcasting and is at
+108--137\,MHz.  HF (high-frequency) can travel longer distances because
+it uses much lower frequencies than VHF communication. Conversely,
+satellite Aero L-Band uses higher frequencies than VHF, receiving at
+1545--1555\,MHz and transmitting at 1646.5--1656.5\,MHz.  All three sets of
+frequencies can transport voice and simple Telex messaging/data support, at a
+level comparable to 1990s-era GSM mobile telephones.
+
+The L-Band frequencies are close to those used by GPS, and so only
+work outdoors where there is direct line-of-sight to a satellite.  Some
+other automatically-activated radios use the frequencies in-between:
+secondary \acrshort{RADAR} responders at 1030\,MHz/1090\,MHz, and Emergency Locator Beacons
+(ELTs) at 406\,MHz.  We will only cover the Aero satellite radio communications.
+
+\subsection{ACARS and SATCOM}
+
+The \gls{ACARS} performs transhipment of short messages and
+data fragments over the VHF, HF or Satcom links.  At the other
+end of the links the \gls{ACARS} network providers (a bit like an ISP)
+ensure the messages are transported onwards and delivered to each
+airline's operations centre.  The dominant ACARS providers are SITA in
+Asia, and ARNIC in the Americas.
+
+On the aircraft side, interaction with the ACARS applications, and configuration of
+Satcom takes place via two tablet-sized \glsplural{MCDU}
+in the centre pedestal of the cockpit. (Figure~\ref{9m-mro-cockpit})
+
+\begin{figure}[ht!]
+\centering
+\label{9m-mro-cockpit}
+\setlength{\abovecaptionskip}{-0.2em plus 0.5em minus 0.5em}
+\resizebox{0.94\textwidth}{!}{
+%36 38 27 32
+%452mm-101mm-94mm,289mm-78mm-75mm
+%\clipbox{101mm 78mm 94mm 75mm}{
+% left bottom right top
+\clipbox{37.5mm 30mm 35mm 29mm}{
+\begin{picture}(160mm, 102.3mm)(0,0)
+\put(0,0){\includegraphics[angle=-0.49,width=160mm,keepaspectratio]{20040422-9M-MRO-cockpit-Chris-Finney-GFDL12only-0561319-lossless.pdf}}%
+\put(0,0){\includegraphics[angle=-0.49,width=160mm,keepaspectratio]{{cockpit-overlay-left-right-only}.pdf}}
+\end{picture}
+}}
+\caption[$9$M-MRO centre console---22 April 2004]{$9$M-MRO cockpit.
+\textsc{Bottom:} Satcom Main Menu displayed on right-hand \acrlong{MCDU}.
+\textsc{Middle:} SELCALL/Registration reminder stickers.
+\hfill(Chris Finney\, \textsc{gfdl\,1.2})}
+\end{figure}
+
+The \acrlong{MCDU} acts in a similiar manner to a mobile phone.
+Several applications (eg. Weather, Diagnostics, Flight Management) can
+all be used from the same screen and keyboard.  Some applications will
+only activate when the user chooses them, while others (eg. Position reporting, \gls{OOOI},
+Engine Health) will normally run autonomously in
+the background.  In Figure~\ref{9m-mro-cockpit} the \emph{left-hand}
+\gls{MCDU} is shown displaying the choices \gls{FMC} and
+\gls{SAT}.
+
+\section{ACARS Messages}
+
+Communitions between aircraft and the ground are simple and
+text-based.  Like with emails and HTML webpages, the underlying textual
+nature can be followed by humans.  The grammar is terse, much akin to
+old telegraph and Telex messages, and without the excesses of word
+spacing and full-stops.
+
+We will trace a single human-readable textual message, right through
+the stages of its preparation for transmission within the \gls{ACARS} system
+in the aircraft, out via SATCOM, and until it reaches the \gls{GES}.  We
+will then compare this with the published log files that are the
+subject of this briefing note.
+
+\subsection{ACARS Out Off On In}
+
+Just after 16:41:39 on 7 March 2014 the event reporter on-board the aircraft requested
+to transmit a message showing that the aircraft had taken off from a runway.  This ``sentence'' was:
+
+\begin{lstlisting}[language=ACARS,linewidth=\textwidth,numbers=left]
+OFF01MAS370    /--071641WMKKZBAA
+1641 492
+\end{lstlisting}
+
+The first line shows take-off time, plus departure and destination aerodrome;
+while the second line covers fuel availability.  The individual ``words'' in the message are:
+
+\begin{center}
+\begin{tabular}{p{1.5cm}p{2cm}p{8cm}}
+\hfill\texttt{OFF01}&event&taking \emph{off} (first message)\\
+\hfill\texttt{MAS370}&callsign&\acrshort{ICAO} code \emph{MAS}\,+\emph{370} flight number\\
+\hfill\texttt{071641}&timestamp& \emph{07} March 2014 \emph{16:41} UTC\\
+\hfill\texttt{WMKK}&from&\emph{Kuala Lumpur}\\
+\hfill\texttt{ZBAA}&to&\emph{Beijing Capital}\\
+\hline
+\hfill\texttt{1641}&time&\emph{16:41} UTC\\
+\hfill\texttt{492}&fuel&calculated \emph{49,200 kg} fuel on-board (FOB)\\
+\end{tabular}
+\end{center}
+
+\subsection{ACARS Application}
+
+The \gls{OOOI} event reporter is one of several applications that can run
+over the intrastructure provided by \gls{ACARS}.  These applications are
+like the many ``apps'' that can be found on a smartphone, each has a
+different use but all of then use the same display, keyboard, and network
+connection. To ensure that any reply can be routed back to the correct
+application on-board the aircraft some additional contextual information needs to be added at the
+start:
+
+\begin{lstlisting}[language=ACARS,linewidth=\textwidth]
+M02AMH0370§\textcolor{gray}{OFF01MAS370}§    §\textcolor{gray}{/-{}-071641WMKKZBAA}§
+§\textcolor{gray}{1641 492}§
+\end{lstlisting}
+
+These are a message ID to allow for tracking, and the flight ID so
+that it is clear which flight segment this relates to:
+
+\begin{center}
+\begin{tabular}{p{1.5cm}p{2cm}p{8cm}}
+\hfill\texttt{M02A}&message ID&\emph{Message 02-A} (it can be anything unique)\\
+\hfill\texttt{MH0370}&flight ID&\acrshort{IATA} code \emph{MH}\,+\emph{0370} flight number\\
+\hline
+\hfill\textcolor{gray}{\texttt{\ldots}}&\textcolor{gray}{message}&\textcolor{gray}{[see above]}\\
+\end{tabular}
+\end{center}
+
+\newpage
+\subsection{ACARS Datalink Header}
+
+{Each stage in preparing for transmission wraps the message with some extra information:\unskip\parfillskip-0.103em \par}
+
+\begin{lstlisting}[language=ACARS,numbers=left,linewidth=\textwidth]
+2.9M-MRO<NAK>122<STX>M02AMH0370§\textcolor{gray}{OFF01MAS370}§    §\textcolor{gray}{/-{}-071641WMKKZBAA}§\r\n
+§\textcolor{gray}{1641 492}§<ETX>
+\end{lstlisting}
+
+{With the extra header and footer parts, the main message it is still readable. New parts are:\unskip\parfillskip-0.103em \par}
+
+\begin{center}
+\begin{tabular}{p{1.5cm}p{2cm}p{8cm}}
+\hfill\texttt{2}&mode&always \emph{2}\\
+\hfill\texttt{9M-MRO}&registration&aircraft regisration, \emph{9M-} is Malayasia\\
+\hfill\texttt{<NAK>}&acknowledge&\emph{Negative Acknowledgement}\\
+\hfill\texttt{12}&label&a type \emph{12} message\\
+\hfill\texttt{2}&DBI&always \emph{2}\\
+\hfill\texttt{<STX>}&text&\emph{Start of Text} part\\
+\hline
+\hfill\textcolor{gray}{\texttt{\ldots}}&\textcolor{gray}{message}&\textcolor{gray}{[see above]}\\
+\hline
+\hfill\texttt{<ETX>}&text&\emph{End of Text} part\\
+\end{tabular}
+\end{center}
+
+\subsubsection*{Hexadecimal view}
+At this point will will introduce a second representation of the same
+message, but using the values of the characters as the computer see
+them.  These values are shown as pairs of hexadecimal digits (\texttt{0--F}).  We can follow the hex string and pick out the decimal numbers in the
+\textcolor{red}{flight} ID, the date/\textcolor{blue}{time}, the
+\textcolor{green}{fuel} load, and the repeated characters in the
+registration
+\textsc{`\textcolor{red}{9}m\textcolor{lightgray}{-}m\textcolor{lightgray}{ro}'},
+the word \textsc{`\textcolor{lightgray}{o}ff'}, the two hyphens `-{}-', and
+the two airport codes \textsc{`\textcolor{lightgray}{wm}kk'} and
+\textsc{`\textcolor{lightgray}{zb}aa'}:
+
+\begin{lstlisting}[language=ACARS]
+         §\textcolor{lightgray}{32 2E 3\textcolor{red}{9} \textcolor{black}{4D} 2D \textcolor{black}{4D} 52 4F 15 31 32 32 02 4D 30 32 41 4D 48 3\textcolor{red}{0} 3\textcolor{red}{3}}§
+§\textcolor{lightgray}{3\textcolor{red}{7} 3\textcolor{red}{0} 4F \textcolor{black}{46 46} 30 31 4D 41 53 3\textcolor{red}{3} 3\textcolor{red}{7} 3\textcolor{red}{0} 20 20 20 20 2F \textcolor{black}{2D 2D} 3\textcolor{blue}{0} 3\textcolor{blue}{7} 3\textcolor{blue}{1} 3\textcolor{blue}{6}§
+§3\textcolor{blue}{4} 3\textcolor{blue}{1}} \textcolor{lightgray}{57 4D \textcolor{black}{4B 4B} 5A 42 \textcolor{black}{41 41} 0D 0A 3\textcolor{blue}{1} 3\textcolor{blue}{6} 3\textcolor{blue}{4} 3\textcolor{blue}{1} 20 3\textcolor{green}{4} 3\textcolor{green}{9} 3\textcolor{green}{2} 03}
+\end{lstlisting}
+
+\subsection{ACARS Datalink parity}
+
+Humans work best with letters and words, but the computer is working
+with numbers.  So far these values for the characters have all been
+limited to the 128 values between 0--127 (\texttt{00--7F}). Adding a
+parity bit means there are now 256 possible values between 0--255
+(\texttt{00--FF}) and these are called \textbf{octets} because they consist of 8-bits.  These extra values can be used for detecting
+errors because, although all of the values \emph{are possible}, not all of the combinations \emph{are allowed:}
+
+\begin{lstlisting}[language=ACARS]
+         §\textcolor{lightgray}{32 \textcolor{black}{AE B9 CD AD CD} 52 4F 15 31 32 32 02 \textcolor{black}{CD B0} 32 \textcolor{black}{C1 CD C8 B0 B3}}§
+§\textcolor{lightgray}{37 \textcolor{black}{B0} 4F 46 46 \textcolor{black}{B0} 31 \textcolor{black}{CD C1 D3 B3} 37 \textcolor{black}{B0} 20 20 20 20 2F \textcolor{black}{AD AD B0} 37 31 \textcolor{black}{B6}}§
+§\textcolor{lightgray}{34 31 57 \textcolor{black}{CD CB CB DA C2 C1 C1} 0D \textcolor{black}{8A} 31 \textcolor{black}{B6} 34 31 20 34 \textcolor{black}{B9} 32 \textcolor{black}{83}}
+\end{lstlisting}
+
+
+Half of the values have remained the same, and half have been altered in a predictable way:
+
+\begin{center}
+\begin{tabular}{c|c|cl}
+number & encoding & with parity &\\[0.5em]
+\texttt{`0'} & \texttt{30} & \textbf{\texttt{B0}}&$\leftarrow$\\
+\texttt{`1'} & \texttt{31} & \texttt{31}&\\
+\texttt{`2'} & \texttt{32} & \texttt{32}&\\
+\texttt{`3'} & \texttt{33} & \textbf{\texttt{B3}}&$\leftarrow$\\
+\texttt{`4'} & \texttt{34} & \texttt{34}&\\
+\end{tabular}
+\quad\quad
+\begin{tabular}{c|c|cl}
+number & encoding & with parity &\\[0.5em]
+\texttt{`5'} & \texttt{35} & \textbf{\texttt{B5}}&$\leftarrow$\\
+\texttt{`6'} & \texttt{36} & \textbf{\texttt{B6}}&$\leftarrow$\\
+\texttt{`7'} & \texttt{37} & \texttt{37}&\\
+\texttt{`8'} & \texttt{38} & \texttt{38}&\\
+\texttt{`9'} & \texttt{39} & \textbf{\texttt{B9}}&$\leftarrow$\\
+\end{tabular}
+\end{center}
+
+\subsection{ACARS Datalink checksum}
+
+The next stage is a checksum, which enables the integrity of the full
+message to be validated.  A common everyday example of a checksum is
+the last digit on a credit card---which is not part of the number
+itself but is an artifact calculated by adding up the previous fifteen
+digits.  Including the checksum digit makes it possible to quickly
+catch a number which has been read, or transcribed incorrectly.
+
+For the \gls{ACARS} checksum, a \gls{CRC16} is used for producing the summary.  The particular \gls{CRC16} variant used is called ``Kermit''
+(named after the frog), and starts with the value zero (\texttt{00~00}), before adding and multiplying the message values together.
+
+\begin{lstlisting}[language=ACARS,numbers=left,linewidth=\textwidth]
+<SOH>§\textcolor{gray}{2.9M-MRO<NAK>122<STX>M02AMH0370OFF01MAS370}§    §\textcolor{gray}{/-{}-071641WMKKZBAA\textbackslash r\textbackslash n}§
+§\textcolor{gray}{1641 492<ETX>}§8.<DEL>
+\end{lstlisting}
+
+\begin{lstlisting}[language=ACARS]
+      §\textcolor{lightgray}{\textcolor{black}{01} 32 AE B9 CD AD CD 52 4F 15 31 32 32 02 CD B0 32 C1 CD C8 B\textcolor{red}{0} B\textcolor{red}{3}}§
+§\textcolor{lightgray}{3\textcolor{red}{7} B\textcolor{red}{0} 4F 46 46 B0 31 CD C1 D3 B\textcolor{red}{3} 3\textcolor{red}{7} B\textcolor{red}{0} 20 20 20 20 2F AD AD B\textcolor{blue}{0} 3\textcolor{blue}{7} 3\textcolor{blue}{1} B\textcolor{blue}{6}}§
+§\textcolor{lightgray}{3\textcolor{blue}{4} 3\textcolor{blue}{1} 57 CD CB CB DA C2 C1 C1 0D 8A 3\textcolor{blue}{1} B\textcolor{blue}{6} 3\textcolor{blue}{4} 3\textcolor{blue}{1} 20 3\textcolor{green}{4} B\textcolor{green}{9} 3\textcolor{green}{2} 83 \textcolor{black}{B8 7E 7F}}§
+\end{lstlisting}
+
+\begin{center}
+\begin{tabular}{p{1.5cm}p{2cm}p{8cm}}
+\hfill\texttt{<SOH>}&header&\emph{Start Of Header}\\
+\hline
+\hfill\textcolor{gray}{\texttt{\ldots}}&\textcolor{gray}{message}&\textcolor{gray}{[see above]}\\
+\hline
+\hfill\texttt{B8 7E}&checksum&calculated total of previous octets\\
+\hfill\texttt{<DEL>}&footer&\emph{Delete}, end, stop processing
+\end{tabular}
+\end{center}
+
+\dots
+
+At this point the message is ready and is identical whether sent via
+VHF\,Com, via HF\,Com or via Satcom.  The choice for how to send the
+message is one of availability verses cost.  VHF is cheap, but only
+works near land.  Inmarsat's \emph{Classic Aero} \acrshort{AMSS} service is expensive, but works across the
+whole globe with the only exceptions being close to the North and
+South poles.
+
+The next step is to hand the complete encapsulated ACARS Datalink
+message to the aircraft's \gls{SDU}.
+
+\section{Satcom Data-2}
+
+ACARS messages can be transmitted over the \gls{AMSS}, more commonly shortened to ``Satcom''.
+When sending an ACARS messages via Satcom it is first ``enveloped'' but without any address.
+This leaves all of the decisions and complexity about where to forward the received ACARS message to
+the \gls{GES} .  All the
+\acrlong{SDU} does is to add a two-octet header on the
+front consisting of \texttt{FF~FF}.
+\vfill
+\begin{lstlisting}[language=ACARS,linewidth=\textwidth]
+..§\textcolor{gray}{<SOH>2.9M-MRO<NAK>122<STX>M02AMH0370OFF01MAS370}§    §\textcolor{gray}{/-{}-071641WMKKZBAA\textbackslash r\textbackslash n}§
+§\textcolor{gray}{1641 492<ETX>8.<DEL>}§
+\end{lstlisting}
+
+\begin{lstlisting}[language=ACARS]
+§\textcolor{lightgray}{\textcolor{black}{FF FF} 01 32 AE B9 CD AD CD 52 4F 15 31 32 32 02 CD B0 32 C1 CD C8 B\textcolor{red}{0} B\textcolor{red}{3}}§
+§\textcolor{lightgray}{3\textcolor{red}{7} B\textcolor{red}{0} 4F 46 46 B0 31 CD C1 D3 B\textcolor{red}{3} 3\textcolor{red}{7} B\textcolor{red}{0} 20 20 20 20 2F AD AD B\textcolor{blue}{0} 3\textcolor{blue}{7} 3\textcolor{blue}{1} B\textcolor{blue}{6}}§
+§\textcolor{lightgray}{3\textcolor{blue}{4} 3\textcolor{blue}{1} 57 CD CB CB DA C2 C1 C1 0D 8A 3\textcolor{blue}{1} B\textcolor{blue}{6} 3\textcolor{blue}{4} 3\textcolor{blue}{1} 20 3\textcolor{green}{4} B\textcolor{green}{9} 3\textcolor{green}{2} 83 B8 7E 7F}§
+\end{lstlisting}
+
+\begin{center}
+\begin{tabular}{p{1.5cm}p{2cm}p{8cm}}
+\hfill\texttt{FF FF}&envelope&\emph{Arrange automatic ACARS forwarding}\\
+\hline
+\hfill\textcolor{gray}{\texttt{\ldots}}&\textcolor{gray}{message}&\textcolor{gray}{[see above]}\\
+\end{tabular}
+\end{center}
+
+\subsection{SATCOM Reliable Link Service}
+
+The \gls{RLS} is a part of the \gls{AMSS} system which ensures that
+only whole and complete messages are forwarded on.  The RLS achives
+its \emph{reliability} by cooperation of the \gls{AES} on the aircraft and \gls{GES}
+to arrange for retransmiting individual missing parts.  The \gls{RLS}
+prepares the full message by chopping it up into smaller pieces.  No
+new octets are added during the splitting.
+
+{There is space for \textbf{two octets} in the first part, then space for \textbf{eight
+octets} in the subsequent parts:\unskip\parfillskip-0.103em \par}\vspace{0.5em}
+
+\begin{lstlisting}[language=ACARS]
+§\textcolor{lightgray}{FF FF 01 32 AE B9 CD AD CD 52 4F 15 31 32 32 02 CD B0 32 C1 CD C8 B0 B3}§
+§\textcolor{lightgray}{37 B0 4F 46 46 B0 31 CD C1 D3 B3 37 B0 20 20 20 20 2F AD AD B0 37 31 B6}§
+§\textcolor{lightgray}{34 31 57 CD CB CB DA C2 C1 C1 0D 8A 31 B6 34 31 20 34 B9 32 83 B8 7E 7F}§
+\end{lstlisting}
+
+%\begin{center}\vspace{-0.9em}\hspace{-1.42em}$\Downarrow $\hspace{7em}$\Downarrow $\end{center}
+\vspace{-0.75em}\hspace{12.3em}$\Downarrow $\hspace{8.67em}\raisebox{0.8em}{$\Downarrow $}\vspace{0.1em}
+\begin{lstlisting}[language=SATCOM,numbers=left]
+                         §\textcolor{darkgray}{FF FF}§                 ..
+       §\textcolor{darkgray}{01 32 AE B9 CD AD CD 52}§           .2.9M-MR
+       §\textcolor{darkgray}{4F 15 31 32 32 02 CD B0}§           O.122.M0
+       §\textcolor{darkgray}{32 C1 CD C8 B0 B3 37 B0}§           2AMH0370
+       §\textcolor{darkgray}{4F 46 46 B0 31 CD C1 D3}§           OFF01MAS
+       §\textcolor{darkgray}{B3 37 B0 20 20 20 20 2F}§           370    /
+       §\textcolor{darkgray}{AD AD B0 37 31 B6 34 31}§           --071641
+       §\textcolor{darkgray}{57 CD CB CB DA C2 C1 C1}§           WMKKZBAA
+       §\textcolor{darkgray}{0D 8A 31 B6 34 31 20 34}§           ..1641 4
+       §\textcolor{darkgray}{B9 32 83 B8 7E 7F}§                 92.8..
+\end{lstlisting}
+
+Each of the ten parts will become a \textbf{Signalling Unit}.  The
+complete set of the units will become a
+\textbf{Signalling Unit Set} .
+
+\subsection{SATCOM padding}
+
+All of the parts except for the first must be exactly eight octets in
+length.  When the last part of the split message does not align
+exactly to the boundary, it must be \emph{padded out} to the full width; zeros (\texttt{00}) are used.  The number of genuine (non-padding) octets
+in the last part is recorded.
+
+\vspace{0.5em}
+
+\begin{lstlisting}[language=SATCOM,numbers=none]
+                      §\textcolor{black}{6}\textcolor{darkgray}{0} \textcolor{lightgray}{FF FF}§                `..
+       §\textcolor{lightgray}{01 32 AE B9 CD AD CD 52}§           .2.9M-MR
+       §\textcolor{lightgray}{4F 15 31 32 32 02 CD B0}§           O.122.M0
+       §\textcolor{lightgray}{32 C1 CD C8 B0 B3 37 B0}§           2AMH0370
+       §\textcolor{lightgray}{4F 46 46 B0 31 CD C1 D3}§           OFF01MAS
+       §\textcolor{lightgray}{B3 37 B0 20 20 20 20 2F}§           370    /
+       §\textcolor{lightgray}{AD AD B0 37 31 B6 34 31}§           --071641
+       §\textcolor{lightgray}{57 CD CB CB DA C2 C1 C1}§           WMKKZBAA
+       §\textcolor{lightgray}{0D 8A 31 B6 34 31 20 34}§           ..1641 4
+       §\textcolor{lightgray}{\underline{B9 32 83 B8 7E 7F}} \textcolor{black}{00 00}§           92.8....
+\end{lstlisting}
+
+%In order to distinguish which are padding octets and which are the
+%last part of the message, 
+
+\begin{center}
+\begin{tabular}{p{1.5cm}p{2cm}p{8cm}}
+\hfill\texttt{6\textcolor{darkgray}{0}}&length&\emph{6} valid octets in last part\\
+\hline
+\hfill\textcolor{gray}{\texttt{\ldots}}&\textcolor{gray}{message}&\textcolor{gray}{[see above]}\\
+\hline
+\hfill\texttt{00}&padding&fill to end ($8-6=2\times padding$\,)\\
+\end{tabular}
+\end{center}
+
+\clearpage
+\subsection{SATCOM sequence and priority}
+
+To show that all of the parts belong to the same set, they are each
+given a sequence number (position) within the set, plus a shared identifier for the whole
+set and a shared prioritisation rating.
+
+\begin{lstlisting}[language=SATCOM,numbers=left]
+                §\textcolor{black}{7D} \textcolor{darkgray}{0}§9 §\textcolor{lightgray}{60 FF FF}§              }.`..
+ 8 §\textcolor{black}{7D}§  §\textcolor{lightgray}{01 32 AE B9 CD AD CD 52}§         .}.2.9M-MR
+ 7 §\textcolor{black}{7D}§  §\textcolor{lightgray}{4F 15 31 32 32 02 CD B0}§         .}O.122.M0
+ 6 §\textcolor{black}{7D}§  §\textcolor{lightgray}{32 C1 CD C8 B0 B3 37 B0}§         .}2AMH0370
+ 5 §\textcolor{black}{7D}§  §\textcolor{lightgray}{4F 46 46 B0 31 CD C1 D3}§         .}OFF01MAS
+ 4 §\textcolor{black}{7D}§  §\textcolor{lightgray}{B3 37 B0 20 20 20 20 2F}§         .}370    /
+ 3 §\textcolor{black}{7D}§  §\textcolor{lightgray}{AD AD B0 37 31 B6 34 31}§         .}--071641
+ 2 §\textcolor{black}{7D}§  §\textcolor{lightgray}{57 CD CB CB DA C2 C1 C1}§         .}WMKKZBAA
+ 1 §\textcolor{black}{7D}§  §\textcolor{lightgray}{0D 8A 31 B6 34 31 20 34}§         .}..1641 4
+ 0 §\textcolor{black}{7D}§  §\textcolor{lightgray}{B9 32 83 B8 7E 7F 00 00}§         .}92.8....
+\end{lstlisting}
+
+The priority and message set identifier both remain common to all of
+the parts, while the sequence number counts down to zero.  A longer
+original message will use a starting sequence number which is higher.  The last sequence number will always be zero.
+
+\begin{center}
+\begin{tabular}{p{1.5cm}p{2cm}p{8cm}}
+\hfill\texttt{9--0}&sequence no&position in message (counting down)\\
+\hfill\texttt{D}&grouping&Signalling set identifier (same across the set)\\
+\hfill\texttt{7}&priority&\emph{normal} priority (scale of 0--15)\\
+\hline
+\hfill\textcolor{gray}{\texttt{\ldots}}&\textcolor{gray}{message}&\textcolor{gray}{[split parts from above]}\\
+\end{tabular}
+\end{center}
+
+\subsection{SATCOM addressing}
+
+Every ACARS message sent over Satcom is re-broadcast to one-third of
+the whole the planet.  Because of the number of listeners it is necessary to
+know precisely which \gls{GES} the message is destined for, and whom the sender
+was.
+
+The identities of the sender and destination are added to the first
+part of the set.  The \emph{from address} is the unique address of the
+\gls{AES} onboard the aircraft.  For \gls{MRO} this is \acrshort{75008F}.  The \emph{to address} is the unique
+address of the \gls{GES} in Perth which is \acrshort{GES305}, or \acrshort{C5} in hexadecimal form:
+
+\begin{lstlisting}[language=SATCOM,numbers=none]
+   75  00 8F C5 §\textcolor{lightgray}{7D 09 60 FF FF}§          u...}.`..
+ §\textcolor{lightgray}{8 7D}§  §\textcolor{lightgray}{01 32 AE B9 CD AD CD 52}§         .}.2.9M-MR
+ §\textcolor{lightgray}{7 7D}§  §\textcolor{lightgray}{4F 15 31 32 32 02 CD B0}§         .}O.122.M0
+ §\textcolor{lightgray}{6 7D}§  §\textcolor{lightgray}{32 C1 CD C8 B0 B3 37 B0}§         .}2AMH0370
+ §\textcolor{lightgray}{5 7D}§  §\textcolor{lightgray}{4F 46 46 B0 31 CD C1 D3}§         .}OFF01MAS
+ §\textcolor{lightgray}{4 7D}§  §\textcolor{lightgray}{B3 37 B0 20 20 20 20 2F}§         .}370    /
+ §\textcolor{lightgray}{3 7D}§  §\textcolor{lightgray}{AD AD B0 37 31 B6 34 31}§         .}--071641
+ §\textcolor{lightgray}{2 7D}§  §\textcolor{lightgray}{57 CD CB CB DA C2 C1 C1}§         .}WMKKZBAA
+ §\textcolor{lightgray}{1 7D}§  §\textcolor{lightgray}{0D 8A 31 B6 34 31 20 34}§         .}..1641 4
+ §\textcolor{lightgray}{0 7D}§  §\textcolor{lightgray}{B9 32 83 B8 7E 7F 00 00}§         .}92.8....
+\end{lstlisting}
+
+\begin{center}
+\begin{tabular}{p{1.5cm}p{2cm}p{8cm}}
+\hfill\texttt{75008F}&source&\acrshort{AES} \acrshort{ICAO} 24-bit address for \acrshort{MRO}\\
+\hfill\texttt{C5}&destination&\acrshort{GES} 305 at Perth\\
+\hline
+\hfill\textcolor{gray}{\texttt{\ldots}}&\textcolor{gray}{message}&\textcolor{gray}{[see above]}\\
+\end{tabular}
+\end{center}
+
+\clearpage
+\subsection{SATCOM Signalling Unit type}
+
+Each \acrlong{SU} is prefixed by its type.  Because the first part
+contains the address details and length information it is special, and is given a different \acrlong{SU} type
+to the remainder of the parts:
+\vfill
+\begin{lstlisting}[language=SATCOM,numbers=left]
+71 §\textcolor{lightgray}{75{ }{ }00 8F C5}§ §\textcolor{lightgray}{7D 09 60 FF FF}§         qu...}.`..
+C8 §\textcolor{lightgray}{7D}§  §\textcolor{lightgray}{01 32 AE B9 CD AD CD 52}§         .}.2.9M-MR
+C7 §\textcolor{lightgray}{7D}§  §\textcolor{lightgray}{4F 15 31 32 32 02 CD B0}§         .}O.122.M0
+C6 §\textcolor{lightgray}{7D}§  §\textcolor{lightgray}{32 C1 CD C8 B0 B3 37 B0}§         .}2AMH0370
+C5 §\textcolor{lightgray}{7D}§  §\textcolor{lightgray}{4F 46 46 B0 31 CD C1 D3}§         .}OFF01MAS
+C4 §\textcolor{lightgray}{7D}§  §\textcolor{lightgray}{B3 37 B0 20 20 20 20 2F}§         .}370    /
+C3 §\textcolor{lightgray}{7D}§  §\textcolor{lightgray}{AD AD B0 37 31 B6 34 31}§         .}--071641
+C2 §\textcolor{lightgray}{7D}§  §\textcolor{lightgray}{57 CD CB CB DA C2 C1 C1}§         .}WMKKZBAA
+C1 §\textcolor{lightgray}{7D}§  §\textcolor{lightgray}{0D 8A 31 B6 34 31 20 34}§         .}..1641 4
+C0 §\textcolor{lightgray}{7D}§  §\textcolor{lightgray}{B9 32 83 B8 7E 7F 00 00}§         .}92.8....
+\end{lstlisting}
+
+The parts can now be transmitted in any order because each part contains its group identifier as well as 
+its position within the group.  The type values are:
+
+\begin{center}
+\begin{tabular}{p{1.5cm}p{2cm}p{8cm}}
+\hfill\texttt{71}&type&\acrlong{ISU}\\
+\hfill\texttt{C8--C0}&type&Subsequent \acrlong{SU} (with sequence)\\
+\end{tabular}
+\end{center}
+
+\subsection{SATCOM Signalling Unit checksum}
+
+To ensure integrity for every individual part, an individual checksum is calculated
+for each \acrfull{SU} and included to make each \acrlong{SU} an equal length of
+twelve octets.
+\vfill
+\begin{lstlisting}[language=SATCOM,numbers=none]
+§\textcolor{lightgray}{71 \textcolor{red}{75}}§  §\textcolor{lightgray}{\textcolor{red}{00 8F} C5 7D 09 60 FF FF}§  19 15  qu...}.`....
+§\textcolor{lightgray}{C8 7D}§  §\textcolor{lightgray}{01 32 AE B\textcolor{red}{9} CD AD CD 52}§  B5 87  .}.2.9M-MR..
+§\textcolor{lightgray}{C7 7D}§  §\textcolor{lightgray}{4F 15 31 32 32 02 CD B0}§  F2 28  .}O.122.M0.(
+§\textcolor{lightgray}{C6 7D}§  §\textcolor{lightgray}{32 C1 CD C8 B\textcolor{red}{0} B\textcolor{red}{3} 3\textcolor{red}{7} B\textcolor{red}{0}}§  72 CA  .}2AMH0370r.
+§\textcolor{lightgray}{C5 7D}§  §\textcolor{lightgray}{4F 46 46 B0 31 CD C1 D3}§  BD 72  .}OFF01MAS.r
+§\textcolor{lightgray}{C4 7D}§  §\textcolor{lightgray}{B\textcolor{red}{3} 3\textcolor{red}{7} B\textcolor{red}{0} 20 20 20 20 2F}§  D0 AA  .}370    /..
+§\textcolor{lightgray}{C3 7D}§  §\textcolor{lightgray}{AD AD B\textcolor{blue}{0} 3\textcolor{blue}{7} 3\textcolor{blue}{1} B\textcolor{blue}{6} 3\textcolor{blue}{4} 3\textcolor{blue}{1}}§  FB D0  .}--071641..
+§\textcolor{lightgray}{C2 7D}§  §\textcolor{lightgray}{57 CD CB CB DA C2 C1 C1}§  BA 5F  .}WMKKZBAA._
+§\textcolor{lightgray}{C1 7D}§  §\textcolor{lightgray}{0D 8A 3\textcolor{blue}{1} B\textcolor{blue}{6} 3\textcolor{blue}{4} 3\textcolor{blue}{1} 20 3\textcolor{green}{4}}§  46 9A  .}..1641 4F.
+§\textcolor{lightgray}{C0 7D}§  §\textcolor{lightgray}{B\textcolor{green}{9} 3\textcolor{green}{2} 83 B8 7E 7F 00 00}§  12 2B  .}92.8.....+
+\end{lstlisting}
+
+For the Satcom error checking, a \acrlong{CRC16} is also used to produce the checksum
+contained within each \acrlong{SU}.  The particular \gls{CRC16} variant used is called ``CCITT'' or ``X.25''
+and starts with the value 65,535 (\texttt{FF\,FF}), before adding and multiplying the message values together.
+
+\begin{center}
+\begin{tabular}{p{1.5cm}p{2cm}p{8cm}}
+\hfill\textcolor{gray}{\texttt{\ldots}}&\textcolor{gray}{message}&\textcolor{gray}{[split parts from above]}\\
+\hline
+\hfill\texttt{NN--NN}&checksum&calculated total of octets in each line\\
+\end{tabular}
+\end{center}
+
+Even with all the wrapping that has taken place to encapsulate and
+prepare the message for transmission, we can still pick out the aircraft
+address, registration, callsign and \textcolor{red}{flight}
+numbers; plus the date/\textcolor{blue}{time}, the \textcolor{green}{fuel}
+load.  The Signalling Unit Set is now ready for transmission.
+
+\section{Space segment}
+
+{An \acrfull{AES} on-board the aircraft must follow the directions of the
+\acrfull{GES} about when it can speak or transmit.\footnote{Several additional layers of
+      wrapping, error correction checksums, interleaving and
+      prepending of training sentences and the addition of the
+      $\mathtt{E15AE893}_{16}$ magic word occur prior to T-Channel RF
+      transmission.  These lower-level processes are not reflected in
+      the (higher-level) unredacted \acrlong{SU} logfiles and are
+      intentionally omitted within this briefing for the sake of
+      readability: the full specification is
+      \href{http://www.icao.int/safety/acp/Inactive\%20working\%20groups\%20library/ACP-WG-M-Iridium-8/IRD-SWG08-WP07\%20-\%20Old_AMSS_material_Ch.4_plus_Attachment.doc}{Part
+        III of the AMS(R)S manual}.}
+
+% https://github.com/sladen/inmarsat-9m-mro/blob/master/inmarsat-su-log-redacted.csv#L419
+
+At 16:41:53.405 the \gls{GES} sent permission for the
+%\acrshort{75008F}
+\gls{AES}
+%\gls{SDU}
+on-board \gls{MRO} to be allowed
+to start transmitting in the next superframe.  This frame
+was scheduled to begin a few seconds later at 16:41:57.  The permitted frequency
+for transmission was given as a nominal 1646.6850\,MHz, with a speed of 1,200
+bits-per-seconds.
+
+% https://github.com/sladen/inmarsat-9m-mro/blob/master/inmarsat-su-log-redacted.csv#L420
+
+%3615.1850
+
+%16:41:57.248
+%16:41:57.409
+%16:41:57.569 
+%16:41:57.728 % Access request
+%16:41:57.905
+%16:41:58.048
+%16:41:58.208
+%16:41:58.399
+%16:41:58.528
+%16:41:58.697
+%16:41:58.729
+%m = (.248,.409,.569,.728,.905,1.048,1.208,1.399,1.528,1.697,1.729)
+%>>> for a,b in zip(m[:-1],m[1:]): print b-a
+
+The transmitted signals left via one of three Satcom L-Band antennas
+on-board the aircraft\footnote{Two side-mounted High-Gain Antennas
+  (HGA) and one roof-mounted Low-Gain Antenna (LGA).} and
+$\frac{1}{8}$~second later were picked up by the \gls{3F1} in orbit, and relayed out again.
+The frequency converter on-board the spacecraft increases the frequencies, changing them from L--Band to C--Band (even higher).  The L$\rightarrow$C frequency converter increases the frequency of all transmission signals by the same amount, so an incoming signal at
+1646.6850\,MHz is rebroadcast at 3615.1850\,MHz.  The spacecraft
+operates as a ``bent-pipe'' and is not aware
+of the contents of the signals it is rebroadcasting.
+
+\begin{figure}[]
+%\setlength{\abovecaptionskip}{-0em plus 0.5em minus 0.5em}
+\centering
+% $ wget http://www.hq.nasa.gov/office/pao/History/presrep96/Presrp96/inmarbig.gif
+% $ TZ=UTC ls --full-time inmarbig.gif 
+% $ 1997-10-15 16:00:00
+% convert inmarbig.gif -compress Zip inmarsat-3.pdf
+\includegraphics[angle=180,width=0.5\textwidth]{{inmarsat-clipped}.pdf}
+\caption[Inmarsat-3 spacecraft---15 October 1997. {[\href{http://www.hq.nasa.gov/office/pao/History/presrep96/Presrp96/inmarbig.gif}{original}]}]{Inmarsat-3 spacecraft. (NASA \textsc{public domain})}
+\end{figure}
+\vspace{-1em}
+
+\section{Ground Earth Station}
+
+A further $\frac{1}{8}$~second later again the rebroadcast signals began to
+reach the \acrlongpl{GES} at Eik in Norway and Perth in Australia.
+Additional approximate Doppler compensations were made to the incoming
+signals from the spacecraft, the signal was down-converted
+and demodulated, and ultimately the Signalling Units were decoded.
+One \acrshort{SU} arrived every \~160 milliseconds, with them being
+logged to the \textbf{Signalling Unit logfiles} as
+they went. It took 1.5~seconds for all ten \glsplural{SU} to arrive.
+
+The information that is available to be logged can originate from
+different categories. The first are external observations of the
+transmission: the time, and frequency.  Second are the house keeping
+information such as the Ocean Region that particular \gls{GES} is handling.  Third are
+measurements taken while attempting to decode the transmission such as
+the level of errors, received signal strength, and the frequency and
+timing offsets plus a record of which piece of equipment performed the
+decoding.
+
+Fourth is the data itself, in its hexadecimal form.  Fifth is duplication and
+highlighting of some of the received data for the ease of human
+reading.  Those fields duplicated for human reading include the source and
+destination address, the \gls{SU} type field, priority and reference number;
+and the result of matching the address to a database to obtain the
+\gls{ACARS} network provider (SITA) to replace the \texttt{FF\,FF} ``envelope'' for onwards delivery.
+
+\subsection{Signalling Unit log file comparisons}
+
+Figure \ref{164157.248-hex} and \ref{164157.248-photograph} match the earlier
+\gls{OOOI} take-off message to the \gls{CSV} print outs shown to CNN by
+Inmarsat on 23 May 2014 in the pages of unredacted \gls{SU} log
+files.  In Figure \ref{164157.248-photograph} the 3615.1850\,MHz
+frequency\footnote{Nominal channel frequency. Doppler pre- and post-compensation discussion is omitted in this briefing note.}
+ can be seen as $\mathtt{36FA}$ in the \emph{Channel Name} column.\footnote{
+\,$\mathtt{hex}(\frac{{3615.1850\,{MHz}\ input}-{1968.5\,MHz\ spacecraft\_local\_oscillator_{LtoC}}-{101.5\,MHz\ tx\_shift_{LtoL}}-{1510.0\,MHz\ base}}{0.0025\,MHz {\ channel\_width}})$}
+
+%\vfill
+\begin{figure}[ht!]%
+\setlength{\abovecaptionskip}{0.5em plus 0.5em minus 0.5em}%
+\label{164157.248-hex}%
+\begin{lstlisting}[language=SATCOM,numbers=left]
+71 §\textcolor{red}{75}§  §\textcolor{red}{00 8F}§ C5 7D 09 60 FF FF  19 15  qu...}.`....
+C8 7D  01 32 AE B§\textcolor{red}{9}§ CD AD CD 52  B5 87  .}.2.§\textcolor{red}{9}§M-MR..
+C7 7D  4F 15 31 32 32 02 CD B0  F2 28  .}O.122.M0.(
+C6 7D  32 C1 CD C8 B§\textcolor{red}{0}§ B§\textcolor{red}{3}§ 3§\textcolor{red}{7}§ B§\textcolor{red}{0}§  72 CA  .}2AMH§\textcolor{red}{0370}§r.
+C5 7D  4F 46 46 B0 31 CD C1 D3  BD 72  .}§{\setlength{\fboxsep}{0.15em}\colorbox{lightskyblue}{OFF01MAS}}§.r
+C4 7D  B§\textcolor{red}{3}§ §3\textcolor{red}{7}§ §B\textcolor{red}{0}§ 20 20 20 20 2F  D0 AA  .}§{\setlength{\fboxsep}{0.15em}\colorbox{lightskyblue}{\textcolor{red}{370}{ }{ }{ }{ }/}}§..
+C3 7D  AD AD B§\textcolor{blue}{0}§ 3§\textcolor{blue}{7}§ 3§\textcolor{blue}{1}§ B§\textcolor{blue}{6}§ 3§\textcolor{blue}{4}§ 3§\textcolor{blue}{1}§  FB D0  .}§{\setlength{\fboxsep}{0.15em}\colorbox{lightskyblue}{{-}{-}\textcolor{blue}{071641}}}§..
+C2 7D  57 CD CB CB DA C2 C1 C1  BA 5F  .}§{\setlength{\fboxsep}{0.15em}\colorbox{lightskyblue}{WMKKZBAA}}§._
+C1 7D  0D 8A 3§\textcolor{blue}{1}§ B§\textcolor{blue}{6}§ 3§\textcolor{blue}{4}§ 3§\textcolor{blue}{1}§ 20 3§\textcolor{green}{4}§  46 9A  .}§{\setlength{\fboxsep}{0.15em}\colorbox{lightskyblue}{..\textcolor{blue}{1641} \textcolor{green}{4}}}§F.
+C0 7D  B§\textcolor{green}{9}§ 3§\textcolor{green}{2}§ 83 B8 7E 7F 00 00  12 2B  .}§{\setlength{\fboxsep}{0.15em}\colorbox{lightskyblue}{\textcolor{green}{92}}}§.8.....+
+\end{lstlisting}
+\caption[Unredacted SUs 16:41:57{\small.248}--16:41:58{\small.729} (OOOI SU user data)---7 March 2014]{Unredacted \acrlongpl{SU} 16:41:57{\small.248} to 16:41:58{\small.729}. Highlighted numbers are flight/\textcolor{red}{callsign}, date/\textcolor{blue}{time}, \textcolor{green}{fuel}. Lines start on the \textsc{Left} (\texttt{71}, \texttt{C8}, \texttt{C7}, \ldots, \texttt{C0}).  Compare to Figure~\ref{164157.248-photograph}.}%
+\end{figure}
+
+\begin{figure}[ht!]%
+\centering%
+\label{164157.248-photograph}%
+\setlength{\abovecaptionskip}{0.5em plus 0.5em minus 0.5em}%
+\setlength{\fboxrule}{0.05mm}
+\resizebox{0.90\textwidth}{!}{%
+%\fcolorbox{black}{white}{%
+%36 38 27 32
+%452mm-101mm-94mm,289mm-78mm-75mm
+%\clipbox{101mm 78mm 94mm 75mm}{
+% left bottom right top
+%\clipbox{37.5mm 30mm 35mm 29mm}{
+\clipbox{48mm -32mm 33mm 122mm}{%
+\begin{picture}(128.0mm, 128.0mm)(0,0)%
+\put(0,0){\includegraphics[angle=-39,width=128mm,keepaspectratio]{page1-off.jpg}}%
+\put(0,0){\includegraphics[angle=-39,width=128mm,keepaspectratio]{{page1-oooi-overlay-minus-thumb}.pdf}}%
+\end{picture}%
+}}%}%
+\caption[Unredacted SUs 16:41:57{\small.248}--16:41:58{\small.729} (OOOI annotated photo)---23 May 2014]{Unredacted \acrlong{SU} log 16:41:57{\small.248} to 16:41:58{\small.729}. Highlighted numbers are flight/\textcolor{red}{callsign}, date/\textcolor{blue}{time}, and \textcolor{green}{fuel}.  Cross-reference with values in Figure~\ref{164157.248-hex}.  Highlighted hexadecimal user data lines start on the \textsc{Right} (\texttt{71}, \texttt{C8}, \texttt{C7}, \ldots, \texttt{C0}) and wrap to \textsc{Left} side.  \hfill(CNN)}%
+\end{figure}
+
+\begin{figure}[]%
+%\setlength{\abovecaptionskip}{-0em plus 0.5em minus 0.5em}
+\centering%
+\label{164223.039-photograph}%
+%\includegraphics[angle=-4,width=0.8\textwidth]{{inmarsat-page3-overlay}.pdf}
+\resizebox{0.94\textwidth}{!}{%
+%\fcolorbox{black}{white}{%
+\includegraphics[angle=-4,width=0.94\textwidth]{{inmarsat-page3-overlay-rotated-text}.pdf}}%
+%}%
+\caption[Unredacted SUs 16:42:23{\small.039}--16:42:25{\small.909}---23 May 2014]{Unredacted \acrlong{SU} log 16:42:23{\small.039}--16:42:25{\small.909}. Examples of fields that are present (Time, BFO, BTO, \dots) in Figure~\ref{164223.039-redacted-page} verses other fields not present in the later Malayasian publication (Framing, Sequence, Received Signal Strength, \ldots)   \hfill(CNN)}%
+\end{figure}
+
+\begin{figure}[]%
+%\setlength{\abovecaptionskip}{-0em plus 0.5em minus 0.5em}
+\label{164223.039-redacted-page}%
+\centering%
+\resizebox{0.94\textwidth}{!}{%
+{\setlength{\fboxsep}{3mm}%
+\fcolorbox{black}{white}{%
+%\clipbox{19mm 15mm 33mm 126.2mm}{%
+\clipbox{19mm 0mm 33mm 126.2mm}{%
+%\includegraphics[angle=-0.7,page=21,width=0.8\textwidth,trim=19mm 15mm 33mm 126mm,clip]{{"../MH370 Data Communication Logs"}.pdf}}
+\includegraphics[angle=0,page=21]{{"../MH370 Data Communication Logs"}.pdf}}}}}%
+\caption[\hspace{0.96em}Redacted SUs 16:42:23{\small.039}--16:42:25{\small.909}---27 May 2014]{Redacted \acrlong{SU} log 16:42:23{\small.039}--16:42:25{\small.909} from the Malayasian publication. 
+Artifacts of manual preparation are apparent in the stepped misalignment of the first column verses remaining columns---visible at the cut-line.
+Match values with Figure~\ref{164223.039-photograph}. \hfill(\gls{MDCA})}%
+\end{figure}%
+\vspace{-1em}
+
+\vspace{-1em}
+
+\vspace{0.25em}
+\begin{figure}[ht!]%
+\label{cnn-dickinson-field-headings}
+%\setlength{\abovecaptionskip}{-0.2em plus 0.5em minus 0.5em}
+\centering%
+\resizebox{0.94\textwidth}{!}{%
+% left bottom right top
+\clipbox{0 2.55mm 0 0}{%
+\begin{picture}(128.0mm, 72.0mm)(0,0)%
+\put(0,0){\includegraphics[width=128.0mm,keepaspectratio]{cnn-dickinson-page2-example-1280x720.jpg}}%
+\put(0,0){\includegraphics[width=128.0mm,keepaspectratio]{{cnn-dickinson-page2-example-overlay}.pdf}}%
+\end{picture}%
+}}%
+\caption[Mark Dickinson with 16:42:04{\small.408} example---23 May 2014]{%
+Mark Dickinson showing various unredacted log file sections to CNN on 23~May 2014.\\
+\textsc{Centre:} 16:42:04{\small.408} \acrshort{SU} highlighted.
+\textsc{Left:} Mark Dickinson, at Inmarsat HQ. \hfill(CNN)}
+\end{figure}
+\vspace{-0.25em}
+
+\begin{figure}[]%
+%\setlength{\abovecaptionskip}{-0em plus 0.5em minus 0.5em}
+\label{164204.408-page1}%
+\centering%
+\resizebox{0.94\textwidth}{!}{%
+{\setlength{\fboxsep}{2mm}%
+\fcolorbox{black}{white}{%
+%left bottom right top
+%\clipbox{28mm 71.6mm 25mm 98.58mm }{%
+\clipbox{27.6mm 71.6mm 34mm 98.58mm }{%
+%\includegraphics[angle=-0.7,page=21,width=0.8\textwidth,trim=19mm 15mm 33mm 126mm,clip]{{"../MH370 Data Communication Logs"}.pdf}}
+\includegraphics[angle=0,page=1]{{"../MH370 Data Communication Logs"}.pdf}}}}}%
+% Why can't I use \phantom{s} here?
+\caption[Unredacted SU\hspace{0.37em} 16:42:04{\small.408} (MDCA example)---27 May 2014]{Later \acrlong{MDCA} publication with 16:42:04{\small.408} example given on Page~1 only.  Cross-checked for validity with previously obtained
+Figure~\ref{164204.408-photograph}. \hfill(\gls{MDCA})}%
+\end{figure}
+
+\begin{figure}[]%
+\vspace{3em}%
+%\setlength{\abovecaptionskip}{-0em plus 0.5em minus 0.5em}
+\label{164204.408-photograph}
+\centering%
+\resizebox{0.94\textwidth}{!}{%
+\begin{picture}(173.0mm, 70.4mm)(0,0)%
+\put(0,0){%
+\fcolorbox{black}{white}{%
+\includegraphics[width=173.0mm,keepaspectratio]{page2-extract-alone.pdf}}%
+}%
+\put(113mm,50mm){%
+\fcolorbox{black}{white}{%
+\resizebox{!}{40mm}{%
+\begin{picture}(128.0mm, 72.0mm)(0,0)%
+\put(0,0){\includegraphics[width=128.0mm,keepaspectratio]{cnn-dickinson-page2-example-inlay-1280x720.jpg}}%
+\put(0,0){\includegraphics[width=128.0mm,keepaspectratio]{{cnn-dickinson-page2-example-inlay-overlay}.pdf}}%
+\end{picture}%
+}}}%
+\end{picture}%
+}%
+%\includegraphics[angle=-0.7,page=21,width=0.8\textwidth,trim=19mm 15mm 33mm 126mm,clip]{{"../MH370 Data Communication Logs"}.pdf}}
+%\includegraphics[]{{extract-page1-field-headings}.pdf}}%
+\caption[Unredacted SU\hspace{0.37em} 16:42:04{\small.408} (Inmarsat)---23 May 2014]{Unredacted \acrlong{SU} log example with 16:42:04{\small.408} highlighted.  Only those fields highlighted are present in the main body of the later Malayasian release.
+%Compare match with Figure~\ref{headings-photograph}
+\hfill(CNN)}%
+\end{figure}
+
+
+%\vfill
+%\vspace{-0.25em}
+\vspace{0.25em}
+\begin{figure}[ht!]%
+\label{cnn-dickinson-field-headings}
+%\setlength{\abovecaptionskip}{-0.2em plus 0.5em minus 0.5em}
+\centering%
+\resizebox{0.94\textwidth}{!}{%
+% left bottom right top
+\clipbox{0 2.55mm 0 0}{%
+\begin{picture}(128.0mm, 72.0mm)(0,0)%
+\put(0,0){\includegraphics[width=128.0mm,keepaspectratio]{cnn-dickinson-page1-headings-1280x720.jpg}}%
+\put(0,0){\includegraphics[width=128.0mm,keepaspectratio]{{cnn-dickinson-page1-headings-overlay}.pdf}}%
+\end{picture}%
+}}%
+\caption[Mark Dickinson with log field-headings---23 May 2014]{%
+Mark Dickinson showing log field-headings to CNN on 23~May 2014.\\
+\textsc{Left:} Unredacted field headings. 
+\textsc{Right:} Mark Dickinson, at Inmarsat HQ. \hfill(CNN)}
+\end{figure}
+\vspace{-0.25em}
+
+
+\begin{figure}[]%
+%\setlength{\abovecaptionskip}{-0em plus 0.5em minus 0.5em}
+\label{field-headings-redacted-page}%
+\centering%
+\resizebox{0.94\textwidth}{!}{%
+{\setlength{\fboxsep}{2mm}%
+\fcolorbox{black}{white}{%
+%left bottom right top
+\clipbox{28mm 103.5mm 25mm 70mm}{%
+%\includegraphics[angle=-0.7,page=21,width=0.8\textwidth,trim=19mm 15mm 33mm 126mm,clip]{{"../MH370 Data Communication Logs"}.pdf}}
+\includegraphics[angle=0,page=1]{{"../MH370 Data Communication Logs"}.pdf}}}}}%
+\caption[Unredacted SU log field headings (MDCA example)---27 May 2014]{Later \acrlong{MDCA} publication with unredacted example headings on Page~1 only.  Cross-checked for validity with previously obtained
+Figure~\ref{field-headings-unredacted-page1}. \hfill(\gls{MDCA})}%
+\end{figure}
+
+\begin{figure}[]%
+\vspace{3em}%
+%\setlength{\abovecaptionskip}{-0em plus 0.5em minus 0.5em}
+\label{field-headings-unredacted-page1}
+\centering%
+\resizebox{0.94\textwidth}{!}{%
+\begin{picture}(173.0mm, 70.4mm)(0,0)%
+\put(0,0){%
+\fcolorbox{black}{white}{%
+\includegraphics[width=173.0mm,keepaspectratio]{{extract-page1-field-headings}.pdf}}%
+}%
+\put(113mm,50mm){%
+\fcolorbox{black}{white}{%
+\resizebox{!}{40mm}{%
+\begin{picture}(128.0mm, 72.0mm)(0,0)%
+\put(0,0){\includegraphics[width=128.0mm,keepaspectratio]{cnn-dickinson-page1-headings-inlay.jpg}}%
+\put(0,0){\includegraphics[width=128.0mm,keepaspectratio]{{cnn-dickinson-page1-headings-inlay-overlay}.pdf}}%
+\end{picture}%
+}}}%
+\end{picture}%
+}%
+%\includegraphics[angle=-0.7,page=21,width=0.8\textwidth,trim=19mm 15mm 33mm 126mm,clip]{{"../MH370 Data Communication Logs"}.pdf}}
+%\includegraphics[]{{extract-page1-field-headings}.pdf}}%
+\caption[Unredacted SU log field headings (Inmarsat)---23 May 2014]{Unredacted \acrlong{SU} log field-headings.  Only those highlighted fields were present in the main body of the later Malayasian release.
+%Compare match with Figure~\ref{headings-photograph}
+\hfill(CNN)}%
+\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\glsaddall
+%\listoffigures
+\clearpage
+\section*{Conclusion}
+
+We have traced how a simple \gls{OOOI} take-off message is wrapped up
+in preparation for transmission by \gls{ACARS} and Satcom.  We have
+identified this complete message in the logged \acrlongpl{SU} of the
+unredacted logs publicised by Inmarsat
+(Figure~\ref{164157.248-photograph}).  We have observed that the same
+content is not present in the later \acrlong{MDCA} publication and deduced
+redaction of 19 out of 28 columns in the later Malayasian publication
+of 27 May 2014.
+
+In line with other safety-of-life systems, \emph{Classic Aero} Satcom
+messages are transmitted in the clear and by their nature are
+rebroadcast to one-third of the planet in both directions.  Such
+communications can not be in anyway be regarded as
+``secret'' or ``confidential''\,\footnote{With regard to \gls{3F1} the well-known
+  106.5\textdegree\ azimuth of the antenn\ae\ at \acrshort{GCHQ} Bude
+  is tangentially noted.}\,and this appears to have been reflected in
+Inmarsat's actions and statements.
+
+\printglossary[type=\acronymtype,title=List of Terms,toctitle=Terms and abbreviations]
+
+\clearpage
+\tableofcontents
+\renewcommand*\listtablename{Tables, Figures \& Datasets}
+\listoftableandfigures
+%\listoffigures
+%\listoftables
+
+\vfill
+
+\setlength{\footnotemargin}{0.5em}
+%\subsubsection*{Postscript}
+Multiple frames and angles were used for dewarping.
+Data values found obscured or unreadable were recovered using the
+two-layers of CRC16 checksums present (Kermit\,\&\,X.25)\footnote{
+\begin{tabular}{ccl}%
+\small{\acrshort{ACARS}}&\small{``Kermit''}&\tiny{\texttt{crc\_algorithms.Crc(width=16, poly=0x1021, reflect\_in=True, xor\_in=0x0000, reflect\_out=True, xor\_out=0x0000)}}\\
+\small{\acrshort{AMSS}}&\small{``X.25''}&\tiny{\texttt{crc\_algorithms.Crc(width=16, poly=0x1021, reflect\_in=True, xor\_in=0xffff, reflect\_out=True, xor\_out=0xffff)}}%
+\end{tabular}}
+to facilitate
+user-data error correction and recovery, in a similiar manner to solving a giant Sudoko
+grid.\unskip\parfillskip-0.08em \par\vspace{-0.4em}
+
+\end{document}
+
+
+
+
