@@ -80,6 +80,9 @@ was able to confirm the suspected manual adding of the 17:50:50 point:
   make the map seem more consistent with user expectations, however
   the rest of the positions in that flight are unaltered."
 
+In the end Flightaware have been extremely helpful and provided a
+database dump outside of the normal mechanisms: 'fa-database-dump.csv'
+
 
 Planefinder
 ===========

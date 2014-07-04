@@ -3,3 +3,14 @@ http://flightxml.flightaware.com/json/FlightXML2/GetHistoricalTrack?faFlightID=A
 MAS370-1394087710-airline-0005
 http://flightxml.flightaware.com/json/FlightXML2/GetHistoricalTrack?faFlightID=MAS370-1394087710-airline-0005
 https://flightxml.flightaware.com/json/FlightXML2/GetHistoricalTrack?faFlightID=MAS370-1394087710-airline-0005
+
+From cross-referencing:
+
+  http://uk.flightaware.com/live/flight/MAS370/history/20140307/1635Z/WMKK/ZBAA/tracklog
+
+with database dump 'fa-database-dump.csv', the "facility" codes appears to be:
+
+  zH: WMKK
+  cf: WMKF
+  cC: WMSA
+  fx: WMKP
