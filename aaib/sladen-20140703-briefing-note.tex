@@ -31,6 +31,9 @@
   pdfsubject={Occurence of 9M-MRO on 7--8 March 2014},
   pdfkeywords={9M-MRO; MH370; MAS370; Flight safety; Inmarsat; ACARS; OOOI; SATCOM; Satellite},
   pdfencoding=unicode,
+  % creation date on reversion retrieved by AAIB and tagged in git as
+  % 'sladen-20140703-briefing-note.pdf--7c9a047e'
+  pdfcreationdate=D:20140703225851+01'00',
   backref=section
 ]{hyperref}
 %\usepackage[figure, figure*, table]{hypcap}
@@ -73,7 +76,7 @@
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{0pt}
   \fancyhead[R]{\nosearch{\textcolor{headergrey}{\textbf{SLA\,{\Large\thepage}}}\hspace*{-2em}}}
-  \fancyhead[C]{\textcolor{headergrey}{Briefing note}}
+  \fancyhead[C]{\nosearch{\textcolor{headergrey}{Briefing note}}}
   \fancyhead[L]{\vspace*{-3cm}\makebox[1em]{\nosearch{\transparent{0.5}\includegraphics[keepaspectratio,scale=0.9]{../tex/19inch-logo-grey100.pdf}}}}
   \setlength{\headheight}{1em}
 }
@@ -362,7 +365,7 @@ on
 
 {This briefing note offers a non-technical overview of Inmarsat logs
 published on 23/24~May~2014 and how these relate to a later
-redacted publication by the Malayasian DCA\footnote{\acrlong{MDCA}.\,\href{http://www.dca.gov.my/mainpage/MH370\%20Data\%20Communication\%20Logs.pdf}{www.dca.gov.my/mainpage/MH370~Data~Communication~Logs.pdf}} on 27~May~2014.\unskip\parfillskip-0.103em \par}
+redacted publication by the Malaysian DCA\footnote{\acrlong{MDCA}.\,\href{http://www.dca.gov.my/mainpage/MH370\%20Data\%20Communication\%20Logs.pdf}{www.dca.gov.my/mainpage/MH370~Data~Communication~Logs.pdf}} on 27~May~2014.\unskip\parfillskip-0.103em \par}
 \vspace{-1.5em}
 \section{Introduction}
 \vspace{-0.70em}
@@ -420,7 +423,7 @@ Inmarsat's ground infrastructure and the \gls{MRO} for 7~March~2014.\unskip\parf
 
 \subsection{Radio frequencies}
 
-Boeing 777 aircraft are equiped with several radio-frequency
+Boeing 777 aircraft are equipped with several radio-frequency
 communication systems.  Amongst these are Airband VHF radio,
 long-distance HF radio and L-Band satellite.  VHF Airband works
 immediately above the frequencies used for FM~broadcasting and is at
@@ -471,7 +474,7 @@ in the centre pedestal of the cockpit. (Figure~\ref{9m-mro-cockpit})
 \hfill(Chris Finney\, \textsc{gfdl\,1.2})}
 \end{figure}
 
-The \acrlong{MCDU} acts in a similiar manner to a mobile phone.
+The \acrlong{MCDU} acts in a similar manner to a mobile phone.
 Several applications (eg. Weather, Diagnostics, Flight Management) can
 all be used from the same screen and keyboard.  Some applications will
 only activate when the user chooses them, while others (eg. Position reporting, \gls{OOOI},
@@ -482,7 +485,7 @@ the background.  In Figure~\ref{9m-mro-cockpit} the \emph{left-hand}
 
 \section{ACARS Messages}
 
-Communitions between aircraft and the ground are simple and
+Communications between aircraft and the ground are simple and
 text-based.  Like with emails and HTML webpages, the underlying textual
 nature can be followed by humans.  The grammar is terse, much akin to
 old telegraph and Telex messages, and without the excesses of word
@@ -523,7 +526,7 @@ while the second line covers fuel availability.  The individual ``words'' in the
 \subsection{ACARS Application}
 
 The \gls{OOOI} event reporter is one of several applications that can run
-over the intrastructure provided by \gls{ACARS}.  These applications are
+over the infrastructure provided by \gls{ACARS}.  These applications are
 like the many ``apps'' that can be found on a smartphone, each has a
 different use but all of then use the same display, keyboard, and network
 connection. To ensure that any reply can be routed back to the correct
@@ -562,7 +565,7 @@ that it is clear which flight segment this relates to:
 \begin{center}
 \begin{tabular}{p{1.5cm}p{2cm}p{8cm}}
 \hfill\texttt{2}&mode&always \emph{2}\\
-\hfill\texttt{9M-MRO}&registration&aircraft regisration, \emph{9M-} is Malayasia\\
+\hfill\texttt{9M-MRO}&registration&aircraft registration, \emph{9M-} is Malaysian\\
 \hfill\texttt{<NAK>}&acknowledge&\emph{Negative Acknowledgement}\\
 \hfill\texttt{12}&label&a type \emph{12} message\\
 \hfill\texttt{2}&DBI&always \emph{2}\\
@@ -707,9 +710,9 @@ front consisting of \texttt{FF~FF}.
 \subsection{SATCOM Reliable Link Service}
 
 The \gls{RLS} is a part of the \gls{AMSS} system which ensures that
-only whole and complete messages are forwarded on.  The RLS achives
+only whole and complete messages are forwarded on.  The RLS achieves
 its \emph{reliability} by cooperation of the \gls{AES} on the aircraft and \gls{GES}
-to arrange for retransmiting individual missing parts.  The \gls{RLS}
+to arrange for retransmitting individual missing parts.  The \gls{RLS}
 prepares the full message by chopping it up into smaller pieces.  No
 new octets are added during the splitting.
 
@@ -1062,7 +1065,7 @@ C0 7D  B§\textcolor{green}{9}§ 3§\textcolor{green}{2}§ 83 B8 7E 7F 00 00  12
 %\fcolorbox{black}{white}{%
 \includegraphics[angle=-4,width=0.94\textwidth]{{inmarsat-page3-overlay-rotated-text}.pdf}}%
 %}%
-\caption[Unredacted SUs 16:42:23{\small.039}--16:42:25{\small.909}---23 May 2014]{Unredacted \acrlong{SU} log 16:42:23{\small.039}--16:42:25{\small.909}. Examples of fields that are present (Time, BFO, BTO, \dots) in Figure~\ref{164223.039-redacted-page} verses other fields not present in the later Malayasian publication (Framing, Sequence, Received Signal Strength, \ldots)   \hfill(CNN)}%
+\caption[Unredacted SUs 16:42:23{\small.039}--16:42:25{\small.909}---23 May 2014]{Unredacted \acrlong{SU} log 16:42:23{\small.039}--16:42:25{\small.909}. Examples of fields that are present (Time, BFO, BTO, \dots) in Figure~\ref{164223.039-redacted-page} verses other fields not present in the later Malaysian publication (Framing, Sequence, Received Signal Strength, \ldots)   \hfill(CNN)}%
 \end{figure}
 
 \begin{figure}[]%
@@ -1076,7 +1079,7 @@ C0 7D  B§\textcolor{green}{9}§ 3§\textcolor{green}{2}§ 83 B8 7E 7F 00 00  12
 \clipbox{19mm 0mm 33mm 126.2mm}{%
 %\includegraphics[angle=-0.7,page=21,width=0.8\textwidth,trim=19mm 15mm 33mm 126mm,clip]{{"../MH370 Data Communication Logs"}.pdf}}
 \includegraphics[angle=0,page=21]{{"../MH370 Data Communication Logs"}.pdf}}}}}%
-\caption[\hspace{0.96em}Redacted SUs 16:42:23{\small.039}--16:42:25{\small.909}---27 May 2014]{Redacted \acrlong{SU} log 16:42:23{\small.039}--16:42:25{\small.909} from the Malayasian publication. 
+\caption[\hspace{0.96em}Redacted SUs 16:42:23{\small.039}--16:42:25{\small.909}---27 May 2014]{Redacted \acrlong{SU} log 16:42:23{\small.039}--16:42:25{\small.909} from the Malaysian publication. 
 Artifacts of manual preparation are apparent in the stepped misalignment of the first column verses remaining columns---visible at the cut-line.
 Match values with Figure~\ref{164223.039-photograph}. \hfill(\gls{MDCA})}%
 \end{figure}%
@@ -1144,7 +1147,7 @@ Figure~\ref{164204.408-photograph}. \hfill(\gls{MDCA})}%
 }%
 %\includegraphics[angle=-0.7,page=21,width=0.8\textwidth,trim=19mm 15mm 33mm 126mm,clip]{{"../MH370 Data Communication Logs"}.pdf}}
 %\includegraphics[]{{extract-page1-field-headings}.pdf}}%
-\caption[Unredacted SU\hspace{0.37em} 16:42:04{\small.408} (Inmarsat)---23 May 2014]{Unredacted \acrlong{SU} log example with 16:42:04{\small.408} highlighted.  Only those fields highlighted are present in the main body of the later Malayasian release.
+\caption[Unredacted SU\hspace{0.37em} 16:42:04{\small.408} (Inmarsat)---23 May 2014]{Unredacted \acrlong{SU} log example with 16:42:04{\small.408} highlighted.  Only those fields highlighted are present in the main body of the later Malaysian release.
 %Compare match with Figure~\ref{headings-photograph}
 \hfill(CNN)}%
 \end{figure}
@@ -1211,7 +1214,7 @@ Figure~\ref{field-headings-unredacted-page1}. \hfill(\gls{MDCA})}%
 }%
 %\includegraphics[angle=-0.7,page=21,width=0.8\textwidth,trim=19mm 15mm 33mm 126mm,clip]{{"../MH370 Data Communication Logs"}.pdf}}
 %\includegraphics[]{{extract-page1-field-headings}.pdf}}%
-\caption[Unredacted SU log field headings (Inmarsat)---23 May 2014]{Unredacted \acrlong{SU} log field-headings.  Only those highlighted fields were present in the main body of the later Malayasian release.
+\caption[Unredacted SU log field headings (Inmarsat)---23 May 2014]{Unredacted \acrlong{SU} log field-headings.  Only those highlighted fields were present in the main body of the later Malaysian release.
 %Compare match with Figure~\ref{headings-photograph}
 \hfill(CNN)}%
 \end{figure}
@@ -1232,16 +1235,16 @@ identified this complete message in the logged \acrlongpl{SU} of the
 unredacted logs publicised by Inmarsat
 (Figure~\ref{164157.248-photograph}).  We have observed that the same
 content is not present in the later \acrlong{MDCA} publication and deduced
-redaction of 19 out of 28 columns in the later Malayasian publication
+redaction of 19 out of 28 columns in the later Malaysian publication
 of 27 May 2014.
 
 In line with other safety-of-life systems, \emph{Classic Aero} Satcom
 messages are transmitted in the clear and by their nature are
 rebroadcast to one-third of the planet in both directions.  Such
-communications can not be in anyway be regarded as
+communications can not in anyway be regarded as
 ``secret'' or ``confidential''\,\footnote{With regard to \gls{3F1} the well-known
   106.5\textdegree\ azimuth of the antenn\ae\ at \acrshort{GCHQ} Bude
-  is tangentially noted.}\,and this appears to have been reflected in
+  is tangentially noted.}\,and this appears to~have been reflected in
 Inmarsat's actions and statements.
 
 \printglossary[type=\acronymtype,title=List of Terms,toctitle=Terms and abbreviations]
@@ -1267,7 +1270,7 @@ two-layers of CRC16 checksums present (Kermit\,\&\,X.25)\footnote{
 \small{\acrshort{AMSS}}&\small{``X.25''}&\tiny{\texttt{crc\_algorithms.Crc(width=16, poly=0x1021, reflect\_in=True, xor\_in=0xffff, reflect\_out=True, xor\_out=0xffff)}}%
 \end{tabular}}
 to facilitate
-user-data error correction and recovery, in a similiar manner to solving a giant Sudoko
+user-data error correction and recovery, in a similar manner to solving a giant Sudoko
 grid.\unskip\parfillskip-0.08em \par\vspace{-0.4em}
 
 \end{document}
