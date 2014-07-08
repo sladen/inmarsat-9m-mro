@@ -15,6 +15,7 @@ def main():
     fa = csv.DictReader(open('fa-database-dump.csv', 'r'))
     for r in fa:
         records.append([int(r['clock']),
+                        'FlightAware',
                         fa_facilities[r['facility']],
                         r['squawk'],
                         int(r['alt']),
@@ -27,6 +28,7 @@ def main():
     pf = json.load(open('pf-ads-b-extracted.json', 'r'))
     for r in pf:
         records.append([int(r[10]),
+                        'PlaneFinder',
                         '',
                         r[11],
                         r[7],
@@ -40,6 +42,7 @@ def main():
     fr = json.load(open('fr24-pinned-47716903.json','r'))
     for r in fr['result']['data']['track']:
         records.append([r[6], # time
+                        'FlightRadar24',
                         r[7], # receiver
                         r[5], # squawk
                         r[2], # alt
@@ -50,7 +53,7 @@ def main():
                         ])
 
     w = csv.writer(open('all-combined.csv', 'w'), lineterminator='\n')
-    w.writerow(['time','receiver', 'squawk','alt', 'lat','lon', 'course','sog'])
+    w.writerow(['time','source','receiver', 'squawk','alt', 'lat','lon', 'course','sog'])
 
     # sort by time, then altitude
     records.sort(key=operator.itemgetter(0, 3))
