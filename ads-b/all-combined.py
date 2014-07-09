@@ -15,7 +15,6 @@ def main():
     fa = csv.DictReader(open('fa-database-dump.csv', 'r'))
     for r in fa:
         records.append([int(r['clock']),
-                        'FlightAware',
                         fa_facilities[r['facility']],
                         r['squawk'],
                         int(r['alt']),
@@ -23,12 +22,12 @@ def main():
                         r['lon'],
                         r['heading'], # course
                         r['gs'], # sog
+                        'flightaware',
                         ])
     # [[u'B772', u'75008F', u'9M-MRO', u'MAS370', u'MH370', 3.0928, 101.765, 10775, 25, 331, u'1394210819', u'2157',
     pf = json.load(open('pf-ads-b-extracted.json', 'r'))
     for r in pf:
         records.append([int(r[10]),
-                        'PlaneFinder',
                         '',
                         r[11],
                         r[7],
@@ -36,24 +35,33 @@ def main():
                         r[6],
                         r[8],
                         r[9],
+                        'planefinder',
                         ])
 
     # [2.7983, 101.689, 1500,183,328,"2157",1394210550,"F-WMSA2"]
     fr = json.load(open('fr24-pinned-47716903.json','r'))
+    # http://forum.flightradar24.com/threads/6080-The-letters-in-front-of-the-ICAO-code%C2%A0#post36507
     for r in fr['result']['data']['track']:
+        network,receiver = 'fr24',r[7]
+        if receiver.startswith('T-'):
+            network += '-home'
+            receiver = receiver[2:]
+        elif r[7].startswith('F-'):
+            network += '-main'
+            receiver = receiver[2:]
         records.append([r[6], # time
-                        'FlightRadar24',
-                        r[7], # receiver
+                        receiver, # receiver
                         r[5], # squawk
                         r[2], # alt
                         r[0], # lat
                         r[1], # lon
                         r[4], # course
                         r[3], # sog
+                        network,
                         ])
 
     w = csv.writer(open('all-combined.csv', 'w'), lineterminator='\n')
-    w.writerow(['time','source','receiver', 'squawk','alt', 'lat','lon', 'course','sog'])
+    w.writerow(['time','receiver', 'squawk','alt', 'lat','lon', 'course','sog', 'source'])
 
     # sort by time, then altitude
     records.sort(key=operator.itemgetter(0, 3))
