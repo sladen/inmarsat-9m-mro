@@ -1,4 +1,4 @@
-time,receiver,squawk,alt,lat,lon,course,sog,source
+time,receiver,squawk,alt,lat,lon,course,sog,network
 1394210550,WMSA2,2157,1500,2.7983,101.689,328,183,fr24-main
 1394210557,WMSA2,2157,1575,2.80333,101.686,327,188,fr24-main
 1394210563,WMSA2,2157,1650,2.80838,101.683,327,196,fr24-main

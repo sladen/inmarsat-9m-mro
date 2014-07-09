@@ -61,7 +61,7 @@ def main():
                         ])
 
     w = csv.writer(open('all-combined.csv', 'w'), lineterminator='\n')
-    w.writerow(['time','receiver', 'squawk','alt', 'lat','lon', 'course','sog', 'source'])
+    w.writerow(['time','receiver', 'squawk','alt', 'lat','lon', 'course','sog', 'network'])
 
     # sort by time, then altitude
     records.sort(key=operator.itemgetter(0, 3))
