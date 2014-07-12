@@ -26,6 +26,20 @@ I asked Flightradar by email in tracking number ID [#41330] about the
 unconsolidated messages.  The reply I received appeared to be
 uninformed and somewhat miss the point I was enquiring after.
 Another follow-up does not appear to have illicited a reply.
+(Nor subsequent follow-ups to Fredrik Lindahl/Mikael Robertsson
+directly).
+
+A second set of data appears to be served out via the minute-by-minute
+updates; some of these appear to have valid rate-of-climb (RoC) in
+multiples of 64ft/minute (as would have been transmitted).
+
+A JPEG image was posted on the FR24 website press page, with the last
+ten altitude/rate-of-climb records; the low-precision locations are
+probably a result of FR24's multilateration ("MLAT") setups using
+time-of-arrival differentials.
+
+  http://www.flightradar24.com/press/
+  https://dl.dropboxusercontent.com/u/256889957/FR24%20Website/Press/mh370.jpg
 
 
 Flightaware
