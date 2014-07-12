@@ -15,7 +15,7 @@ def main():
     end = 1659
 
     l = []
-    for t in range(start, end):
+    for t in (range(1643, 1660) + range(1700,1723)):
         buf = StringIO( urllib2.urlopen(api % (t)).read() )
 	jsonp = gzip.GzipFile(fileobj=buf).read()
         
