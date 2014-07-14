@@ -52,15 +52,19 @@ def main():
         elif r[7].startswith('F-'):
             network += '-main'
             receiver = receiver[2:]
+        # nuke expolated low-precision latlon (less that two decimal places)
+        lat, lon, alt = map(str,r[0:3])
+        if (len(lat) - lat.rindex('.') - 1) <= 2:
+            lat, lon, alt = ('',) * 3
         fr24[r[6]] = list([r[6], # time
                         receiver, # receiver
                         r[5], # squawk
-                        r[2], # alt
-                        r[0], # lat
-                        r[1], # lon
+                        alt, # alt
+                        lat, # lat
+                        lon, # lon
                         r[4], # course
                         r[3], # sog
-                        '',
+                        '', # roc
                         network,
                         ])
 
@@ -80,12 +84,13 @@ def main():
             fr24[r[10]][8] = r[15]
             # TODO prove that the alt and lon/lat are the same to 2d.p.
         else:
+            # Hide extrapolated fields.
             records.append([r[10], # time
                             receiver, # receiver
                             r[6], # squawk
-                            r[4], # alt
-                            r[1], # lat
-                            r[2], # lon
+                            '',#r[4], # alt
+                            '',#r[1], # lat
+                            '',#r[2], # lon
                             r[3], # course
                             r[5], # sog
                             r[15], #roc
