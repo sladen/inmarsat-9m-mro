@@ -1,0 +1,71 @@
+Azaa Dana
+
+The "Aaza Dana" is a Kuwait-registered sailing vessel that was
+transiting north-west of Sumatra on its way eastwards to Thailand.
+One potential eye-witness (Kate Tee) to the occurrence of 9M-MRO was
+on-watch at the time, and recorded their observations of seeing
+an aircraft in the vicinity operating in an unusual manner:
+
+  http://saucysailoress.wordpress.com/2014/07/16/comprehensive-eye-witness-sighting-of-mh370/
+
+
+Vessel
+
+No AIS transponder was fitted, the vessel does not appear in
+the ITU MARS database, and no MMSI appears to have been assigned:
+
+  http://www.itu.int/online/mms/mars/ship_search.sh?cgaid=130
+
+
+GPS Track
+
+Track information has been provided by the owners Katherine Tee and
+Marc Horn in a Mapsource/Garmin ".gdb" format.
+
+  https://dl.dropboxusercontent.com/content_link/flxmWvTyhvzUVhlu4DkRAq7hgeGIwQOIaqCc6pFmVtnKElskDDSpd7XqoS5r0MJh?dl=1 (now 404)
+  sha1sum  c5c93ca2092aea61c2bf247f76ff95f7d692f91e  MH370.gdb
+  gpsbabel -t -i gdb -f MH370.gdb -x nuketypes,waypoints,routes -x track,start=201403071600,stop=201403080201 -o gpx -F aaza-dana.gpx
+
+The plausible timings of interest align to before/around when the gybe
+occurred.  This is a South->North course, a 270-degree turn to port,
+followed by a West->East course.
+
+Overall the speed of the vessel is extremely slow (2.5 knots before
+gybe, 1.5 knots after gybe), and so can be treated as a single point
+location for the period during which an aircraft would generally have
+taken to cross the field of view.
+
+The ".gdb" file contained some approximate working calculations for
+separate observations of bright lights, and sunrise/sunset timings.
+Part of a rail journey around Amsterdam is also present, which would
+indicate the use of a portable handheld GPS unit rather than a fixed
+GPS installation.
+
+
+Timezone
+
+The GPS logs themselves are likely to be in UTC, although there has
+been some uncertainty about the presentation timezone used, or
+configured, in the laptop-based Mapsource display software.
+
+The ideal way of confirming or removing any timezone shift would be to
+correlate a point on the track to a corresponding Satellite AIS
+pick-up, and then to shift the remaining points in time, if required.
+
+
+Heading
+
+Temporal shifting would make very little difference to the recorded
+position of the vessel during the period of interest.  The proximity
+of the turning manoeuvre would shift the recorded true course of the
+vessel (and therefore the heading as a factor of wind), and therefore
+the visual frame of reference for the documented observations.
+
+
+Image
+
+An image accompanies the post:
+
+  https://saucysailoress.files.wordpress.com/2014/07/view-1.jpg
+
+It is unclear what the origin of this image is.
