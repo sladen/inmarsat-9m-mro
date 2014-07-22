@@ -123,6 +123,22 @@ file.  The altitude granularity is finer and has not suffered from
 rounding.
 
 
+Lib Home Radar
+==============
+Libhomeradar recorded last contact at 4.70732,102.52782 (unknown time).
+It does not not appear possible to provide a permalink, as the page
+number is counted back in time from the present, and new flights keep
+on being added.  A binary search can be made using the "pg=NNNN"
+parameter to locate 2014-03-07:
+
+  http://www.libhomeradar.org/databasequery/details.php?sid=6673947949&pg=1800
+
+The flyover of 9M-MRO in the opposite direction earlier in the same
+day in the opposite direction was last recorded at 3.54640,102.70950
+which is on the longitude; as such libhomeradar are probably likely to
+only have a single feeder in the region.
+
+
 Summary
 =======
 
