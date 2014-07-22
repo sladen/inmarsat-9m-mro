@@ -7,7 +7,8 @@ gpsbabel -t -i gdb -f MH370.gdb \
   -x track,start=201403071600,stop=201403080201 \
   -x track,title="Azaa Dana GPS extract 2014-03-07 16:00 to 2014-03-08 02:01" \
   -o gpx -F - \
-| sed -e 's/^\(<time>\).*\(<\/time>\)$/\12014-03-07T16:00:00Z\2/' \
+| sed -e 's/^\(<time>\).*\(<\/time>\)$/\12014-03-07T16:00:00Z\2/'\
+';s/0000\(<\/ele>\)$/\1/' \
 | grep -v creator= \
 > aaza-dana.gpx
 
