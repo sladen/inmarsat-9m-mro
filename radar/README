@@ -1,0 +1,130 @@
+Primary Radar works by bouncing an electronic pulse and listening for
+any reflections at a particular azimtuh angle in the horizontal place;
+no accompanying information is available and any vertical elevation
+determination is approximate.
+
+Notes on analysis of available images and photographs.
+Metadata was obtained primarily using 'exiftool'.
+
+Thai Primary Radar
+==================
+
+Textual descriptions.
+
+  http://www.themalaysianinsider.com/malaysia/article/thailand-finds-radar-blips-that-could-be-mh370-india-says-indian-ocean-has
+  http://news.yahoo.com/thailand-gives-radar-data-10-days-plane-lost-124915659.html
+
+Montol Suchookorn
+"Because we did not pay any attention to it. The Royal Thai Air Force only looks after any threats against our country, so anything that did not look like a threat to us, we simply look at it without taking actions."
+"When they asked again and there was new information and assumptions from Prime Minister Najib Razak, we took a look at our information again,"
+"It didn't take long for us to figure out, although it did take some experts to find out about it."
+
+"was able to detect a signal, which was not a normal signal, of a plane flying in the direction opposite from the MH370 plane,"
+
+Some publications displayed an unrelated image purporting to be Thai
+Radar next to these stories. This image was taken on 17 March 2014 by
+Chaideer Mahyuddin, on-board an Indonesian Search and Rescue vessel:
+
+  http://www.imageforum-diffusion.afp.com/ImfDiffusion/Search/Results.aspx?srchMd=1&ID_Fulcrum=1153411613_2
+  AFP ID: Par7824608
+
+
+Malaysian Primary Radar
+=======================
+
+Derivatives of apparent Malaysian Primary Radar data was displayed
+initially to families in Beijing, and again in an ATSB report
+
+A briefing was held in the Lido Hotel Beijing, beginning at 2014-03-21
+02:00 UTC (10:00 local time).  The black (non-illuminated) areas of
+the projection screen often appear orange in photographs where the
+white-balance is coming primarily from the screen.  The projector in
+the room was not quite aligned to the projection screen, and the
+left-hand 5% of the image is off the side.
+
+Slide: "BRIEF ON MH 370 SEARCH AND RESCUE OPERATIONS"
+=====================================================
+
+The first photograph available of the opening slide was taken by 赵迪
+at 02:05:06 UTC:
+
+  http://zqb.cyol.com/images/1395430722812_1.JPG
+  10:05:06+08:00
+  3月21日10时，北京丽都饭店 …
+  表示飞机最后一次出现在空军雷达屏幕上2：22分，距离空军基地200海里。
+  … 赵迪摄
+
+
+Slide: "MILITARY RADAR PLOT FROM PULAU PERAK TO LAST PLOT AT 02:22H"
+====================================================================
+
+At ~02:54 an apparent primary Radar plot is shown, this is
+photographed by a number of people, with varying degrees of success:
+
+  http://www.takefoto.cn/wp-content/uploads/2014/03/39500_201403221141091WlfC.jpg
+  http://image7.club.sohu.net/pic/e2/2e33c78dd1c7fb0a880f99591e16f9e2.jpg
+  http://www.kwongwah.com.my/news/2014/03/21/92_1.jpg
+  http://cdn.feeyo.com/news/140321/14032103094252.jpg
+  http://img6.caijing.com.cn/2014-03-21/114029398.jpg
+
+  http://tmfassociates.com/blog/wp-content/uploads/2014/03/Beijing-event.jpg
+  (02:54:15.787, iPhone 4S, 1/30second, 2448x3264, scaled/rotated to 1945x1533)
+
+This is good enough to show the captions (right-to-left):
+
+  1. PENANG
+  2. TIME - 02:02H PERAK ISLAND 279R 89nm from Butterworth AB
+  3. (circle)
+  4. TIME - 02:22H 295R 200 nm from Butterworth AB
+
+(2) this appears to be Pulau Perak (5.682,98.944) relative to Butterworth
+(3) this appears to be a circle of missing Radar returns (unconfirmed)
+(4) this appears to be an incorrect description.
+    ( maybe relative to http://en.wikipedia.org/wiki/Pulau_Perak )
+
+However, thanks to Kim Kyung Hoon of Reuters, there is a slightly
+better image of the slide (again, appears to have an orange background
+from flash fire, rather than black):
+
+  http://beta.images.theglobeandmail.com/dbe/news/world/article17607143.ece/ALTERNATES/w620/PEK707-MALAYSIA-AIRLINES+.JPG
+  http://images.china.cn/attachement/jpg/site1000/20140321/d02788e9b25b149630e702.jpg
+  http://image.cnwest.com/attachement/jpg/site1/20140322/001372d8a213149718c705.jpg
+  http://i257.photobucket.com/albums/hh212/727Kiwi/MH370/Lido_Hotel_Beijing_21March_zps2eb1b3f1.jpg
+  http://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/picture_this/public/2014/03/21/mh370-search-briefing-3.jpg
+
+Same image in larger sizes:
+
+  http://i.lidovky.cz/14/033/lnorg/MSL5202c7_PEK707_MALAYSIA_AIRLINES_0321_11.JPG (2056x1576 382kB)
+  http://i.imgur.com/NkACC20.jpg (2982x2286 647kB)
+
+And then what appears to be the image Reuters distributed:
+
+  http://s1.ibtimes.com/sites/www.ibtimes.com/files/2014/03/21/mh370-search-briefing-3.jpg (2982x2286 1,868kB)
+  (02:54:42(?), 2982x2286)
+
+  sha1sum=fc2b1dcd1d8ebca600d0578e14b7fe3eb5d88a00
+  by_line= © Kim Kyung Hoon / Reuters
+  creator=KIM KYUNG-HOON
+  title=MALAYSIA-AIRLINES/
+  reuters_id=RTR3HZHB
+  source=X01368
+  fixture=GM1EA3L14WB01
+  transmission_id=PEK707
+
+What appears to be pixels from the projector are visible.  On the
+right-hand side, the apparent straight edge in white crosses the pixel
+columns.  This points to it either being a photograph of a display
+(rather than a direct digital plot), or to digital keystone correction
+in the projector (or both).
+
+Previous analysis
+=================
+
+Working from this, some earlier decoding of timestamps was done by
+"Backseater", having obtained a compressed 2982x2286 image directly
+from the photographer:
+
+  http://www.airliners.net/aviation-forums/general_aviation/read.main/6087189/#29
+  http://www.airliners.net/aviation-forums/general_aviation/read.main/6087189/#38
+  http://www.airliners.net/aviation-forums/general_aviation/read.main/6087189/#39
+  http://i.imgur.com/N0MWBCK.jpg
