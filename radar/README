@@ -1,10 +1,29 @@
 Primary Radar works by bouncing an electronic pulse and listening for
-any reflections at a particular azimtuh angle in the horizontal place;
-no accompanying information is available and any vertical elevation
-determination is approximate.
+any reflections when also looking in the same direction.  It is
+hit-and-miss, where mostly it miss.  Without a transponder assisting
+with the reply there is no information about what the reflection could
+be and the return is approximate in horizontal place (azimuth) and
+even less reliable in the vertical plane (elevation).
 
-Notes on analysis of available images and photographs.
-Metadata was obtained primarily using 'exiftool'.
+Introduction:
+
+What has been released:
+
+  19 March 2014: Montol Suchookorn (Thai Air Force) textual description of post-turnback
+  http://bigstory.ap.org/article/thailand-gives-radar-data-10-days-after-plane-lost
+  "was able to detect a signal, which was not a normal signal"
+
+  21 March 2014: apparent some returns west of Butterworth
+  http://s1.ibtimes.com/sites/www.ibtimes.com/files/2014/03/21/mh370-search-briefing-3.jpg (2982x2286, 1.9MB, Kim Kyung Hoon, Reuters)
+  http://tmfassociates.com/blog/wp-content/uploads/2014/03/Beijing-event.jpg (2448x3264, 0.3MB, scaled/rotated to 1945x1533)
+
+  29 April 2014: apparent crossing of the Malaysian peninsula
+  http://www.blogcdn.com/slideshows/images/slides/259/296/0/S2592960/slug/l/china-malaysia-plane-1.jpg (2500x1666, 1.4MB, Ng Han Guan, AP)
+
+  26 June 2014: apparent south-west turn-back after IGARI
+  word/media/image6.jpg (1372x941, 0.2MB, Joint Investigation Team; p.8/p.3 of
+  in ATSB report http://www.jacc.gov.au/media/releases/2014/june/mr052_MH370_Definition_of_Sea_Floor_Wide_Area_Search.pdf)
+
 
 Thai Primary Radar
 ==================
@@ -128,3 +147,10 @@ from the photographer:
   http://www.airliners.net/aviation-forums/general_aviation/read.main/6087189/#38
   http://www.airliners.net/aviation-forums/general_aviation/read.main/6087189/#39
   http://i.imgur.com/N0MWBCK.jpg
+
+
+Method
+======
+The times, and notes on the photographs below were mainly obtained
+using 'exiftool'.
+
