@@ -1,3 +1,4 @@
+
 The airbourne ADS-B reports are crucial as they are the only
 computer-readable calibration data available for deducing
 oscillator bias, drift and the Perth AFC error contributions.
@@ -145,17 +146,21 @@ only have a single feeder in the region.
 Radarbox24
 ==========
 
-  16:52:04..17:12:08
+  http://www.radarbox24.com/2014-03-07/16/53/MAS370
+  16:52:04--16:58:44 (17:12:08?)
+  6 records
 
 Radarbox24 were proactive in putting up a post and screenshot of the
-tracked flight, showing an apparent track up until ~17:12:08
+tracked flight, showing an apparent track up until ~17:12:08:
 
   https://plus.google.com/+Radarbox24/posts/Yigduhqzkep
   https://lh3.googleusercontent.com/-dO6doa68uqg/Uxt_aTSnoNI/AAAAAAAAACo/rWmeG5hXtBQ/s2560/MAS370-2.png
 
 The return from the 'playback_history' used by the display in the
 webpage shows the MAS370 flight as 'starting' at 16:52:04, which
-is likely to be the time of first reception.
+is likely to be the time of first reception, and this aligns
+to the data points returned.  Interestingly Radarbox24 appears to
+retain heading from the dlat/dlon, but not speed over ground.
 
 
 Summary

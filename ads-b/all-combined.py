@@ -99,6 +99,23 @@ def main():
 
     records.extend(fr24.values())
 
+    # {"unique_id":"14876470","FNCORR":"MAS370","FCH":"2014-03-07 16:52:04","FCH_TS":"1394211124","FLA":"3.5949","FLO":"102.003","FHD":"26","FAL":"22000","FSQ":"2157","FVR":"1792"},
+    rb24 = json.load(open('rb24-flighthistory.json','r'))
+
+    for r in rb24['data']:
+        records.append([int(r['FCH_TS']),
+                        '',
+                        r['FSQ'],
+                        int(r['FAL']),
+                        r['FLA'],
+                        r['FLO'],
+                        r['FHD'], # course
+                        '', # sog
+                        r['FVR'],
+                        'radarbox24',
+                        ])
+
+
     w = csv.writer(open('all-combined.csv', 'w'), lineterminator='\n')
     w.writerow(['time','receiver', 'squawk','alt', 'lat','lon', 'course','sog','roc','network'])
 
