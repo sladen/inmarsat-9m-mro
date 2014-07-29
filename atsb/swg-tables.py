@@ -51,12 +51,12 @@ def main():
 
                 # Use the position of the horizontal rules in the table to split into three sections
                 ruled_lines = sorted([r.values[1] for r in e.records if r.__class__.__name__ in ('_LINETO')])
-                if len(ruled_lines) != 3:
+                if len(sorted(set(ruled_lines))) != 3:
                     # Still need to cope with "split tables" by parsing left/right halves separately
                     print
                     continue
 
-                header_min, header_max, footer_min = ruled_lines
+                header_min, header_max, footer_min = sorted(set(ruled_lines))
                 #print [(r.values[0:2], r.string.decode('utf-16le')) for r in e.records if txt(r, maximum=footer_min)]
                 #print [(r.values[0:2], r.string.decode('utf-16le')) for r in e.records if txt(r, header_min, header_max)]
                 title = [(r.values[0:2], r.string.decode('utf-16le')) for r in e.records if txt(r, maximum=header_min)]
@@ -65,8 +65,13 @@ def main():
 
                 #print [r.string.decode('utf-16le') for r in e.records if txt(r, minimum=header_min, maximum=header_max)]
                 # Figure out which line is the one with the most field headings on.
-                h1 = sorted(headings, key=lambda x: (x[0][1]))
-                h2 = itertools.groupby(h1, key=lambda x: x[0][1])
+                def fix_y(x):
+                    r = x[0][1]
+                    # hack for misalignment in "Table 2"
+                    if r in (42, 63): r += 2
+                    return r
+                h1 = sorted(headings, key=fix_y)
+                h2 = itertools.groupby(h1, key=fix_y)
                 m = 0
                 max_k = None
                 for k, g in h2:
@@ -78,7 +83,7 @@ def main():
 
                 # Build the field-headings based on the line with the most
                 # Compile a list of those that appear in the longest line of field headings
-                valid_x = [h[0][0] for h in headings if h[0][1] == max_k]
+                valid_x = [h[0][0] for h in headings if abs(h[0][1] - max_k) <= 2]
                 valid_headings = [h for h in h1 if h[0][0] in valid_x]
                 
                 #for i in [(r.values, r.string.decode('utf-16le')) for r in e.records if txt(r, minimum=header_min, maximum=header_max)]:
@@ -88,7 +93,7 @@ def main():
                 #h1 = sorted(valid_headings, key=lambda x: (x[0][0]))
                 #h2 = itertools.groupby(h1, key=lambda x: x[0][0])
                 def floor_x(x):
-                    valid_x_wider = valid_x + valid_x[-1:]
+                    #valid_x_wider = valid_x + valid_x[-1:]
                     #new_x = valid_x_wider[bisect.bisect_right(valid_x, x[0][0])-1]
                     new_x = min(valid_x, key=lambda z:abs(z-x[0][0]))
                     #print valid_x, x[0][0], new_x, x[1], bisect.bisect_left(valid_x, x[0][0])
