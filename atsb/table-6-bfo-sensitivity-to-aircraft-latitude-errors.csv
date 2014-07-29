@@ -1,0 +1,14 @@
+Measurement Parameter,-5°,Latitude True,+5°,Unit,Notes
+Time,17:07,17:07,17:07,UTC,
+Aircraft Latitude:,0.27,5.27,10.27,°N,
+Aircraft Longitude:,102.79,102.79,102.79,°E,
+Aircraft Ground Speed:,867,867,867,kph,
+Aircraft Heading:,25,25,25,°ETN,
+Bias Component:,152.5,152.5,152.5,Hz,From Calibration
+Aircraft Freq. Compensation:,398.3,489.5,577.1,Hz,Calculated (for 64.5°E satellite)
+Uplink Doppler:,-367.9,-459.4,-547.5,Hz,Satellite and aircraft movement
+Downlink Doppler:,-79.5,-75.1,-70.7,Hz,Satellite movement
+Satellite & EAFC Effect,24.1,24.1,24.1,Hz,Measured
+BFO (predicted):,127.5,131.7,135.5,Hz,
+Measured BFO:,132.0,132.0,132.0,Hz,Measured
+Error:,-4.5,-0.3,3.5,Hz,Close match at true latitude
