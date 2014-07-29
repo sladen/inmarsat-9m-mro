@@ -62,6 +62,7 @@ def main():
                 title = [(r.values[0:2], r.string.decode('utf-16le')) for r in e.records if txt(r, maximum=header_min)]
                 headings = [(r.values[0:2], r.string.decode('utf-16le')) for r in e.records if txt(r, minimum=header_min, maximum=header_max)]
                 values = [(r.values[0:2], r.string.decode('utf-16le')) for r in e.records if txt(r, minimum=header_max, maximum=footer_min)]
+                footings = [(r.values[0:2], r.string.decode('utf-16le')) for r in e.records if txt(r, minimum=footer_min)]
 
                 #print [r.string.decode('utf-16le') for r in e.records if txt(r, minimum=header_min, maximum=header_max)]
                 # Figure out which line is the one with the most field headings on.
@@ -92,7 +93,7 @@ def main():
                 # Sort and group by X position
                 #h1 = sorted(valid_headings, key=lambda x: (x[0][0]))
                 #h2 = itertools.groupby(h1, key=lambda x: x[0][0])
-                def floor_x(x):
+                def closest_x(x):
                     #valid_x_wider = valid_x + valid_x[-1:]
                     #new_x = valid_x_wider[bisect.bisect_right(valid_x, x[0][0])-1]
                     new_x = min(valid_x, key=lambda z:abs(z-x[0][0]))
@@ -100,8 +101,8 @@ def main():
                     #print 'floor_x(new,old)', x[0][0],y
                     return new_x
 
-                h1 = sorted(headings, key=floor_x)
-                h2 = itertools.groupby(h1, key=floor_x)
+                h1 = sorted(headings, key=closest_x)
+                h2 = itertools.groupby(h1, key=closest_x)
 
                 final_headings = []
                 for k,g in h2:
@@ -114,6 +115,21 @@ def main():
                     row += [u''] * (len(final_headings)-len(row))
                     table.append(row)
                 #print table
+
+                # Append any remaining extra footers---one row only
+                if len(footings):
+                    #print `footings`
+                    f1 = sorted(footings, key=lambda f:valid_x.index(closest_x(f)))
+                    f2 = itertools.groupby(f1, key=lambda f:valid_x.index(closest_x(f)))
+                    row = []
+                    for k, g in f2:
+                        # pad before
+                        row += [u''] * (k - len(row))
+                        # only one cell
+                        row += [list(g)[0][1]]
+                    # pad after
+                    row += [u''] * (len(final_headings)-len(row))
+                    table.append(row)
 
                 # make a useful filename without weird characters in it
                 filename = title[0][1].lower().replace(' ', '-') + '.csv'
