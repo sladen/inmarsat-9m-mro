@@ -9,9 +9,17 @@
 
 # uses PyEMF: http://sourceforge.net/projects/pyemf/files/
 
-# http://www.atsb.gov.au/media/5243942/ae-2014-054_mh370_searchareas.pdf
+# http://www.atsb.gov.au/media/5243948/ae-2014-054_mh370_searchareas_v2.docx
 # sha1sum 9767fc7cccde9cd51a311ca56e9219e8a3778833
 source = 'ae-2014-054_mh370_searchareas_v2.docx'
+
+# http://www.atsb.gov.au/media/5243948/ae-2014-054_mh370_-_definition_of_underwater_search_areas_13aug2014.docx
+# sha1sum 6cfe2b935f934b6e212c77d459194d26ba29c33d
+# In the August 2014 updated, some tables moved to the main './word/document.xml':
+# * Table 3 has been pasted in-line as a normal paragraph
+# * Table 5 has been pasted in-line as normal tables
+# * Table 6 has been pasted in-line as normal tables
+sources = [source, 'ae-2014-054_mh370_-_definition_of_underwater_search_areas_13aug2014.docx']
 
 import zipfile
 import glob
@@ -22,8 +30,8 @@ import operator
 import csv
 #import bisect
 
-def main():
-    candidates = ['word/media/image%02d.emf' % n for n in xrange(45, 51)]
+def main(source):
+    candidates = ['word/media/image%02d.emf' % n for n in xrange(42, 51)]
     z = zipfile.ZipFile(source)
     for f in z.infolist():
         if f.filename in candidates:
@@ -53,7 +61,8 @@ def main():
                 ruled_lines = sorted([r.values[1] for r in e.records if r.__class__.__name__ in ('_LINETO')])
                 if len(sorted(set(ruled_lines))) != 3:
                     # Still need to cope with "split tables" by parsing left/right halves separately
-                    print
+                    inputs = [r.values for r in e.records if r.__class__.__name__ in ('_LINETO', '_MOVETOEX')]
+                    print zip(inputs[::2], inputs[1::2])
                     continue
 
                 header_min, header_max, footer_min = sorted(set(ruled_lines))
@@ -143,4 +152,4 @@ def main():
                     w.writerow([s.encode('utf-8') for s in row])
                     
 if __name__=='__main__':
-    main()
+    [main(source) for source in sources]
