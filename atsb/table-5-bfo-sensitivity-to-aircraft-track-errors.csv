@@ -6,9 +6,10 @@ Aircraft Ground Speed,867,867,867,kph,
 Aircraft Heading,0,25,50,°ETN,
 Bias Component,152.5,152.5,152.5,Hz,From Calibration
 Aircraft Freq. Compensation,108.9,489.5,777.8,Hz,Calculated (for 64.5°E satellite)
-Uplink Doppler,-75.3,-459.4,-756.8,Hz,Satellite and aircraft movement
-Downlink Doppler,-75.1,-75.1,-75.1,Hz,Satellite movement
+Aircraft Doppler (uplink),-75.3,-459.4,-756.8,Hz,Aircraft velocity towards satellite
+Satellite Doppler (uplink),-3.2,-3.2,-3.2,Hz,Satellite velocity towards aircraft
+Satellite Doppler (downlink),-71.9,-71.9,-71.9,Hz,Satellite velocity towards Perth GES
 Satellite and EAFC Effect,24.1,24.1,24.1,Hz,Measured
 Predicted BFO,135.1,131.7,122.5,Hz,
 Measured BFO,132.0,132.0,132.0,Hz,Measured
-Error,3.1,-0.3,-9.5,Hz,Close match at true heading
+Error,3.1,-0.3,-9.5,Hz,Close match at true latitude

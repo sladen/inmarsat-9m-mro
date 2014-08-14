@@ -1,0 +1,176 @@
+pdftotext ae*.pdf
+pdftotext mr*.pdf
+diff -wBU0 ae*.txt mr*.txt
+(Hand removal of noise from line-wrapping and tables)
+(Manual insertion of table 5/6 diffs results from separate extraction and alignment in revision control)
+The small number decrementing is from the removal of Footnote 16, and subsequent renumbering
+--- mr052_MH370_Definition_of_Sea_Floor_Wide_Area_Search.txt	2014-08-14 09:19:43.896340742 +0100
++++ ae-2014-054_mh370_-_definition_of_underwatersearchareas_13aug2014.txt	2014-08-14 09:19:39.160340892 +0100
+@@ -15,3 +15,3 @@
+ Final
+ 26 June 2014
++(updated 13 August 2014)
+-Released in accordance with section 25 of the Transport Safety Investigation Act 2003
+@@ -58,0 +58,16 @@
++57
++
++Additional explanatory material relating to the Perth GES partial
++compensation
++
++13 Aug 2014
++
++58
++
++Table 5 and Table 6 updated – Previous parameter Uplink Doppler changed
++to Aircraft Doppler (uplink), notes updated for clarity. Previous parameter
++Downlink Doppler (Satellite movement) separated into its two components
++Satellite Doppler (uplink) and Satellite Doppler (downlink) for clarity
++
++13 Aug 2014
++
+@@ -219 +234 @@
+-www.jacc.gov.au/.
++www.jacc.gov.au.
+@@ -255 +270 @@
+-Source: Seth Jaworkski
++Source: Seth Jaworski
+@@ -337 +353 @@
+-website www.amsa.gov.au/media/mh370-timeline/.
++website www.amsa.gov.au/media/mh370-timeline.
+@@ -794,1 +809,0 @@
+-16
+@@ -807,2 +819,0 @@
+-16
+-Complete table of handshake satellite data values provided at appendix X
+@@ -868 +878 @@
+-Burst Frequency Offset (BFO)17
++Burst Frequency Offset (BFO)16
+@@ -873 +883 @@
+-17
++16
+@@ -960,1 +970,1 @@
+-18
++17
+@@ -983 +994 @@
+-18
++17
+@@ -1071 +1082 @@
+-The width of the search area across the 7 arc is shown in Figure 31
++The width of the search area across the 7 arc is shown in Figure 32
+@@ -1097 +1108 @@
+-19
++18
+@@ -1107 +1118 @@
+-20
++19
+@@ -1110 +1121 @@
+-21
++20
+@@ -1114 +1125 @@
+-22
++21
+@@ -1125 +1136 @@
+-19
++18
+@@ -1129,2 +1140,2 @@
+-at the time that the first engine flamed-out.
++at the time that the first engine flamedout.
+-21
++20
+@@ -1134 +1145 @@
+-22
++21
+@@ -1136 +1147 @@
+-20
++19
+@@ -1142 +1153 @@
+-23
++22
+@@ -1184 +1195 @@
+-23
++22
+@@ -1383 +1380 @@
+-24
++23
+@@ -1385 +1382 @@
+-25
++24
+@@ -1397 +1394 @@
+-26
++25
+@@ -1409 +1406 @@
+-27
++26
+@@ -1411,0 +1409 @@
++23
+ 24
+ 25
+ 26
+-27
+@@ -3223,2 +3219 @@
+-Table 4: Satellite Location and Velocity (ECEF)
++Table 3: Satellite Location and Velocity (ECEF)
+@@ -3304,0 +3420,17 @@
++The reason for the partial compensation is that the Perth EAFC receiver was not designed to
++handle the case where the reference Pilot signal is transmitted from a different hemisphere to that
++in which it is received. In the MH370 situation the reference Pilot signal was transmitted from the
++Burum GES in the Netherlands, and received at Perth, resulting in the equipment only being able
++to partially remove the C Band Doppler component.
++The EAFC receiver at Perth is an old unit that is unable to accept negative latitude values to
++service southern hemisphere locations as described. Inmarsat operates the unit in such a manner
++that it reduces the effect of the C Band Doppler rather than removing it completely. Such an
++approach is perfectly serviceable for communications use.
++An algorithm was used which enabled determination of the frequency translation variations
++applied in the GES due to the EAFC receiver. However this is of limited utility to the analysis as
++there is still the uncertainty related to the translation frequency applied by the satellite.
++Inmarsat compared the measured frequency of the Burum LC Pilot signal received at the Perth
++GES (after passing through the satellite and the Perth receive chain) with the frequency that would
++have been expected due to the effect of Doppler shift due to satellite movement. This determined
++the combined effect of satellite translation frequency and GES EAFC frequency variation. This
++combined factor was used to determine the ‘Satellite and EAFC Effect’ in the BFO calculations.
+@@ -3351,4 +3484 @@
+-Table 5: BFO Sensitivity to Aircraft Heading Errors
++Table 5: BFO Sensitivity to Aircraft Track Errors
+@@ -3366,14 +3485,15 @@
+ Measurement Parameter,-25°,Heading True,+25°,Unit,Notes
+ Time,17:07,17:07,17:07,UTC,
+ Aircraft Latitude,5:27,5:27,5:27,°N,
+ Aircraft Longitude,102.79,102.79,102.79,°E,
+ Aircraft Ground Speed,867,867,867,kph,
+ Aircraft Heading,0,25,50,°ETN,
+ Bias Component,152.5,152.5,152.5,Hz,From Calibration
+ Aircraft Freq. Compensation,108.9,489.5,777.8,Hz,Calculated (for 64.5°E satellite)
+-Uplink Doppler,-75.3,-459.4,-756.8,Hz,Satellite and aircraft movement
+-Downlink Doppler,-75.1,-75.1,-75.1,Hz,Satellite movement
++Aircraft Doppler (uplink),-75.3,-459.4,-756.8,Hz,Aircraft velocity towards satellite
++Satellite Doppler (uplink),-3.2,-3.2,-3.2,Hz,Satellite velocity towards aircraft
++Satellite Doppler (downlink),-71.9,-71.9,-71.9,Hz,Satellite velocity towards Perth GES
+ Satellite and EAFC Effect,24.1,24.1,24.1,Hz,Measured
+ Predicted BFO,135.1,131.7,122.5,Hz,
+ Measured BFO,132.0,132.0,132.0,Hz,Measured
+-Error,3.1,-0.3,-9.5,Hz,Close match at true heading
++Error,3.1,-0.3,-9.5,Hz,Close match at true latitude
+@@ -3380,0 +3500,0 @@
+-Measurement Parameter,-5°,Latitude True,+5°,Unit,Notes
++Measurement Parameter,-25°,Heading True,+25°,Unit,Notes
+ Time,17:07,17:07,17:07,UTC,
+ Aircraft Latitude,0:27,5:27,10:27,°N,
+ Aircraft Longitude,102.79,102.79,102.79,°E,
+ Aircraft Ground Speed,867,867,867,kph,
+ Aircraft Heading,25,25,25,°ETN,
+ Bias Component,152.5,152.5,152.5,Hz,From Calibration
+ Aircraft Freq. Compensation,398.3,489.5,577.1,Hz,Calculated (for 64.5°E satellite)
+-Uplink Doppler,-367.9,-459.4,-547.5,Hz,Satellite and aircraft movement
+-Downlink Doppler,-79.5,-75.1,-70.7,Hz,Satellite movement
++Aircraft Doppler (uplink),-367.9,-459.4,-547.5,Hz,Aircraft velocity towards satellite
++Satellite Doppler (uplink),-7.6,-3.2,+1.1,Hz,Satellite velocity towards aircraft
++Satellite Doppler (downlink),-71.9,-71.9,-71.9,Hz,Satellite velocity towards Perth GES
+ Satellite and EAFC Effect,24.1,24.1,24.1,Hz,Measured
+-Predicted BFO,127.5,131.7,135.5,Hz,
++Predicted BFO,135.1,131.7,122.5,Hz,
+ Measured BFO,132.0,132.0,132.0,Hz,Measured
+-Error,-4.5,-0.3,3.5,Hz,Close match at true latitude
++Error,3.1,-0.3,-9.5,Hz,Close match at true latitude
+@@ -3445 +3835 @@
+-Final - 26 June 2014
++26 June 2014 (updated 13 August 2014)
