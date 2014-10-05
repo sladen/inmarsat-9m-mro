@@ -1,0 +1,350 @@
+2014-03-11: Inmarsat share North/South path based on hourly pings
+
+  McLaughlin, Chris; Telegraph (24 March 2014)
+  "MH370: How British satellite company Inmarsat tracked down missing Malaysia Airlines plane"
+  http://www.telegraph.co.uk/news/worldnews/asia/malaysia/10719854/MH370-How-British-satellite-company-Inmarsat-tracked-down-missing-Malaysia-Airlines-plane.html
+  https://www.youtube.com/watch?v=OmnqlOEAp60
+  "As you know, on the eleventh we shared with the investigation a
+  possible North-South path based on the single hourly pings we got
+  off the aircraft."
+
+2014-03-13: CTBTO/IMS briefing, nothing found
+
+  2014-03-13 15:33 UTC 
+  Mialle, Pierrick (11 March 2014)
+  "IDC infrasound search report report"
+  http://www.ctbto.org/fileadmin/user_upload/public_information/2014/IDC_infrasound_MalaysianAirlines_MH370.pdf
+
+2014-03-13: White House press briefing
+
+  2014-03-13 17:20 UTC (per 1.20 EDT)
+  Carney, Jay; White House (13 March 2014)
+  http://www.whitehouse.gov/photos-and-video/video/2014/03/13/press-briefing#transcript
+
+  "it's my understanding that based on some new information that's not
+  necessarily conclusive, but new information, an additional search
+  area may be opened in the Indian Ocean"
+
+2014-03-14: MDCA confusion/misunderstanding over Satcom transmissions
+
+  2014-03-14 09:47:40 UTC (per date-time=1394790460)
+  Hussein, Hishammuddin; @H2OComms (14 March 2014
+  https://twitter.com/H2OComms/status/444409519569772545  
+
+  "Y'day, rejected media report- engine data (plane flying
+  for hrs). Checked w/ Boeing & RollsRoyce, reports not true"
+
+2014-03-14: Inmarsat first statement on automated signals
+
+  2014-03-14 10:56:24 UTC (per 2014-03-14T10:56:24+00:00)
+  Inmarsat (14 March 2014)
+  "Inmarsat statement on Malaysia Airlines flight MH370"
+  http://www.inmarsat.com/news/inmarsat-statement-malaysia-airlines-flight-mh370/
+
+  "Routine, automated signals were registered on the Inmarsat network
+  from Malaysia Airlines flight MH370 during its flight from Kuala
+  Lumpur.  This information was provided to our partner SITA, which in
+  turn has shared it with Malaysia Airlines."
+
+2014-03-15: Arc image shown at KLIA Sama Sama Hotel:
+
+  2014-03-15 14:06:05 UTC
+  "Last known possible position of MH370 based on satellite data
+  (photograph of colour printout of annotation over screenshot)
+  (somewhere on red lines)"
+  http://www.slate.com/content/dam/slate/blogs/future_tense/2014/03/15/Color%20MH370%20location%20map.jpg
+
+  (nb. GPS Coordinates embedded in image from KLIA Sama Sama hotel)
+  http://www.openstreetmap.org/#map=19/2.7578/101.7036
+
+2014-03-15: Inmarsat appointed as technical advisor to AAIB
+
+  2014-03-15 15:08:15 UTC (per 2014-03-15T15:08:15+00:00)
+  Inmarsat (15 March 2014)
+  "Inmarsat appointed technical adviser to UK AAIB on flight MH370"
+  http://www.inmarsat.com/news/inmarsat-appointed-technical-adviser-flight-mh370/
+
+  "Inmarsat has been appointed as a technical adviser to the UK Air
+  Accident Investigation Branch ...  we have responded quickly and
+  afforded urgent priority to the provision of data"
+
+2014-03-18: Thailand confirms westerly Radar data track
+
+  2014-03-18 13:35:40 UTC (per 2014-03-18T09:35:40-04:00)
+  Doksone, Thanyarat; Associated Press (18 March 2014)
+  "Thailand gives radar data 10 days after plane lost"
+  http://bigstory.ap.org/article/thailand-gives-radar-data-10-days-after-plane-lost
+
+  "Thai air force spokesman Air Vice Marshal Montol Suchookorn ...
+  said that at 1:28 a.m., Thai military radar "was able to detect a
+  signal, which was not a normal signal, of a plane flying in the
+  direction opposite from the MH370 plane," back toward Kuala
+  Lumpur. The plane later turned right, toward Butterworth, a
+  Malaysian city along the Strait of Malacca. The radar signal was
+  infrequent and did not include any data such as the flight number.
+  ... He said he didn't know exactly when Thai radar last detected
+  the plane. Malaysian officials have said Flight 370 was last
+  detected by their own military radar at 2:14 a.m.
+  ... Thai Air Chief Marshal Prajin Juntong told reporters Tuesday
+  that the country's northern radar did not detect it."
+
+2014-03-21: Lido Hotel Briefing, Beijing
+
+  2014-03-21 02:05:06 UTC (per 10:05:06+08:00)
+  赵迪 (21 March 2014) (photograph of opening slide)
+  "Brief on MH 370 Search and Rescue Operations"
+  http://zqb.cyol.com/images/1395430722812_1.JPG
+  3月21日10时，北京丽都饭店 …
+  表示飞机最后一次出现在空军雷达屏幕上2：22分，距离空军基地200海里。
+  … 赵迪摄
+
+2014-03-21: Lido Hotel Briefing: Military Radar slide
+
+  2014-03-21 02:54:15.787 UTC
+  Unknown; TMF. (21 March 2014). (photograph of Radar slide)
+  "Military Radar Plot from Pulau Perak to Last Plot at 02:22H"
+  http://tmfassociates.com/blog/wp-content/uploads/2014/03/Beijing-event.jpg
+
+  2014-03-21 02:54:42 UTC
+  Kim Kyung-Hoon; Reuters (21 March 2014). (photograph of Radar slide)
+  "Military Radar Plot from Pulau Perak to Last Plot at 02:22H"
+  http://s1.ibtimes.com/sites/www.ibtimes.com/files/2014/03/21/mh370-search-briefing-3.jpg
+  "Penang ...
+  Time - 02:02H Perak Island 279R 89nm from Butterworth AB ...
+  Time - 02:22H 295R 200 nm from Butterworth AB"
+
+2014-03-23: Inmarsat Doppler presentation to AAIB
+
+  Dickinson, Mark (25 March 2014) "Differential Doppler study from
+  Inmarsat concerning MH370, presented to the AAIB 23 March 2014" 
+  http://www.inmarsat.com/wp-content/uploads/2014/03/Inmarsat-Differential-Doppler-Study.pdf
+
+2014-03-24: Inmarsat share North/South path based on hourly pings
+
+  McLaughlin, Chris; Telegraph (24 March 2014)
+  "MH370: How British satellite company Inmarsat tracked down missing Malaysia Airlines plane"
+  http://www.telegraph.co.uk/news/worldnews/asia/malaysia/10719854/MH370-How-British-satellite-company-Inmarsat-tracked-down-missing-Malaysia-Airlines-plane.html
+  https://www.youtube.com/watch?v=OmnqlOEAp60
+  "As you know, on the eleventh we shared with the investigation a
+  possible North-South path based on the single hourly pings we got
+  off the aircraft.  Over the intervening days our engineers have been
+  looking at modelling the signals coming off of the plane via the
+  network and comparing it other proven Malaysian triple-seven flights
+  on our network and concluding whether the northern path was valid or
+  not.
+
+  In building up that data they then gave it to others in the UK space
+  industry to peer-review.  They did that, and they also went to
+  Boeing to make sure they had the right assumptions about autopilot
+  speed and the performance of the aircraft, which they did, and then
+  built a pattern that was sent to the investigation yesterday.
+
+  This is completely unusual, Inmarsat has been doing the global
+  Maritime distress service for thirty-four years now.  We were
+  founded on the UN charter to do that.
+
+  This is the first time we've ever been asked to find something, with
+  just a single signal once an hour.  It's really a great tribute to
+  our scientific team that they've managed to achieve this. ..."
+
+2014-03-24: Malaysian Prime Minister acceptance of Southern Indian Ocean
+
+  2014-03-24 14:09:32 UTC (per data-utime=1395670172)
+  Razak, Najib (24 March 2014)
+  "PM NAjib Razak's Press Statement on MH370"
+  https://www.facebook.com/najibrazak/posts/10151954247230952
+  CNN; "MH370 lost in Indian Ocean, Malaysian PM announces" (video)
+  http://edition.cnn.com/2014/03/24/world/asia/malaysia-airlines-prime-minister-statement/
+  "Malaysian PM: Flight MH370 "Ended In The Southern Indian Ocean""
+  http://www.realclearpolitics.com/video/2014/03/24/malaysian_pm_flight_mh370_ended_in_the_southern_indian_ocean.html
+
+  "This evening I was briefed by representatives from the UK Air
+  Accidents Investigation Branch (AAIB). They informed me that
+  Inmarsat, the UK company that provided the satellite data which
+  indicated the northern and southern corridors, has been performing
+  further calculations ... Inmarsat and the AAIB have concluded that
+  MH370 flew along the southern corridor, and that its last position
+  was in the middle of the Indian Ocean, west of Perth.  ... according
+  to this new data, flight MH370 ended in the southern Indian Ocean."
+
+2014-03-24: AAIB first statement (later pulled)
+
+  "Statement on Malaysia flight MH370 issued 24/03/2014"
+  http://www.aaib.gov.uk/latest_news/statement_on_malaysia_flight_mh370_issued_24_03_2014.cfm
+
+  "As set out by the Malaysian PM today, we have been working with the
+  UK company Inmarsat, using satellite data to determine the area on
+  which to focus the search. We are not able to comment further on
+  this investigation, which is being led by the Malaysian authorities
+
+2014-03-25: MDCA Confirmation of AAIB (Inmarsat) presentation
+
+  2014-03-25 10:47:46 UTC (per data-utime=1395744466)
+  Malaysian Ministry of Transport (25 March 2014).
+  "Information provided to MH370 Investigation by UK Air Accidents
+  Investigation Branch (AAIB)"
+  https://www.facebook.com/permalink.php?story_fbid=740971779281171&id=178566888854999
+
+2014-03-25: Mark Dickinson (Inmarsat) exports presentation to PDF
+
+  2014-03-25 16:54:01 UTC (per D:20140325165400Z)
+  wget -O- http://www.inmarsat.com/wp-content/uploads/2014/03/Inmarsat-Differential-Doppler-Study.pdf | pdftk - output - uncompress | grep /Creator -A6
+  /Creator (Acrobat PDFMaker 10.1 for PowerPoint)
+  /Title (Slide 1)
+  /Author (Mark Dickinson)
+  /Company (JCreative)
+  /Producer (Adobe PDF Library 10.0)
+  /ModDate (D:20140325165401Z)
+  /CreationDate (D:20140325165400Z)
+
+2014-03-25: Doppler presentation PDF uploaded to Inmarsat website
+
+  2014-03-25 19:02:00 UTC
+  wget -S http://www.inmarsat.com/wp-content/uploads/2014/03/Inmarsat-Differential-Doppler-Study.pdf | grep ^Last-Modified:
+  Last-Modified: Tue, 25 Mar 2014 19:02:00 GMT
+  "Example Southern Tracks (tracks ends at 00:11 UTC)"
+
+2014-03-25: Inmarsat publish Wordpress article on presentation
+
+  2014-03-25 19:11:20 UTC
+  "Malaysian government publishes MH370 details from UK AAIB"
+  http://www.inmarsat.com/news/malaysian-government-publishes-mh370-details-uk-aaib/
+  wget -O- http://www.inmarsat.com/news/malaysian-government-publishes-mh370-details-uk-aaib/ | grep 'property="article:'
+  <meta property="article:published_time" content="2014-03-25T19:11:02+00:00" />
+  <meta property="article:modified_time" content="2014-03-25T20:04:35+00:00" />
+
+2014-03-26: AAIB second statement (later pulled)
+
+  AAIB; "Updated statement on Malaysian Airlines Flight MH370 issued 26/03/14"
+  http://www.aaib.gov.uk/latest_news/updated_statement_on_malaysian_airlines_flight_mh370_issued_26_03_14.cfm
+  http://web.archive.org/web/20140328232820/http://www.aaib.gov.uk/latest_news/updated_statement_on_malaysian_airlines_flight_mh370_issued_26_03_14.cfm
+
+  "In accordance with the protocols detailed in ICAO Annex 13
+  concerning aircraft accident investigation, the UK, as the State of
+  manufacture of the engines, appointed an Accredited Representative
+  from the AAIB, supported by advisors from the AAIB, Rolls-Royce and
+  Inmarsat, to join an International team of investigators
+  participating in the Malaysian-led investigation into the loss of
+  Malaysia Airlines flight MH370.  The AAIB continue to maintain a
+  presence in Kuala Lumpur working with investigators from other
+  states as part of a large international effort supporting the
+  Malaysian authorities.  It is not appropriate for the AAIB to
+  comment further on the investigation."
+
+2014-03-28: Sladen Freedom of Information request to AAIB
+
+  Sladen, Paul (28 March 2014)
+  "9M-MRO/75008F AES exchange I/Q snippets"
+  https://www.whatdotheyknow.com/request/9m_mro75008f_aes_exchange_iq_sni
+
+2014-04-29: Briefing
+
+  Ng Han Guan, AP (29 March 2014).  (photograph of slide)
+  http://www.blogcdn.com/slideshows/images/slides/259/296/0/S2592960/slug/l/china-malaysia-plane-1.jpg
+
+2014-05-15: Hishammuddin Hussein states MDCA/MH/ATSB do not have log files
+
+  Hussein, Hishammuddin (15 May 2014); Kuala Lumpur (press
+  conference) in CNN; "Another Day of Firefighting in
+  California; Fires Could Have Been Arson; Where is Flight 370 Data?"
+  Aired May 16, 2014 - 06:30 ET"
+  http://transcripts.cnn.com/TRANSCRIPTS/1405/16/nday.02.html
+  "Unidentified Male: The raw data is with Inmarsat, not with
+  Malaysia, not with Australia, not with Malaysia Airlines, so if
+  there is any request for this raw data to be made available to the
+  public, it must be made to Inmarsat,"
+
+2014-05-18: Inmarsat "provided" logs to investigation (AAIB)
+
+  Clancy, Jim; CNN. (18 May 2014)
+  "Malaysia Airlines Flight 370: Who has satellite data that shaped
+  search?" (video and textual report)
+  http://edition.cnn.com/2014/05/15/world/asia/malaysia-missing-plane/
+  ""The raw data is with (satellite company) Inmarsat, not with
+  Malaysia, not with Australia, not with Malaysia Airlines, so if
+  there is any request for this raw data to be made available to the
+  public, it must be made to Inmarsat," Acting Minister of
+  Transportation Hishammuddin Hussein said. ... "Inmarsat's raw data
+  was provided to the investigation team at an early stage in the
+  search for MH370," Chris McLaughlin, the company's vice president of
+  external relations, told CNN"
+
+2014-05-20: Inmarsat/MDCA damage limitation press release
+
+  Ihsan Hassan Basri (20 May 2014). "Joint Press Statement by Inmarsat
+  UK and DCA Malaysia"
+  http://web.archive.org/web/20140604011230/http://www.dca.gov.my/mainpage/JOINT%20PRESS%20STATEMENT%20-%20INMARSAT%20UK%20AND%20DCA%2020%20MAY%202014.pdf
+  ""It must be noted that previously where reference has been
+  made to "data communication logs and raw data"- they
+  refer to the same set of data."
+
+  X-Archive-Orig-last-modified: Tue, 20 May 2014 02:26:48 GMT
+
+  /Creator (Microsoft® Word 2013)
+  /Author (Ihsan Hassan Basri)
+  /Producer (Microsoft® Word 2013)
+  /ModDate (D:20140520102648+08'00')
+  /CreationDate (D:20140520095207+08'00')
+
+2014-05-20: Richard Quest (CNN) background filming at Inmarsat HQ
+
+  Quest, Richard (24 May 2014)
+  http://cnn-f.akamaihd.net/cnn/big/world/2014/05/27/intv-quest-inmarsat-data-dickinson.cnn_27014108_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4
+  http://cnn-f.akamaihd.net/cnn/big/world/2014/05/27/pkg-quest-inmarsat-data.cnn_27020448_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4
+  http://cnn-f.akamaihd.net/cnn/big/world/2014/05/27/intv-quest-uk-inmarsat-dickinson-long.cnn_27080346_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4
+
+2014-05-23: Redacted Log file spreadsheet prepared in UK:
+
+  2014-05-23 08:05:09 UTC (per 2014-05-23T09:05:09+01:00)n
+  "Notes for Signalling Unit Log for (9M-MRO) Flight MH370"
+
+  wget -O- http://www.dca.gov.my/mainpage/MH370%20Data%20Communication%20Logs.pdf
+  | pdftk - output - uncompress  | grep 2014-05 | head -n2
+  <xmp:CreateDate>2014-05-23T09:05:09+01:00</xmp:CreateDate>
+  <xmp:ModifyDate>2014-05-27T11:05:37+08:00</xmp:ModifyDate>
+
+2014-05-23: Richard Question (CNN) interview filming at Inmarsat HQ
+
+  Quest, Richard (24 May 2014)
+  http://cnn-f.akamaihd.net/cnn/big/world/2014/05/27/intv-quest-inmarsat-data-dickinson.cnn_27014108_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4
+  http://cnn-f.akamaihd.net/cnn/big/world/2014/05/27/pkg-quest-inmarsat-data.cnn_27020448_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4
+  http://cnn-f.akamaihd.net/cnn/big/world/2014/05/27/intv-quest-uk-inmarsat-dickinson-long.cnn_27080346_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4
+
+2014-05-24: CNN initial broadcast (subsequently pulled)
+
+  http://ht.cdn.turner.com/cnn/big/international/2014/05/24/quest-inmarsat-data.cnn_24034342_1280x720_3500k.mp4
+  (web version is bit-identical video file to version later published under "2014/05/27" URL).
+
+2014-05-27: Redacted Log file spreadsheet (added DRM flags) published by MDCA
+
+  2014-05-27 03:37:08 UTC (per 2014-05-27T11:05:37+08:00)
+  "Notes for Signalling Unit Log for (9M-MRO) Flight MH370"
+
+  wget -O- http://www.dca.gov.my/mainpage/MH370%20Data%20Communication%20Logs.pdf
+  | pdftk - output - uncompress  | grep 2014-05 | head -n2
+  <xmp:CreateDate>2014-05-23T09:05:09+01:00</xmp:CreateDate>
+  <xmp:ModifyDate>2014-05-27T11:05:37+08:00</xmp:ModifyDate>
+
+  wget -O- http://www.dca.gov.my/mainpage/MH370%20Data%20Communication%20Logs.pdf | pdfinfo | grep yes
+  Encrypted: yes (print:yes copy:no change:no addNotes:no)
+
+2014-07-04: AAIB confirm they approached Inmarsat to find out what material was received
+
+  Conradi, Keith (4 July 2014); AAIB.
+  https://www.whatdotheyknow.com/request/9m_mro75008f_aes_exchange_iq_sni#incoming-536372
+  "the AAIB approached Inmarsat to gain a clearer understanding of the
+  information which Inmarsat had provided to the AAIB"
+
+2014-08-01: AAIB confirms it did receive full log files
+
+  Bass, Ian (1 August 2014); AAIB.
+  https://www.whatdotheyknow.com/request/9m_mro75008f_aes_301305_ges_exch#incoming-546013
+  "we have concluded the AAIB holds records as you have described"
+
+2014-10-07:
+
+  Dickinson, Mark; Coiley, David (7 October 2014) (lecture).
+  Royal Society. London.
+  "The challenge of MH370 flight path reconstruction and the future of
+  space-based aircraft tracking".
+  http://www.theiet.org/events/2014/206148.cfm
