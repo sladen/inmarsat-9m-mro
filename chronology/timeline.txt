@@ -1,3 +1,52 @@
+2014-03-08: SITA request data from Inmarsat
+
+  Dunne, Helen (9 September 2014). Precise Exchange. Issue 89.
+  "What lessons can communicators learn from Malaysia Airlines flight MH370?"
+  http://www.corpcommsmagazine.co.uk/features/3724-what-lessons-can-communicators-learn-from-malaysia-airlines-flight-mh370
+
+  "Chris Mclaughlin ... our customer SITA, ... rang up and said "Can
+  we have the data off the plane that you've got?" And we said "Yeah,
+  of course." And that was the end of our involvement. We sent the
+  information, and it comprised really the first hour and a half. It
+  was very sad the plane was missing, but not our job."
+
+  Pasztor, Andy; Ostrower, Jon; Hookway, James (20 March 2014).
+  Wall Street Journal.
+  "Critical Data Was Delayed in Search for Missing Malaysia Airlines Flight
+  http://m.wsj.com/articles/SB10001424052702304026304579449680167673144?mobile=y
+
+  "Within hours of Flight 370's disappearance on March 8, Inmarsat
+  started searching for clues. What little data it had on the short
+  flight before it disappeared was provided to SITA, a Swiss aviation
+  IT company, on the same day, Inmarsat said."
+
+2014-03-09: Inmarsat looks at its own data
+
+  Dunne, Helen (9 September 2014). Precise Exchange. Issue 89.
+  "What lessons can communicators learn from Malaysia Airlines flight MH370?"
+  http://www.corpcommsmagazine.co.uk/features/3724-what-lessons-can-communicators-learn-from-malaysia-airlines-flight-mh370
+
+  "Chris Mclaughlin ... On Sunday afternoon, one of our engineers, who
+  had been involved five years earlier with the Air France loss, felt
+  that we should look at the network further to see if there was
+  anything else that we could offer because nobody had any idea. He
+  found that the aircraft was still sending out signals seven and a
+  half hours after it had vanished. We kept delving, and by Monday
+  morning it was absolutely clear that the aircraft had been powered
+  up for a number of hours after it had gone missing. And there were
+  implications for this."
+
+2014-03-10: Inmarsat begin extrapolating locations
+
+  Pasztor, Andy; Ostrower, Jon; Hookway, James (20 March 2014).
+  Wall Street Journal.
+  "Critical Data Was Delayed in Search for Missing Malaysia Airlines Flight
+  http://m.wsj.com/articles/SB10001424052702304026304579449680167673144?mobile=y
+
+  "Chris McLaughlin said that on Monday, March 10, it began
+  extrapolating the location of the jetliner using the aircraft's
+  changing angle and distance to the satellite"
+
 2014-03-11: Inmarsat share North/South path based on hourly pings
 
   McLaughlin, Chris; Telegraph (24 March 2014)
@@ -7,6 +56,21 @@
   "As you know, on the eleventh we shared with the investigation a
   possible North-South path based on the single hourly pings we got
   off the aircraft."
+
+  McLaughlin, Chris (18 June 2014).
+  "Inmarsat: 'No hotspot' in search for Flight MH370"
+  http://www.dw.de/inmarsat-no-hotspot-in-search-for-flight-mh370/a-17716310
+  "We gave initial data to the investigation within three days of the
+  loss, through the data owner to the correct authority."
+
+2014-03-12: Shared with Malaysia
+
+  Malay Mail (21 March 2014)
+  "Inmarsat says told Malaysia of Indian Ocean possibility on March 12"
+  http://www.themalaymailonline.com/malaysia/article/inmarsat-says-told-malaysia-of-indian-ocean-possibility-on-march-12
+  "Chris McLaughlin in a BBC report ... "Our position was we shared
+  data and an idea that could be tested against other data with the
+  correct authorities on the Tuesday.""
 
 2014-03-13: CTBTO/IMS briefing, nothing found
 
@@ -237,11 +301,43 @@
   "9M-MRO/75008F AES exchange I/Q snippets"
   https://www.whatdotheyknow.com/request/9m_mro75008f_aes_exchange_iq_sni
 
+2014-03-31: PR industry coverage of Chris McLaughlin PR work
+
+  Jonathan Tilley (31 March 2014), PR Week
+  "How mystery of flight MH370 challenged British satellite firm's comms team"
+  http://www.prweek.com/article/1287913/mystery-flight-mh370-challenged-british-satellite-firms-comms-team
+  "McLaughlin said ... "We decided very quickly I would be the front
+  guy," he said. "So we had a single person giving the same message
+  rather than multiple spokespeople. Jonathan acted as the
+  gatekeeper. ... ""
+
+  Also in the print edition:
+  Jonathan Tilley (31 March 2014), PR Week
+  "How MH370 challenged a British satellite company's comms team"
+  http://www.prweek.com/article/1288058/mh370-challenged-british-satellite-companys-comms-team
+
+2014-04-01: Inmarsat state not their data
+  Arthur, Charles (1 April 2014)
+  "Malaysian minister calls for aircraft black box data to be stored remotely"
+  http://www.theguardian.com/world/2014/apr/01/malaysia-aircraft-black-box-data-mh370
+
+  ""The raw data has been passed to the UK Air Accident Investigation
+  Branch, which has forwarded it to the Malaysian authorities. ... We
+  analysed the data initially on the basis that we have a primary
+  requirement to assist safety, search and rescue on the sea. That's
+  part of our prime directive. But it's quite another thing to publish
+  somebody else's data."
+
 2014-04-29: Briefing
 
   Ng Han Guan, AP (29 March 2014).  (photograph of slide)
   http://www.blogcdn.com/slideshows/images/slides/259/296/0/S2592960/slug/l/china-malaysia-plane-1.jpg
 
+2014-07-03: PR industry coverage of Inmarsat PR work
+  
+  "Precise Exchange: What lessons can communicators learn from Malaysia flight MH370?"
+  http://www.precise.co.uk/about-us/whats-new/2014/precise-exchange-what-lessons-can-communicators-learn-from-malaysia-flight-mh370.aspx
+  
 2014-05-15: Hishammuddin Hussein states MDCA/MH/ATSB do not have log files
 
   Hussein, Hishammuddin (15 May 2014); Kuala Lumpur (press
