@@ -57,7 +57,7 @@
   possible North-South path based on the single hourly pings we got
   off the aircraft."
 
-  McLaughlin, Chris (18 June 2014).
+  McLaughlin, Chris (18 June 2014).  Deutsche Welle.
   "Inmarsat: 'No hotspot' in search for Flight MH370"
   http://www.dw.de/inmarsat-no-hotspot-in-search-for-flight-mh370/a-17716310
   "We gave initial data to the investigation within three days of the
@@ -151,6 +151,13 @@
   detected by their own military radar at 2:14 a.m.
   ... Thai Air Chief Marshal Prajin Juntong told reporters Tuesday
   that the country's northern radar did not detect it."
+
+2014-03-20: 
+
+  Mohsin, Saima; Yan, Holly (20 May 2014). CNN.  (video).
+  "Inmarsat 'working' to make raw MH370 data public"
+  http://edition.cnn.com/2014/05/19/world/asia/malaysia-missing-plane/
+  Shots of Inmarsat NOC, including password file.
 
 2014-03-21: Lido Hotel Briefing, Beijing
 
@@ -277,9 +284,20 @@
   <meta property="article:published_time" content="2014-03-25T19:11:02+00:00" />
   <meta property="article:modified_time" content="2014-03-25T20:04:35+00:00" />
 
+2014-03-26:
+
+  New Straits Times (26 March 2014)
+  "Malaysia says there's sealed evidence on MH370 that cannot be made public"
+  http://www.straitstimes.com/the-big-story/missing-mas-plane/story/malaysia-says-theres-sealed-evidence-mh370-cannot-be-made-publ
+  "Another asked: "If the info is from UK satellite firm Inmarsat,
+  does it mean the Malaysia team cannot answer our questions on the
+  MH370 analysis?"" "MAS team replied: "We can answer but we might not
+  be correct as we're not the investigators":"
+
 2014-03-26: AAIB second statement (later pulled)
 
-  AAIB; "Updated statement on Malaysian Airlines Flight MH370 issued 26/03/14"
+  AAIB (26 March 2014)
+  "Updated statement on Malaysian Airlines Flight MH370 issued 26/03/14"
   http://www.aaib.gov.uk/latest_news/updated_statement_on_malaysian_airlines_flight_mh370_issued_26_03_14.cfm
   http://web.archive.org/web/20140328232820/http://www.aaib.gov.uk/latest_news/updated_statement_on_malaysian_airlines_flight_mh370_issued_26_03_14.cfm
 
@@ -411,6 +429,52 @@
   http://ht.cdn.turner.com/cnn/big/international/2014/05/24/quest-inmarsat-data.cnn_24034342_1280x720_3500k.mp4
   (web version is bit-identical video file to version later published under "2014/05/27" URL).
 
+  "Inmarsat explains search data for MH370"
+  "Richard Quest has been given a preview of the Inmarsat data used in the search for MH370"
+  http://rss.cnn.com/~r/rss/cnn_freevideo/~3/cWmR8wvVOR4/
+  http://edition.cnn.com/video/international/2014/05/24/quest-inmarsat-data.cnn
+  Richard Quest has been given a preview of the Inmarsat data used in the search for MH370 
+
+2014-06-26: Redacted logs expected day after
+
+  Rahman, Syarifah (26 May 2014)
+  "Search for MH370 : Raw Data from Inmarsat to be Released to Public Tomorrow"
+  http://www.ntv7.com.my/7edition/local-en/SEARCH_FOR_MH370_RAW_DATA_FROM_INMARSAT_TO_BE_RELEASED_TO_PUBLIC_TOMORROW.html
+  "The raw satellite data, produced by Inmarsat, may be made public tomorrow."
+  (video) Hishammuddin Hussein: "If we are not able to release it
+  tomorrow then they have to explain to me why."
+
+  AP Television (26 May 2014)
+  http://www.aparchive.com/metadata/Malaysia-Plane-2/36b2b100f3970f59f2cd06cb9cc7b82e
+  "I said probably tomorrow because who is going to release it will be
+  DCA (Department of Civil Aviation) with Inmarsat, not me."
+
+  The Rakyat Post (26 May 2014)
+  http://www.therakyatpost.com/news/2014/05/26/raw-immarsat-data-tomorrow/
+  "He said the Civil Aviation Department and Inmarsat would jointly announce the report.
+  "This is what they (Inmarsat and DCA) have told me,""
+
+  Chik, Hasbullah Awang (26 May 2014) Malaysian Insider
+  "Inmarsat to release satellite data on MH370 tomorrow, says Hishammuddin"
+  http://www.themalaysianinsider.com/malaysia/article/inmarsat-to-release-satellite-data-on-mh370-tomorrow-says-hishammuddin
+  ""It will probably be made public tomorrow by Inmarsat and DCA," the
+  acting Transport Minister told a press conference"
+
+  Mun, Lee Yen. (26 May 2014). The Malaysia Star.
+  http://www.thestar.com.my/News/Nation/2014/05/26/Missing-MH370-Raw-sattelite-data/
+  ""I can only tell you what I have been told and we will hopefully
+  release the report tomorrow, as this is what have been told to me,"
+  Hishammuddin said"
+
+  Chi, Melissa (26 May 2014). (video)
+  http://www.themalaymailonline.com/videos/malaysia/watch/mmotv-hishammuddin-authorities-relying-on-inmarsat-as-the-sole-satellite-da
+  ""That's all we have""
+
+  Mandarin 8 News (26 May 2014)
+  "MH370卫星通讯数据报告 交通部最快明天公布"
+  http://www.8tv.com.my/mandarinnews/news-local/MH370_1401110602.html
+  (longer video of KLIA2 press conference)
+
 2014-05-27: Redacted Log file spreadsheet (added DRM flags) published by MDCA
 
   2014-05-27 03:37:08 UTC (per 2014-05-27T11:05:37+08:00)
@@ -423,6 +487,30 @@
 
   wget -O- http://www.dca.gov.my/mainpage/MH370%20Data%20Communication%20Logs.pdf | pdfinfo | grep yes
   Encrypted: yes (print:yes copy:no change:no addNotes:no)
+
+  MH370 Press Statement by Department of Civil Aviation Malaysia
+  http://www.dca.gov.my/mainpage/MH370 Press Statement by DCA - 27 May 2014.pdf
+  "The attached data logs along with additional notes for (9M-MRO) Flight
+  MH370 was prepared by Inmarsat
+
+2014-05-27:
+  Westcott, Richard; McLaughlin, Chris (27 May 2014).
+  "Inmarsat gave Malaysia authorities new MH370 data 'weeks ago'"
+  http://www.bbc.co.uk/news/world-us-canada-27597018
+  "We could put out rows of bare byte-level data, but it would be
+  meaningless.  What we've done is to take that data, and put it into
+  a series of columns with keywords above so that the average person
+  can read—and if they wish—build a picture of the limited
+  information that's available."
+  "We've offered to do a a free tracking service for the world's
+  commercial airlines ... It would be the simplest thing in the world
+  to bury this location data into the handshakes.  It wasn't done,
+  because it was never required to be done.  We're offering to do that
+  now."
+
+  Westcott, Richard (27 May 2014). BBC News.
+  "Flight MH370: Malaysia releases raw satellite data"
+  http://www.bbc.co.uk/news/world-asia-27576409
 
 2014-07-04: AAIB confirm they approached Inmarsat to find out what material was received
 
@@ -444,3 +532,14 @@
   "The challenge of MH370 flight path reconstruction and the future of
   space-based aircraft tracking".
   http://www.theiet.org/events/2014/206148.cfm
+  http://scpro.streamuk.com/uk/player/Default.aspx?wid=40652
+  http://api.scpro.streamuk.com/player/manifest/40652/manifest.f4m
+  (for i in `seq 279 413` ; do echo http://lbw.flash.streamuk.com/StreamConnectOnDemand/40652/mp4:18/40652/9f59e920-4f4e-4224-bba9-bde3f2143879_2fa70521-1877-4cb2-a82d-590cabc795d1.mp4/media_w2106031873_$i.ts ; done | xargs wget -O - ) >> royal-society-q-and-a.mp4
+
+2014-10-08:
+
+  Ashton, Chris; Shuster Bruce, Alan; Colledge, Gary; Dickinson, Mark (4 September 2014)
+  "The Search for MH370". Journal of Navigation.  Royal Institute of Navigation.
+  doi:10.1017/S037346331400068X
+  http://journals.cambridge.org/nav/mh370 (PDF redirect)
+  http://journals.cambridge.org/download.php?file=/NAV/S037346331400068Xa.pdf
