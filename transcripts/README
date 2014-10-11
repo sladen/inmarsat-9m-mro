@@ -1,0 +1,73 @@
+Dickinson, Mark; Coiley, David (7 October 2014)
+"The challenge of MH370 flight path reconstruction and the future of
+space-based aircraft tracking"
+
+The first hour was Mark Dickinson's technical talk.  This is not uploaded
+yet.  The second hour was David Coiley's marketing talk, including the joint
+Q&A at the end with Coiley and Dickinson.  The second hour (only) is now up
+at:
+
+  http://tv.theiet.org/technology/transport/40652.cfm
+
+You can skip the login as the flash-steam player is at:
+
+  http://scpro.streamuk.com/uk/player/Default.aspx?wid=40652
+
+The Q&A starts at 46:00.
+
+On 10 October 2014 this stream was locked, preventing access.
+As a result, the Q&A that had been grabbed was subtitled, and then uploaded
+to Youtube under Fair Dealing to allow it still to be viewed by families
+and other parties.
+
+  "MH370 Inmarsat/Royal Society Q&A 7 October 2014 /
+  國際海事衛星組織/皇家学会 伦敦 Q&A 2014-10-07"
+  https://www.youtube.com/watch?v=GdJHbUgimUQ
+
+These final 22 minutes (from two hours) are a "Question and Answer"
+session held with David Coiley and Mark Dickinson of Inmarsat on
+7 October 2014 in London as part of Space Week.  The Royal Society of
+London has hosted public lectures and "viva voce" academic discussion
+for centuries.  The two lectures themselves do not appear
+in this clip; full details of those can be found on the main
+Institution of Engineering and Technology (IET) website:
+
+"MH370 Flight Path Reconstruction and The Future of Space-Based Aircraft Tracking"
+http://tv.theiet.org/technology/transport/40652.cfm
+http://www.theiet.org/events/2014/206148.cfm
+
+Panel:
+David Coiley (left) - Head of Aeronautics (Inmarsat)
+Mark Dickinson (middle) - Head of Satellite Operations (Inmarsat)
+
+Please observe that the original video production was sponsored by the IET and distributed via StreamUK.  The original stream was available from 8 October 2014 until 10 October 2014, after which it was password-protected preventing public access:
+http://scpro.streamuk.com/uk/player/Default.aspx?wid=40652
+
+Relevant papers:
+
+  Sladen, Paul (3 July 2014)
+  "Briefing note on the Inmarsat publication of 23–24 May 2014 pursuant to the occurrence of 9M-MRO on 7–8 March 2014"
+  http://www.paul.sladen.org/download/aaib/sladen-20140703-briefing-note.pdf
+  CC-BY
+
+  Ashton, Chris; Shuster Bruce, Alan; Colledge, Gary; Dickinson, Mark (4 September 2014)
+  "The Search for MH370". Journal of Navigation.  Royal Institute of Navigation.
+  doi:10.1017/S037346331400068X
+  http://journals.cambridge.org/nav/mh370 (PDF redirect)
+  http://journals.cambridge.org/download.php?file=/NAV/S037346331400068Xa.pdf
+  CC-BY
+
+The factual discussion from the Q&A segment has been reproduced here
+for the purposes of "Criticism, review and reporting current events"
+as defined by the fair dealing provisions of the Copyright, Designs
+and Patents Act 1988.  The snippet here has additionally been manually
+subtitled for the benefit of deaf and hard-of-hearing people; and to aid and
+assist study by those with dyslexia or English as a second-language.
+
+One slide is visible in the background, which reads "Thank you" and
+remains static throughout, this slide would be ineligible for
+Copyright protection as it does meet the necessary threshold of
+originality test.
+
+Extracted and reassembled using:
+(for i in `seq 279 413` ; do echo http://lbw.flash.streamuk.com/StreamConnectOnDemand/40652/mp4:18/40652/9f59e920-4f4e-4224-bba9-bde3f2143879_2fa70521-1877-4cb2-a82d-590cabc795d1.mp4/media_w2106031873_$i.ts ; done | xargs wget -O - ) >> royal-society-q-and-a.mp4
