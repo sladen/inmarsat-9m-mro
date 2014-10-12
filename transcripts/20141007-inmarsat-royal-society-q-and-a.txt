@@ -81,7 +81,7 @@ And therefore got two position lines?
 
 21
 00:00:48,616 --> 00:00:50,040
->> DICKINSON: Obviously we checked our logs
+>> MARK DICKINSON: Obviously we checked our logs
 
 22
 00:00:50,140 --> 00:00:51,341
@@ -138,7 +138,7 @@ Over the IOR satellite.
 
 35
 00:01:18,111 --> 00:01:19,649
->> SLADEN: Paul Sladen, Nineteen Inch Networks
+>> PAUL SLADEN: Paul Sladen, Nineteen Inch Networks
 
 36
 00:01:19,990 --> 00:01:21,618
@@ -198,7 +198,7 @@ And when does it stabilise?
 
 50
 00:01:47,856 --> 00:01:50,191
->> DICKINSON: The burn was done 24 hours previously.
+>> MARK DICKINSON: The burn was done 24 hours previously.
 
 51
 00:01:50,988 --> 00:01:52,900
@@ -671,7 +671,7 @@ just decide, yes… you Sir.
 
 168
 00:06:06,957 --> 00:06:08,962
->> RIDER: Rob Rider, Sat Corporation
+>> ROB RIDER: Rob Rider, Sat Corporation
 
 169
 00:06:09,587 --> 00:06:11,299
@@ -761,15 +761,15 @@ You have to cross over the arcs at the right time.
 
 190
 00:06:50,514 --> 00:06:52,379
->> RIDER: There's no contours from the BFO?
+>> ROB RIDER: There's no contours from the BFO?
 
 191
 00:06:52,479 --> 00:06:54,051
->> DICKINSON: I'm not sure I know what you mean by contours.
+>> MARK DICKINSON: I'm not sure I know what you mean by contours.
 
 192
 00:06:54,548 --> 00:06:57,534
->> RIDER: In the same way you get contours from the BTO.
+>> ROB RIDER: In the same way you get contours from the BTO.
 
 193
 00:06:59,703 --> 00:07:00,762
@@ -825,7 +825,7 @@ A good way of thinking about it.
 
 206
 00:07:31,663 --> 00:07:32,887
->> RIDER: Okay. Thanks.
+>> ROB RIDER: Okay. Thanks.
 
 207
 00:07:33,143 --> 00:07:35,605
@@ -838,7 +838,7 @@ And then behind there.
 
 209
 00:07:42,120 --> 00:07:43,120
->> SLADEN: Paul Sladen again.
+>> PAUL SLADEN: Paul Sladen again.
 
 210
 00:07:43,220 --> 00:07:45,429
@@ -930,7 +930,7 @@ The actual payload of the data.
 
 232
 00:08:40,595 --> 00:08:41,694
->> DICKINSON: Well it's not the payload.
+>> MARK DICKINSON: Well it's not the payload.
 
 233
 00:08:41,962 --> 00:08:43,812
@@ -986,7 +986,7 @@ Inmarsat's just an adviser into the investigation team.
 
 246
 00:09:06,522 --> 00:09:09,788
->> SLADEN: But you were very comfortable showing the unredacted log to CNN.
+>> PAUL SLADEN: But you were very comfortable showing the unredacted log to CNN.
 
 247
 00:09:11,740 --> 00:09:13,667
@@ -998,11 +998,11 @@ of the raw CSV file to CNN…
 
 249
 00:09:15,887 --> 00:09:16,691
->> DICKINSON: …far longer than that.
+>> MARK DICKINSON: …far longer than that.
 
 250
 00:09:16,791 --> 00:09:18,630
->> SLADEN: Those were the ones were I transcribed it
+>> PAUL SLADEN: Those were the ones were I transcribed it
 
 251
 00:09:18,730 --> 00:09:19,730
@@ -1022,19 +1022,19 @@ But I recovered the messages in there.
 
 255
 00:09:25,634 --> 00:09:27,191
->> DICKINSON: …and was there anything surprising in there?
+>> MARK DICKINSON: …and was there anything surprising in there?
 
 256
 00:09:28,135 --> 00:09:30,189
->> SLADEN: Yeah, the fuel values. So forty-nine point…
+>> PAUL SLADEN: Yeah, the fuel values. So forty-nine point…
 
 257
 00:09:30,623 --> 00:09:32,511
->> DICKINSON: …I think the fuel values have been reported …ah. Okay.
+>> MARK DICKINSON: …I think the fuel values have been reported …ah. Okay.
 
 258
 00:09:32,611 --> 00:09:34,999
->> SLADEN: No. Malaysia reported 49.1 tonnes
+>> PAUL SLADEN: No. Malaysia reported 49.1 tonnes
 
 259
 00:09:35,305 --> 00:09:37,028
@@ -1042,7 +1042,7 @@ So there's a discontinuity there.
 
 260
 00:09:37,128 --> 00:09:38,128
->> DICKINSON: I think I…
+>> MARK DICKINSON: I think I…
 
 261
 00:09:38,228 --> 00:09:39,094
@@ -1666,7 +1666,7 @@ What capacities do you have?
 
 416
 00:15:48,827 --> 00:15:50,198
->> DICKINSON: Well it doesn't quite double the rate.
+>> MARK DICKINSON: Well it doesn't quite double the rate.
 
 417
 00:15:50,298 --> 00:15:51,350
@@ -1762,15 +1762,15 @@ I can't remember off the top of my head, but it is months.
 
 440
 00:16:37,762 --> 00:16:38,762
->> FIKUART: Right.
+>> MIKE FIKUART: Right.
 
 441
 00:16:38,862 --> 00:16:39,862
->> DICKINSON: They are large, aswell.
+>> MARK DICKINSON: They are large, aswell.
 
 442
 00:16:40,078 --> 00:16:41,205
->> FIKUART: And are these
+>> MIKE FIKUART: And are these
 
 443
 00:16:41,305 --> 00:16:42,953
@@ -1782,7 +1782,7 @@ or is this retained with Inmarsat?
 
 445
 00:16:44,294 --> 00:16:45,378
->> DICKINSON: …They're purely management logs.
+>> MARK DICKINSON: …They're purely management logs.
 
 446
 00:16:45,478 --> 00:16:46,478
@@ -1810,7 +1810,7 @@ If SITA or ARINC want to distribute it [unclear]
 
 452
 00:17:02,949 --> 00:17:06,129
->> LIPSCOMB: Hi, Rick Lipscomb from the RAF Flight Safety team
+>> RICK LIPSCOMB: Hi, Rick Lipscomb from the RAF Flight Safety team
 
 453
 00:17:06,931 --> 00:17:08,654
@@ -1870,19 +1870,19 @@ What exactly was "the terminal"?
 
 467
 00:17:36,242 --> 00:17:38,845
->> DICKINSON: The terminal is the Satcom Unit.
+>> MARK DICKINSON: The terminal is the Satcom Unit.
 
 468
 00:17:39,162 --> 00:17:40,162
->> LIPSCOMB: Okay.
+>> RICK LIPSCOMB: Okay.
 
 469
 00:17:40,262 --> 00:17:41,022
->> DICKINSON: That's the simpl…
+>> MARK DICKINSON: That's the simpl…
 
 470
 00:17:41,122 --> 00:17:42,301
->> LIPSCOMB: …There's no means of
+>> RICK LIPSCOMB: …There's no means of
 
 471
 00:17:42,760 --> 00:17:44,106
@@ -1890,7 +1890,7 @@ manually de-selecting that.
 
 472
 00:17:44,206 --> 00:17:45,539
->> DICKINSON: I'm no expert on …
+>> MARK DICKINSON: I'm no expert on …
 
 473
 00:17:45,768 --> 00:17:48,127
@@ -1918,7 +1918,7 @@ You can see that in the logs.
 
 479
 00:18:08,237 --> 00:18:09,297
->> LIPSCOMB: Okay, thank you.
+>> RICK LIPSCOMB: Okay, thank you.
 
 480
 00:18:09,565 --> 00:18:11,231
@@ -1954,7 +1954,7 @@ running of the company?
 
 488
 00:18:32,101 --> 00:18:33,648
->> DICKINSON: Well, my time, quite a lot.
+>> MARK DICKINSON: Well, my time, quite a lot.
 
 489
 00:18:33,748 --> 00:18:35,205
@@ -2030,7 +2030,7 @@ to try and solve this tragic situation.
 
 507
 00:19:20,234 --> 00:19:21,872
->> COILEY: I can actually say in addition.
+>> DAVID COILEY: I can actually say in addition.
 
 508
 00:19:22,139 --> 00:19:23,619
@@ -2154,7 +2154,7 @@ To give the vote of thanks.
 
 538
 00:20:43,721 --> 00:20:45,070
->> PECKHAM: Thank you you very much Chris.
+>> RICHARD PECKHAM: Thank you you very much Chris.
 
 539
 00:20:45,170 --> 00:20:46,635
