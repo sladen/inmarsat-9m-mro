@@ -49,7 +49,7 @@ First one there, Sir.
 
 13
 00:00:30,915 --> 00:00:32,753
->> AUDIENCE: Thank you, very interesting talk.
+>> AUDIENCE 1: Thank you, very interesting talk.
 
 14
 00:00:33,995 --> 00:00:36,164
@@ -1081,8 +1081,8 @@ It's not with Inmarsat's job to release the data.
 >> MODERATOR: Okay the gentleman there.
 
 270
-00:09:59,776 --> 00:10:00,822
->> AUDIENCE: Thank you very much.
+00:09:59,500 --> 00:10:00,822
+>> AUDIENCE 2: Thank you very much.
 
 271
 00:10:00,922 --> 00:10:05,096
@@ -1094,7 +1094,7 @@ And part of the take-away is
 
 273
 00:10:07,403 --> 00:10:09,944
-no concentration for
+no consideration for
 
 274
 00:10:10,493 --> 00:10:13,147
@@ -1934,7 +1934,7 @@ Down here.
 
 483
 00:18:19,697 --> 00:18:22,179
->> AUDIENCE: Inmarsat's a commercial company.
+>> AUDIENCE 3: Inmarsat's a commercial company.
 
 484
 00:18:22,437 --> 00:18:24,662
