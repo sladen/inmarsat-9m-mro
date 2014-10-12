@@ -1,14 +1,14 @@
 1
 00:00:02,467 --> 00:00:03,807
-(noise)
+[noise]
 
 2
 00:00:03,907 --> 00:00:05,530
-Moderator: Just a preamble:
+>> MODERATOR: Just a preamble:
 
 3
 00:00:05,630 --> 00:00:07,036
- This is being recorded.
+This is being recorded.
 
 4
 00:00:07,136 --> 00:00:08,743
@@ -49,7 +49,7 @@ First one there, Sir.
 
 13
 00:00:30,915 --> 00:00:32,753
-Audience: Thank you, very interesting talk.
+>> AUDIENCE: Thank you, very interesting talk.
 
 14
 00:00:33,995 --> 00:00:36,164
@@ -81,7 +81,7 @@ And therefore got two position lines?
 
 21
 00:00:48,616 --> 00:00:50,040
-Dickinson: Obviously we checked our logs
+>> DICKINSON: Obviously we checked our logs
 
 22
 00:00:50,140 --> 00:00:51,341
@@ -134,11 +134,11 @@ Over the IOR satellite.
 
 34
 00:01:13,502 --> 00:01:15,291
-Moderator: Over there.
+>> MODERATOR: Over there.
 
 35
 00:01:18,111 --> 00:01:19,649
-Sladen: Paul Sladen, Nineteen Inch Networks
+>> SLADEN: Paul Sladen, Nineteen Inch Networks
 
 36
 00:01:19,990 --> 00:01:21,618
@@ -198,7 +198,7 @@ And when does it stabilise?
 
 50
 00:01:47,856 --> 00:01:50,191
-Dickinson: The burn was done 24 hours previously.
+>> DICKINSON: The burn was done 24 hours previously.
 
 51
 00:01:50,988 --> 00:01:52,900
@@ -262,11 +262,11 @@ It's a very small burn.
 
 66
 00:02:18,034 --> 00:02:24,608
-(background noise)
+[background noise]
 
 67
 00:02:25,752 --> 00:02:29,287
-Ghyslain Wattrelos: Since you released your data on May 27.
+>> GHYSLAIN WATTRELOS: Since you released your data on May 27.
 
 68
 00:02:29,580 --> 00:02:32,463
@@ -511,7 +511,7 @@ That is a phonecall in those logs.
 
 128
 00:04:32,827 --> 00:04:34,103
-(unclear)
+[unclear]
 
 129
 00:04:34,203 --> 00:04:36,144
@@ -551,7 +551,7 @@ Using the same channels that was available on the aircraft on the ground.
 
 138
 00:04:52,907 --> 00:04:55,424
-(hesitating)
+[hesitating]
 
 139
 00:04:55,524 --> 00:04:57,362
@@ -615,7 +615,7 @@ That's really where the…
 
 154
 00:05:32,330 --> 00:05:34,733
-(hesitating)
+[hesitating]
 
 155
 00:05:34,833 --> 00:05:37,525
@@ -623,7 +623,7 @@ The predicted times move slightly earlier for the turn south.
 
 156
 00:05:37,625 --> 00:05:39,018
-(unclear)
+[unclear]
 
 157
 00:05:39,528 --> 00:05:41,927
@@ -631,7 +631,7 @@ And also for the
 
 158
 00:05:42,027 --> 00:05:43,001
-(hesitating)
+[hesitating]
 
 159
 00:05:43,101 --> 00:05:45,895
@@ -639,7 +639,7 @@ refinement in the AFC calculation.
 
 160
 00:05:45,995 --> 00:05:48,153
-(hesitating)
+[hesitating]
 
 161
 00:05:48,253 --> 00:05:51,509
@@ -655,11 +655,11 @@ So I'm not sure there is any.
 
 164
 00:05:55,462 --> 00:05:58,462
-(inaudible)
+[inaudible]
 
 165
 00:05:59,521 --> 00:06:01,065
-Question at the back here first of all,
+>> MODERATOR: Question at the back here first of all,
 
 166
 00:06:01,116 --> 00:06:02,506
@@ -667,11 +667,11 @@ just decide, yes… you Sir.
 
 167
 00:06:02,904 --> 00:06:06,357
-(noise)
+[noise]
 
 168
 00:06:06,957 --> 00:06:08,962
-Rider: Rob Rider, Sat Corporation
+>> RIDER: Rob Rider, Sat Corporation
 
 169
 00:06:09,587 --> 00:06:11,299
@@ -699,7 +699,7 @@ Or did I misunderstand that?
 
 175
 00:06:22,178 --> 00:06:23,698
-(coughing)
+[coughing]
 
 176
 00:06:23,928 --> 00:06:25,204
@@ -761,19 +761,19 @@ You have to cross over the arcs at the right time.
 
 190
 00:06:50,514 --> 00:06:52,379
-Rider: There's no contours from the BFO?
+>> RIDER: There's no contours from the BFO?
 
 191
 00:06:52,479 --> 00:06:54,051
-Dickinson: I'm not sure I know what you mean by contours.
+>> DICKINSON: I'm not sure I know what you mean by contours.
 
 192
 00:06:54,548 --> 00:06:57,534
-Rider: In the same way you get contours from the BTO.
+>> RIDER: In the same way you get contours from the BTO.
 
 193
 00:06:59,703 --> 00:07:00,762
-They're not contours
+They're not contours…
 
 194
 00:07:01,514 --> 00:07:03,415
@@ -825,11 +825,11 @@ A good way of thinking about it.
 
 206
 00:07:31,663 --> 00:07:32,887
-Rider: Okay. Thanks.
+>> RIDER: Okay. Thanks.
 
 207
 00:07:33,143 --> 00:07:35,605
-Moderator: And then,
+>> MODERATOR: And then,
 Gentleman in the purple shirt.
 
 208
@@ -838,7 +838,7 @@ And then behind there.
 
 209
 00:07:42,120 --> 00:07:43,120
-Sladen: Paul Sladen again.
+>> SLADEN: Paul Sladen again.
 
 210
 00:07:43,220 --> 00:07:45,429
@@ -930,7 +930,7 @@ The actual payload of the data.
 
 232
 00:08:40,595 --> 00:08:41,694
-Dickinson: Well it's not the payload.
+>> DICKINSON: Well it's not the payload.
 
 233
 00:08:41,962 --> 00:08:43,812
@@ -986,7 +986,7 @@ Inmarsat's just an adviser into the investigation team.
 
 246
 00:09:06,522 --> 00:09:09,788
-Sladen: But you were very comfortable showing the unredacted log to CNN.
+>> SLADEN: But you were very comfortable showing the unredacted log to CNN.
 
 247
 00:09:11,740 --> 00:09:13,667
@@ -994,15 +994,15 @@ You showed five pages
 
 248
 00:09:13,767 --> 00:09:15,836
- of the raw CSV file to CNN…
+of the raw CSV file to CNN…
 
 249
 00:09:15,887 --> 00:09:16,691
-Dickinson: …far longer than that.
+>> DICKINSON: …far longer than that.
 
 250
 00:09:16,791 --> 00:09:18,630
-Those were the ones were I transcribed it
+>> SLADEN: Those were the ones were I transcribed it
 
 251
 00:09:18,730 --> 00:09:19,730
@@ -1022,19 +1022,19 @@ But I recovered the messages in there.
 
 255
 00:09:25,634 --> 00:09:27,191
-Dickinson: …and was there anything surprising in there?
+>> DICKINSON: …and was there anything surprising in there?
 
 256
 00:09:28,135 --> 00:09:30,189
-Sladen: Yeah, the fuel values. So forty-nine point…
+>> SLADEN: Yeah, the fuel values. So forty-nine point…
 
 257
 00:09:30,623 --> 00:09:32,511
-Dickinson: …I think the fuel values have been reported …ah. Okay.
+>> DICKINSON: …I think the fuel values have been reported …ah. Okay.
 
 258
 00:09:32,611 --> 00:09:34,999
-Sladen: No. Malaysia reported 49.1 tonnes
+>> SLADEN: No. Malaysia reported 49.1 tonnes
 
 259
 00:09:35,305 --> 00:09:37,028
@@ -1042,7 +1042,7 @@ So there's a discontinuity there.
 
 260
 00:09:37,128 --> 00:09:38,128
-Dickinson: I think I…
+>> DICKINSON: I think I…
 
 261
 00:09:38,228 --> 00:09:39,094
@@ -1078,11 +1078,11 @@ It's not with Inmarsat's job to release the data.
 
 269
 00:09:54,622 --> 00:09:56,127
-Moderator: Okay the gentleman there.
+>> MODERATOR: Okay the gentleman there.
 
 270
 00:09:59,776 --> 00:10:00,822
-Audience: Thank you very much.
+>> AUDIENCE: Thank you very much.
 
 271
 00:10:00,922 --> 00:10:05,096
@@ -1114,7 +1114,7 @@ if we mostly does
 
 278
 00:10:19,473 --> 00:10:21,019
-(inaudible)
+[inaudible]
 
 279
 00:10:21,695 --> 00:10:22,741
@@ -1130,7 +1130,7 @@ in an application of the
 
 282
 00:10:28,468 --> 00:10:31,736
-(unclear)
+[unclear]
 
 283
 00:10:31,836 --> 00:10:32,836
@@ -1194,7 +1194,7 @@ so to speak.
 
 298
 00:10:59,613 --> 00:11:01,923
-David Coiley: Right well, the…
+>> DAVID COILEY: Right well, the…
 
 299
 00:11:02,981 --> 00:11:06,541
@@ -1602,7 +1602,7 @@ it's about finding a way that
 
 400
 00:15:11,226 --> 00:15:12,845
- the industry can embrace it
+the industry can embrace it
 
 401
 00:15:12,945 --> 00:15:15,223
@@ -1610,19 +1610,19 @@ and deploy it very rapidly.
 
 402
 00:15:18,737 --> 00:15:20,084
-Moderator: Question, …here?
+>> MODERATOR: Question, …here?
 
 403
 00:15:20,184 --> 00:15:21,282
-Audience: …I'm here.
+>> MIKE FIKUART: …I'm here.
 
 404
 00:15:21,382 --> 00:15:22,661
-Moderator: …and then half-way back.
+>> MODERATOR: …and then half-way back.
 
 405
 00:15:25,157 --> 00:15:26,434
-Audience: Hi, I'm Mike Fikuart.
+>> MIKE FIKUART: Hi, I'm Mike Fikuart.
 
 406
 00:15:26,534 --> 00:15:29,772
@@ -1666,7 +1666,7 @@ What capacities do you have?
 
 416
 00:15:48,827 --> 00:15:50,198
-Dickinson: Well it doesn't quite double the rate.
+>> DICKINSON: Well it doesn't quite double the rate.
 
 417
 00:15:50,298 --> 00:15:51,350
@@ -1686,7 +1686,7 @@ in fact they have more data-rate.
 
 421
 00:15:56,648 --> 00:15:59,436
-This is only a scenario where the (unclear)
+This is only a scenario where the [unclear]
 
 422
 00:15:59,536 --> 00:16:02,378
@@ -1762,15 +1762,15 @@ I can't remember off the top of my head, but it is months.
 
 440
 00:16:37,762 --> 00:16:38,762
-Fikuart: Right.
+>> FIKUART: Right.
 
 441
 00:16:38,862 --> 00:16:39,862
-Dickinson: They are large, aswell.
+>> DICKINSON: They are large, aswell.
 
 442
 00:16:40,078 --> 00:16:41,205
-Fikuart: And are these
+>> FIKUART: And are these
 
 443
 00:16:41,305 --> 00:16:42,953
@@ -1782,7 +1782,7 @@ or is this retained with Inmarsat?
 
 445
 00:16:44,294 --> 00:16:45,378
-Dickinson: …They're purely management logs.
+>> DICKINSON: …They're purely management logs.
 
 446
 00:16:45,478 --> 00:16:46,478
@@ -1798,7 +1798,7 @@ if the authorities need to…
 
 449
 00:16:51,891 --> 00:16:53,447
-If SITA or ARINC want to distribute it (unclear)
+If SITA or ARINC want to distribute it [unclear]
 
 450
 00:16:53,547 --> 00:16:56,398
@@ -1806,11 +1806,11 @@ If SITA or ARINC want to distribute it (unclear)
 
 451
 00:16:59,244 --> 00:17:00,896
-(coughing)
+[coughing]
 
 452
 00:17:02,949 --> 00:17:06,129
-Lipscomb: Hi, Rick Lipscomb from the RAF Flight Safety team
+>> LIPSCOMB: Hi, Rick Lipscomb from the RAF Flight Safety team
 
 453
 00:17:06,931 --> 00:17:08,654
@@ -1870,19 +1870,19 @@ What exactly was "the terminal"?
 
 467
 00:17:36,242 --> 00:17:38,845
-Dickinson: The terminal is the Satcom Unit.
+>> DICKINSON: The terminal is the Satcom Unit.
 
 468
 00:17:39,162 --> 00:17:40,162
-Lipscomb: Okay.
+>> LIPSCOMB: Okay.
 
 469
 00:17:40,262 --> 00:17:41,022
-Dickinson: That's the simpl…
+>> DICKINSON: That's the simpl…
 
 470
 00:17:41,122 --> 00:17:42,301
-Lipscomb: …There's no means of
+>> LIPSCOMB: …There's no means of
 
 471
 00:17:42,760 --> 00:17:44,106
@@ -1890,7 +1890,7 @@ manually de-selecting that.
 
 472
 00:17:44,206 --> 00:17:45,539
-Dickinson: I'm no expert on …
+>> DICKINSON: I'm no expert on …
 
 473
 00:17:45,768 --> 00:17:48,127
@@ -1918,11 +1918,11 @@ You can see that in the logs.
 
 479
 00:18:08,237 --> 00:18:09,297
-Lipscomb: Okay, thank you.
+>> LIPSCOMB: Okay, thank you.
 
 480
 00:18:09,565 --> 00:18:11,231
-Moderator: Okay, we've got time for one more question.
+>> MODERATOR: Okay, we've got time for one more question.
 
 481
 00:18:11,331 --> 00:18:12,263
@@ -1934,7 +1934,7 @@ Down here.
 
 483
 00:18:19,697 --> 00:18:22,179
-Audience: Inmarsat's a commercial company.
+>> AUDIENCE: Inmarsat's a commercial company.
 
 484
 00:18:22,437 --> 00:18:24,662
@@ -1954,7 +1954,7 @@ running of the company?
 
 488
 00:18:32,101 --> 00:18:33,648
-Dickinson: Well, my time, quite a lot.
+>> DICKINSON: Well, my time, quite a lot.
 
 489
 00:18:33,748 --> 00:18:35,205
@@ -2030,7 +2030,7 @@ to try and solve this tragic situation.
 
 507
 00:19:20,234 --> 00:19:21,872
-Coiley: I can actually say in addition.
+>> COILEY: I can actually say in addition.
 
 508
 00:19:22,139 --> 00:19:23,619
@@ -2122,7 +2122,7 @@ in just the Classic Aero network.
 
 530
 00:20:18,322 --> 00:20:20,075
-The significantly greater sum in the
+The significantly greater sum in the…
 
 531
 00:20:20,858 --> 00:20:22,644
@@ -2138,7 +2138,7 @@ having a capability that the industry can benefit from.
 
 534
 00:20:30,302 --> 00:20:32,403
-Moderator:  Okay, thank you very much for that.
+>> MODERATOR:  Okay, thank you very much for that.
 
 535
 00:20:32,503 --> 00:20:34,122
@@ -2154,7 +2154,7 @@ To give the vote of thanks.
 
 538
 00:20:43,721 --> 00:20:45,070
-Richard Peckham: Thank you you very much Chris.
+>> PECKHAM: Thank you you very much Chris.
 
 539
 00:20:45,170 --> 00:20:46,635
@@ -2298,7 +2298,7 @@ So, Mark, thank you very much.
 
 574
 00:22:10,473 --> 00:22:23,290
-(applause)
+[applause]
 
 575
 00:22:23,390 --> 00:22:24,556
