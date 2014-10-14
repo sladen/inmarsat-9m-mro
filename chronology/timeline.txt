@@ -110,6 +110,24 @@
   Lumpur.  This information was provided to our partner SITA, which in
   turn has shared it with Malaysia Airlines."
 
+2014-03-15: Primary Radar confirmed by satellite data BTO
+
+  2014-03-15 06:59:05 UTC (per data-utime=1394866745)
+  Razak, Najib (15 March 2014)
+  "PM Najib Razak's Press Statement on MH370"
+  https://www.facebook.com/najibrazak/posts/10151938301110952
+  https://www.youtube.com/watch?v=-w460j3JMxk
+  "was brought to our attention by the Royal Malaysian Air Force that,
+  based on their primary radar, an aircraft – the identity of which
+  could not be confirmed – made a turn back. The primary radar data
+  showed the aircraft proceeding on a flight path which took it to an
+  area north of the Straits of Malacca. ... Today, based on raw
+  satellite data that was obtained from the satellite data service
+  provider, we can confirm that the aircraft shown in the primary
+  radar data was flight MH370. After much forensic work and
+  deliberation, the FAA, NTSB, AAIB and the Malaysian authorities,
+  working separately on the same data, concur."
+
 2014-03-15: Arc image shown at KLIA Sama Sama Hotel:
 
   2014-03-15 14:06:05 UTC
@@ -238,10 +256,18 @@
   was in the middle of the Indian Ocean, west of Perth.  ... according
   to this new data, flight MH370 ended in the southern Indian Ocean."
 
+2014-03-24: ITV filming at Inmarsat HQ
+
+  2014-03-24 17:21:11 (per 19:21:11 Mon 24 Emeq Haela)
+  2014-03-24 17:26:40 (per 13:26:40 Mon 24 Southbury)
+  http://www.itv.com/news/2014-03-24/how-a-british-satellite-firm-helped-solve-the-malaysia-airlines-mystery/
+
 2014-03-24: AAIB first statement (later pulled)
 
+  2014-03-24 18:21:47 UTC (per archive.today 18:21:47)
   "Statement on Malaysia flight MH370 issued 24/03/2014"
   http://www.aaib.gov.uk/latest_news/statement_on_malaysia_flight_mh370_issued_24_03_2014.cfm
+  https://archive.today/http://www.aaib.gov.uk/latest_news/statement_on_malaysia_flight_mh370_issued_24_03_2014.cfm
 
   "As set out by the Malaysian PM today, we have been working with the
   UK company Inmarsat, using satellite data to determine the area on
@@ -255,6 +281,21 @@
   "Information provided to MH370 Investigation by UK Air Accidents
   Investigation Branch (AAIB)"
   https://www.facebook.com/permalink.php?story_fbid=740971779281171&id=178566888854999
+
+2014-03-25: Reuters afternoon photography session at Inmarsat HQ
+
+  2014-03-25 14:25:57 UTC (per 14:25:57 Tue 25 GMT/UTC)
+  Winning, Andrew; Reuters (25 March 2014)
+  http://media1.s-nbcnews.com/i/newscms/2014_13/278971/140325-satellite-5p_5e46d28327e81b23217e94818bd6e6a0.jpg
+
+  2014-03-25 14:24:50 UTC (per 22:24:50 Tue 25 Hong Kong)
+  Winning, Andrew; Reuters (25 March 2014)
+  http://s1.reutersmedia.net/resources/r/?d=20140512&r=CBREA4B0NXY00&t=2
+
+  2014-03-25 14:28:20 UTC (per 14:28:20 Tue 25 GMT/UTC)
+  http://www.haaretz.co.il/polopoly_fs/1.2279650.1395773614!/image/4143408119.jpg
+  2014-03-25T162234Z_226455466_MALAYSIA-AIRLINES-INMARSAT-PINGS.jpg
+  Original Transmission Reference : AWI05
 
 2014-03-25: Mark Dickinson (Inmarsat) exports presentation to PDF
 
