@@ -150,6 +150,16 @@
   Accident Investigation Branch ...  we have responded quickly and
   afforded urgent priority to the provision of data"
 
+2014-03-15: ITN filming at Inmarsat HQ
+
+  2014-03-15 15:47:30 UTC (per 23:47:30 Sat 15 Perth)
+  "RUSHES: MALAYSIA / TRANSPORT: Aviation: Missing Malaysia Airlines
+  plane: Inmarset [sic] offices and interview"
+  http://www.itnsource.com/en/shotlist/ITN/2014/03/15/R15031401/
+  http://www.itnsource.com/en/shotlist/ITN/2014/03/15/T15031417/
+  http://az283800.vo.msecnd.net/media/ITN/2014/03/15/R15031401/R15031401-0-12332.flv
+  http://az283800.vo.msecnd.net/media/ITN/2014/03/15/R15031401/R15031401-12332-21872.flv
+
 2014-03-18: Thailand confirms westerly Radar data track
 
   2014-03-18 13:35:40 UTC (per 2014-03-18T09:35:40-04:00)
@@ -170,12 +180,29 @@
   ... Thai Air Chief Marshal Prajin Juntong told reporters Tuesday
   that the country's northern radar did not detect it."
 
-2014-03-20: 
+2014-03-18: Contrail analysis, nothing consistent found
 
-  Mohsin, Saima; Yan, Holly (20 May 2014). CNN.  (video).
+  Vasquez, Tim; Weather Graphics (18 March 2014)
+  "Investigation of a possible southern arc contrail"
+  http://www.weathergraphics.com/malaysia/contrail.shtml
+
+2014-03-19: CNN filming at Inmarsat HQ
+
+  2014-03-19 13:01:19 UTC (per 13:01:19 Wed 19 GMT/UTC)
+  Mohsin, Saima; Yan, Holly (19 May 2014). CNN.  (video).
   "Inmarsat 'working' to make raw MH370 data public"
   http://edition.cnn.com/2014/05/19/world/asia/malaysia-missing-plane/
+  http://cnn-f.akamaihd.net/cnn/big/world/2014/05/19/tsr-dnt-marsh-flight-370-data-movie.cnn_19175613_,512x288_55,640x360_90,768x432_130,896x504_185,1280x720_350,0k.mp4.csmil/bitrate=4
   Shots of Inmarsat NOC, including password file.
+
+2014-03-20: Flight International request for fuel load (49.1t)
+
+  2014-03-21 07:19:32 UTC (per date-time=1395386372)
+  Kaminski-Morrow, David; Flight International (21 March 2014)
+  "Malaysia Airlines confirms fuel load on #MH370 was 49,100kg."
+  https://twitter.com/FlightDKM/status/446908954208395265
+  Subsequently by email "my figure of 49,100kg came simply from
+  a direct inquiry to the airline on 20 March".
 
 2014-03-21: Lido Hotel Briefing, Beijing
 
