@@ -580,6 +580,57 @@
   "Flight MH370: Malaysia releases raw satellite data"
   http://www.bbc.co.uk/news/world-asia-27576409
 
+2014-06-04: Alec Duncan hydro-acoustic analysis
+
+  Duncan, Alec (4 June 2014); Curtin University
+  "Curtin researchers in search for acoustic evidence of MH370"
+  http://news.curtin.edu.au/media-releases/curtin-researchers-search-acoustic-evidence-mh370/
+  https://www.flickr.com/photos/106331196@N07/sets/72157644591711570/
+
+  "Sound from CTBTO Hydrophone of Interest to Search for Missing Flight MH 370"
+  https://www.youtube.com/watch?v=ksfInwSHVwU
+
+2014-07-03: LANL hydro-acoustic analysis
+
+  Stead, Richard J. (3 July 2014); Los Alamos National Laboratory
+  LA-UR-14-24972
+  "Seismic and hydroacoustic analysis relevant to MH370"
+  http://www.osti.gov/scitech/servlets/purl/1136454
+  http://permalink.lanl.gov/object/tr?what=info:lanl-repo/lareport/LA-UR-14-24972
+  "Only three stations are identified: the IMS hydrophone arrays H01
+  and H08, and the Geoscope seismic station AIS.  Analysis of the data
+  from these stations shows an interesting arrival on H01 that has
+  some interference from an Antarctic ice event, large amplitude
+  repeating signals at H08 that obscure any possible arrivals, and
+  large amplitude chaotic noise at AIS that obscures any arrivals at
+  lower frequencies while the low sample rate at AIS precludes any
+  analysis at higher frequencies of interest.  The results are
+  therefore rather inconclusive but may point to a more southerly
+  impact location within the overall Indian Ocean search region."
+
+  "The IMS data are available from the CTBTO located in Vienna,
+  Austria.  The data from AIS are available at the IRIS DMC located
+  in Seattle, Washington, USA."
+
+  "The final alignment of the first arrivals produces a DOA of 246.9°
+  (with the phase velocity fixed at 1.46 km/s).  The source for this
+  arrival would then be WSW of the array, in the general direction of
+  the region in which MH370 may have impacted the ocean, and has an
+  arrival time that could be consistent as well."
+
+2014-07: LANL Monte Carlo
+
+  Kunkle, Thomas D.; Fenimore, Edward E.; Stead, Richard J. (~3 July 2014*)
+  "MH370 Flight Path Reconstruction Using Monte Carlo Estimations"
+  http://permalink.lanl.gov/object/tr?what=info:lanl-repo/lareport/LA-UR-14-25015
+  Unavailable, points to "-40 degree latitude, -83 degree longitude"
+
+  *Estimated between 3 July 2014 based on linear interpolation of:
+  LA-UR-14-25014 dated 2 July 2014
+  LA-UR-14-25023 dated 7 July 2014
+  and publication date of parallel work in:
+  LA-UR-14-24972 dated 3 July 2014
+
 2014-07-04: AAIB confirm they approached Inmarsat to find out what material was received
 
   Conradi, Keith (4 July 2014); AAIB.
@@ -593,7 +644,29 @@
   https://www.whatdotheyknow.com/request/9m_mro75008f_aes_301305_ges_exch#incoming-546013
   "we have concluded the AAIB holds records as you have described"
 
-2014-10-07:
+2014-08-20: Dr Alec Duncan lecture at Curtin University
+
+  Duncan, Alec (20 August 2014); Curtin University (lecture)
+  "Sounds from the deep and the search for MH370"
+  "Sounds from the deep: The science behind the search for Flight MH370"
+  http://news.curtin.edu.au/events/sounds-deep-search-mh370/
+  https://www.youtube.com/watch?v=lF3XhGv_x10
+  http://www.scienceweek.net.au/sounds-from-the-deep-underwater-sounds-and-the-search-for-malaysian-airlines-flight-mh370-curtin/
+
+2014-09-25: Phoenix press release
+
+  LeHardy, Pete (25 September 2015); Phoenix International (press
+  release)
+  https://www.phnx-international.com/news/Phoenix_Contracted_for_MH370_Search.pdf
+  "Phoenix International Holdings, Inc. (Phoenix) has been contracted
+  by DRB-HICOM Defence Technologies Sdn Bhd (DEFTECH) to provide
+  deep-water towed side scan sonar services in support of continuing
+  underwater search operations for Malaysia Airlines Flight 370
+  (MH370). DEFTECH and Phoenix are working for Petroliam Nasional
+  Berhad (Petronas), Malaysia’s leading international petroleum
+  corporation, and the Government of Malaysia."
+
+2014-10-07: Inmarsat lecture
 
   Dickinson, Mark; Coiley, David (7 October 2014) (lecture).
   Royal Society. London.
@@ -604,10 +677,58 @@
   http://api.scpro.streamuk.com/player/manifest/40652/manifest.f4m
   (for i in `seq 279 413` ; do echo http://lbw.flash.streamuk.com/StreamConnectOnDemand/40652/mp4:18/40652/9f59e920-4f4e-4224-bba9-bde3f2143879_2fa70521-1877-4cb2-a82d-590cabc795d1.mp4/media_w2106031873_$i.ts ; done | xargs wget -O - ) >> royal-society-q-and-a.mp4
 
-2014-10-08:
+2014-10-08: Inmarsat paper publication
 
   Ashton, Chris; Shuster Bruce, Alan; Colledge, Gary; Dickinson, Mark (4 September 2014)
   "The Search for MH370". Journal of Navigation.  Royal Institute of Navigation.
   doi:10.1017/S037346331400068X
   http://journals.cambridge.org/nav/mh370 (PDF redirect)
   http://journals.cambridge.org/download.php?file=/NAV/S037346331400068Xa.pdf
+
+2014-10-21: LANL hydro-acoustic noise evalulation
+
+  Fenimore, Edward E.; Kunkle, Thomas David; Stead, Richard J. (21 October 2014)
+  LA-UR-14-28179
+  "How Common are Noise Sources on the Crash Arc of Malaysian Flight 370"
+  http://permalink.lanl.gov/object/tr?what=info:lanl-repo/lareport/LA-UR-14-28179
+  "We find that the noise event identifier by Stead (LA-UR-14-24972)
+  is the strongest noise that occurred on the crash arc of Malaysian
+  Flight 370.  That event occurs within the search area suggested by
+  Kunkle et al (LA-UR-14-25015).  Few other possible noise
+  sources are seen on the arc."
+
+2015-03-03: Richard E. Cole final-path analysis; issue 1
+
+  Cole, Richard E. (21 March 2015; issue 2); University College London
+  "An Analysis of the Path of MH370 after the Sixth Ping Ring"
+  https://www.dropbox.com/s/idj9c7ujlqonbsh/MH370_final_path_analysis_RE_Cole_current_issue.pdf
+
+2015-03-08: Phoenix Anniversary press release
+
+  LeHardy, Pete (8 March 2015); Phoenix International (press release)
+  "Deep Towed Synthetic Aperture Sonar Operations in Search of Malaysia Airlines Flight 370"
+  https://www.phnx-international.com/news/MH370_Anniversary_Press_Release.pdf
+  "Working under a contract with DRB-HICOM Defence Technologies Sdn
+  Bhd (DEFTECH) on behalf of the Government of Malaysia and Petroliam
+  Nasional Berhad (PETRONAS), Phoenix and teammate Hydrospheric
+  Solutions, LLC (Hydrospheric) are using the state- of-the-art SLH
+  PS-60 SAS (ProSAS-60), a 6,000 meter depth-rated synthetic aperture
+  sonar (SAS) towed system, to search for MH370."
+
+2014-03-08: Malaysian Anniversary "Factual Information" document
+
+  The Malaysian ICAO Annex 13 Safety Investigation Team for MH370
+  "Factual Information: Safety Investigation for MH370 - 
+  Malaysia Airlines MH370 Boeing B777-200ER (9M-MRO) 
+  08 March 2014"
+  http://mh370.mot.gov.my/download/FactualInformation.pdf
+
+  2015-02-28T18:14:37+08:00  Created
+  2015-04-14T20:28:18+08:00  Modified
+  2015-04-14T19:36:10+00:00  File timestamp
+
+2015-03-21: Richard E. Cole final-path analysis; issue 2
+
+  Cole, Richard E. (21 March 2015; issue 2); University College London
+  "An Analysis of the Path of MH370 after the Sixth Ping Ring"
+  https://www.dropbox.com/s/idj9c7ujlqonbsh/MH370_final_path_analysis_RE_Cole_current_issue.pdf
