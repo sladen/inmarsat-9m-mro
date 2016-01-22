@@ -10,7 +10,8 @@
   information, and it comprised really the first hour and a half. It
   was very sad the plane was missing, but not our job."
 
-  Pasztor, Andy; Ostrower, Jon; Hookway, James (20 March 2014).
+  Pasztor, Andy; Ostrower, Jon; Hookway, James
+  Cauchi, Marietta; Hutzler, Charles (20 March 2014).
   Wall Street Journal.
   "Critical Data Was Delayed in Search for Missing Malaysia Airlines Flight
   http://m.wsj.com/articles/SB10001424052702304026304579449680167673144?mobile=y
@@ -42,10 +43,16 @@
   Wall Street Journal.
   "Critical Data Was Delayed in Search for Missing Malaysia Airlines Flight
   http://m.wsj.com/articles/SB10001424052702304026304579449680167673144?mobile=y
+  http://www.wsj.com/articles/SB10001424052702304026304579449680167673144
 
   "Chris McLaughlin said that on Monday, March 10, it began
   extrapolating the location of the jetliner using the aircraft's
   changing angle and distance to the satellite"
+
+  "The Inmarsat package, which included a map of the twin north and
+  south corridors, together with readouts of data from a communication
+  satellite … Malaysia chose not to disclose what it considered raw
+  data, preferring to check it first with international partners."
 
 2014-03-11: Inmarsat share North/South path based on hourly pings
 
@@ -63,14 +70,34 @@
   "We gave initial data to the investigation within three days of the
   loss, through the data owner to the correct authority."
 
-2014-03-12: Shared with Malaysia
+  ["data owner" == SITA, Malaysian Airlines]
 
   Malay Mail (21 March 2014)
   "Inmarsat says told Malaysia of Indian Ocean possibility on March 12"
   http://www.themalaymailonline.com/malaysia/article/inmarsat-says-told-malaysia-of-indian-ocean-possibility-on-march-12
   "Chris McLaughlin in a BBC report ... "Our position was we shared
   data and an idea that could be tested against other data with the
-  correct authorities on the Tuesday.""
+  correct authorities on the Tuesday."" [sic]
+
+  [inconsistency between Tuesday 11 March 2016 vs. Wednesday 12 March 2015]
+
+2014-03-12: Relayed to Malaysian [Airlines]; shared with AAIB
+
+  Pasztor, Andy; Ostrower, Jon; Hookway, James;
+  Cauchi, Marietta; Hutzler, Charles (20 March 2014).
+  Wall Street Journal.
+  "Critical Data Was Delayed in Search for Missing Malaysia Airlines Flight
+  http://m.wsj.com/articles/SB10001424052702304026304579449680167673144?mobile=y
+  http://www.wsj.com/articles/SB10001424052702304026304579449680167673144
+
+  "information was relayed to Malaysian officials by Wednesday,
+  March 12 … Inmarsat also shared the same information with
+  British security and air-safety officials on Wednesday"
+
+  "turned last Wednesday to U.K. security authorities to more quickly
+  disseminate the data … Malaysia Airlines, in turn, instructed SITA
+  to use the U.K. Air Accidents Investigation Branch as the primary
+  conduit for Inmarsat's data"
 
 2014-03-13: CTBTO/IMS briefing, nothing found
 
@@ -543,6 +570,12 @@
   http://edition.cnn.com/video/international/2014/05/24/quest-inmarsat-data.cnn
   Richard Quest has been given a preview of the Inmarsat data used in the search for MH370 
 
+2014-06-15: Inmarsat low-content PR
+
+  Coiley, David; Colledge, Gary; Schuster-Bruce, Alan (15 June 2015)
+  "From AF447 to MH370: Inmarsat's role and response"
+  http://www.inmarsat.com/wp-content/uploads/2014/06/04-From_AF447_to_MH370.pdf
+
 2014-06-26: Redacted logs expected day after
 
   Rahman, Syarifah (26 May 2014)
@@ -744,10 +777,16 @@
   http://www.icao.int/APAC/Meetings/2015%20APSARTF3/WP05%20ICAO%20Brief%20on%20the%20SAR%20Response%20to%20MH370.pdf
 
   "Tuesday 25 March 2014
-  u) Australia advised that they were having difficulty obtaining the
+  Australia advised that they were having difficulty obtaining the
   updated analysis of Inmarsat data announced by the Malaysian Prime
   Minister which had been stated as confirming the southern route of
   MH370 inside the Australian SRR."
+
+2015-01-21: ICAO briefing from Australian SAR
+
+  Charoenmin, Sunisa (21 January 2015)
+  "MH370 Search and Rescue Response – JRCC Australia"
+  http://www.icao.int/apac/meetings/2015%20apsartf3/wp14%20mh370%20sar%20response%20jrcc%20(australia).pdf
 
 2015-03-03: Richard E. Cole final-path analysis; issue 1
 
