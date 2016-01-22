@@ -823,3 +823,11 @@
   Cole, Richard E. (21 March 2015; issue 2); University College London
   "An Analysis of the Path of MH370 after the Sixth Ping Ring"
   https://www.dropbox.com/s/idj9c7ujlqonbsh/MH370_final_path_analysis_RE_Cole_current_issue.pdf
+
+2015-12-03: DTSG Bayesian Methods pre-print
+
+  Davey, Samuel; Gordon, Neil; Holland, Ian;
+  Rutten, Mark; Williams, Jason (3 December 2015)
+  Australian Defence Science and Technology Group, Australia
+  "Bayesian Methods in the Search for MH370"
+  https://www.atsb.gov.au/media/5733804/Bayesian_Methods_MH370_Search_3Dec2015.pdf
