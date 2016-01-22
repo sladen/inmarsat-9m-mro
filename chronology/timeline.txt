@@ -329,6 +329,18 @@
   which to focus the search. We are not able to comment further on
   this investigation, which is being led by the Malaysian authorities
 
+2015-03-25: Australia RCC without Inmarsat data analysis needed for SAR
+
+  Charoenmin, Sunisa (21 January 2015)
+  "ICAO Brief on the SAR Response to MH370"
+  http://www.icao.int/APAC/Meetings/2015%20APSARTF3/WP05%20ICAO%20Brief%20on%20the%20SAR%20Response%20to%20MH370.pdf
+
+  "Tuesday 25 March 2014
+  u) Australia advised that they were having difficulty obtaining the
+  updated analysis of Inmarsat data announced by the Malaysian Prime
+  Minister which had been stated as confirming the southern route of
+  MH370 inside the Australian SRR."
+
 2014-03-25: MDCA Confirmation of AAIB (Inmarsat) presentation
 
   2014-03-25 10:47:46 UTC (per data-utime=1395744466)
@@ -725,6 +737,18 @@
   Kunkle et al (LA-UR-14-25015).  Few other possible noise
   sources are seen on the arc."
 
+2015-01-21: ICAO briefing on Annex 12
+
+  Charoenmin, Sunisa (21 January 2015)
+  "ICAO Brief on the SAR Response to MH370"
+  http://www.icao.int/APAC/Meetings/2015%20APSARTF3/WP05%20ICAO%20Brief%20on%20the%20SAR%20Response%20to%20MH370.pdf
+
+  "Tuesday 25 March 2014
+  u) Australia advised that they were having difficulty obtaining the
+  updated analysis of Inmarsat data announced by the Malaysian Prime
+  Minister which had been stated as confirming the southern route of
+  MH370 inside the Australian SRR."
+
 2015-03-03: Richard E. Cole final-path analysis; issue 1
 
   Cole, Richard E. (21 March 2015; issue 2); University College London
@@ -743,7 +767,7 @@
   PS-60 SAS (ProSAS-60), a 6,000 meter depth-rated synthetic aperture
   sonar (SAS) towed system, to search for MH370."
 
-2014-03-08: Malaysian Anniversary "Factual Information" document
+2015-03-08: Malaysian Anniversary "Factual Information" document
 
   The Malaysian ICAO Annex 13 Safety Investigation Team for MH370
   "Factual Information: Safety Investigation for MH370 - 
