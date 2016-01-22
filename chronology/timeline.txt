@@ -89,6 +89,34 @@
   necessarily conclusive, but new information, an additional search
   area may be opened in the Indian Ocean"
 
+2014-03-13: WSJ Rolls-Royce engine mis-report
+
+  2014-03-13 19:08 UTC (per 3:08 p.m. ET)
+  Pasztor, Andy; Ostrower, Jon; Moss, Trefor; Raghuvanshi, Gaurav;
+  Chin, Josh; Page, Jeremy (13 March 2014)
+  "U.S. Investigators Suspect Missing Malaysia Airlines Plane Flew On
+  for Hours" [later ammended]
+  http://www.wsj.com/articles/SB10001424052702304914904579434653903086282
+
+  Original: "investigators and national security officials
+  believe the plane flew for a total of five hours,
+  based on data automatically downloaded and sent to the ground from
+  the Boeing Co. 777's engines as part of a routine maintenance and
+  monitoring program."
+
+  Ammended: "investigatorsn
+  believe the plane flew for a total of up to five hours,
+  according to these people,
+  based on analysis of signals sent by the Boeing 777's
+  satellite-communication link designed to automatically transmit the
+  status of certain onboard systems to the ground. … These
+  transmissions did not include data,"
+
+  Explanation: "An earlier version of this article and an accompanying
+  graphic incorrectly said investigators based their suspicions on
+  signals from monitoring systems embedded in the plane's Rolls-Royce
+  PLC engines and described that process."
+
 2014-03-14: MDCA confusion/misunderstanding over Satcom transmissions
 
   2014-03-14 09:47:40 UTC (per date-time=1394790460)
