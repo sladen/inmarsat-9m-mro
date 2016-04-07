@@ -1,5 +1,18 @@
 #!/usr/bin/env python
 # Combine The three data-sets from Planefinder, Flightaware and FR24
+# Paul Sladen, 2014
+#
+# The original purpose was to provide consoldiated comparitive
+# roc,sog,course and coordinate data for BFO bias calibation.
+#
+# Following on-going confusion into 2016 around the very final points
+# picked up by the 'fr24-main' network, unreliable/suspect fields that
+# may have arisen from from repeating of previous data have been more
+# brutally filtered.
+#
+# In particular, the very last packet received is likely to have been
+# Mode-A or Mode-C only, and therefore only containing Squawk rather
+# than ADS-B or Extended Squitter.
 
 import json
 import csv
@@ -80,12 +93,14 @@ def main():
         elif r[7].startswith('F-'):
             network += '-main'
             receiver = receiver[2:]
-	if r[10] in fr24:
-            fr24[r[10]][8] = r[15]
+        timestamp = r[10]
+	if timestamp in fr24:
+            # Append rate-of-climb if available
+            fr24[timestamp][8] = r[15] # roc
             # TODO prove that the alt and lon/lat are the same to 2d.p.
         else:
             # Hide extrapolated fields.
-            records.append([r[10], # time
+            fr24[timestamp] = ([r[10], # time
                             receiver, # receiver
                             r[6], # squawk
                             '',#r[4], # alt
@@ -97,6 +112,41 @@ def main():
                             network,
                             ])
 
+    # Extended squitter or ADS-B is either lon/lat/alt *or* dlon/dlat/roc
+    #
+    # The later records are only single-sourced from one 'fr24-main' receiver,
+    # should be treated even more careful because they cannot be corroborated.
+    # Anything that appears to be extrapolation or repeating of stale values
+    # should be reasonably assumbed to be so, and filtered out.
+    #
+    # A generic way of doing this now is to check whether the
+    # dlat/dlon fields are identical to the dlat/dlon at the the previous
+    # timestamp and to discount on this basis, viz:
+    fr24_only_timestamp = 1394212004
+    fr24_only_timestamp = 0
+    timestamps = sorted([t for t in fr24.keys() if t >= fr24_only_timestamp])
+    for t1,t2 in zip(timestamps[:-1], timestamps[1:]):
+        # filter out those with non-zero roc, and apparent duplication of previous dlat/dlon data
+        if fr24[t2][8] == '' and \
+                fr24[t1][6] == fr24[t2][6] and \
+                fr24[t1][7] == fr24[t2][7]:
+            for velocity_component in 6,7,8: # blank the sog,course,roc
+                fr24[t2][velocity_component] = ''
+
+    # The last transmission(s) captured would appear to have been
+    # Mode-C (Squawk + but with disabled/null altitude) or Mode-A only
+    # (Squawk only) responding to being illuminated by an SSR Radar.
+    # This would be consistent with the somewhat vague wording in the
+    # subsequently published MDCA "Factual Information" report published
+    # on 13 March 2015:
+    # http://mh370.mot.gov.my/download/FactualInformation.pdf
+    last_fr24_timestamp = 1394212863
+
+    # Remove likely extrapolated/carried-over velocity components
+    for velocity_component in 6,7,8: # sog,course,roc
+        fr24[last_fr24_timestamp][velocity_component] = ''
+
+    # And save back what we still have left to the main combined log
     records.extend(fr24.values())
 
     # {"unique_id":"14876470","FNCORR":"MAS370","FCH":"2014-03-07 16:52:04","FCH_TS":"1394211124","FLA":"3.5949","FLO":"102.003","FHD":"26","FAL":"22000","FSQ":"2157","FVR":"1792"},
